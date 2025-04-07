@@ -1,0 +1,3966 @@
+[
+  {
+    "domein": "economie_en_organisatie",
+    "richting_code": "D BEDRIJFSWETENSCHAPPEN",
+    "richting_officieel": "D BEDRIJFSWETENSCHAPPEN",
+    "finaliteit": "doorstroom",
+    "graad": "tweede graad",
+    "klassen": [
+      "3BW",
+      "4BW"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst / Zedenleer",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Aardrijkskunde",
+        "uren": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Engels",
+        "uren": [
+          "3",
+          "3"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans",
+        "uren": [
+          "3",
+          "3"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Geschiedenis",
+        "uren": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "4",
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Burgerschap",
+        "uren": [
+          "",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Toegepaste informatica",
+        "uren": [
+          "1",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Natuurwetenschappen",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Artistieke expressie",
+        "uren": [
+          "1",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Wiskunde",
+        "uren": [
+          "4",
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Bedrijfswetenschappen",
+        "uren": [
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Economie"
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Bedrijfswetenschappen"
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Informaticawetenschappen"
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "32",
+          "32"
+        ]
+      }
+    ]
+  },
+  {
+    "domein": "economie_en_organisatie",
+    "richting_code": "DF BO",
+    "richting_officieel": "DF BO",
+    "finaliteit": "dubbele finaliteit",
+    "graad": "derde graad",
+    "klassen": [
+      "3BO",
+      "4BO",
+      "5CO",
+      "5BO",
+      "6BO"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          "",
+          "",
+          "Basisvorming",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst / Zedenleer",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "LVB : RKG - NCZ - ISL - ORT - PGD",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Aardrijkskunde",
+        "uren": [
+          "",
+          "1",
+          "",
+          "Aardrijkskunde",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Engels",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Engels",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Frans",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Geschiedenis",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "Geschiedenis",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "3",
+          "3",
+          "",
+          "Lichamelijke opvoeding",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Wiskunde",
+        "uren": [
+          "3",
+          "3",
+          "",
+          "Natuurwetenschappen",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Nederlands",
+          "3"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Burgerschap",
+        "uren": [
+          "1",
+          "",
+          "",
+          "Wiskunde",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Toegepaste informatica",
+        "uren": [
+          "1",
+          "",
+          "",
+          "Burgerschap",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Natuurwetenschappen",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "Economie",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Artistieke expressie",
+        "uren": [
+          "",
+          "1",
+          "",
+          "Artistieke expressie",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          "",
+          "",
+          "Specifiek gedeelte",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Bedrijf en organisatie (14u)",
+        "uren": [
+          "",
+          "",
+          "",
+          "Bedrijfsorganisatie (15u)",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Algemene Economie",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "- Engels (wisseluur)",
+          "0.5"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Toegepaste economie/Toegepaste Info",
+        "uren": [
+          "5",
+          "5",
+          "",
+          "- Frans (wisseluur)",
+          "0.5"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Toerisme",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "- Financiële algebra (wiskunde)",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Boekhouden",
+        "uren": [
+          "3",
+          "3",
+          "",
+          "- Economie (algemeen)",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Nederlands",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "- Bedrijfswetenschappen incl. mini-onderneming",
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Frans/Engels (wisseluur)",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "- Toegepaste economie/toegepaste informatica incl. mini-onderneming",
+          "8"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "32",
+          "32",
+          "",
+          "",
+          "32"
+        ]
+      }
+    ]
+  },
+  {
+    "domein": "economie_en_organisatie",
+    "richting_code": "DF TOERISME",
+    "richting_officieel": "DF TOERISME",
+    "finaliteit": "dubbele finaliteit",
+    "graad": "derde graad",
+    "klassen": [
+      "5TOE",
+      "6TOE"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst / Zedenleer",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Aardrijkskunde",
+        "uren": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Engels",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Geschiedenis",
+        "uren": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Natuurwetenschappen",
+        "uren": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "3",
+          "3"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Wiskunde",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "burgerschap",
+        "uren": [
+          "",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Artistieke expressie",
+        "uren": [
+          "",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Economie",
+        "uren": [
+          "1",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Toerisme (15u)",
+        "uren": [
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Engels",
+        "uren": [
+          "2",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Frans",
+        "uren": [
+          "2",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Toeristische geografie",
+        "uren": [
+          "3",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Toerisme",
+        "uren": [
+          "8",
+          "6"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "32",
+          "28"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Stage in weken",
+        "uren": [
+          "",
+          "5"
+        ]
+      }
+    ]
+  },
+  {
+    "domein": "economie_en_organisatie",
+    "richting_code": "A OL SALES",
+    "richting_officieel": "A OL SALES",
+    "finaliteit": "arbeidsmarkt",
+    "graad": "derde graad",
+    "klassen": [
+      "3OL",
+      "4OL",
+      "5OOS",
+      "6OOS"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          "",
+          "",
+          "Basisvorming"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst / Zedenleer",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "LVB : RKG - NCZ - ISL - ORT - PGD"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "PAV",
+        "uren": [
+          "7",
+          "7",
+          "",
+          "Project Algemene Vakken"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "STEM (*)",
+        "uren": [
+          "",
+          "",
+          "",
+          "STEM (*)"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "MTC (**)",
+        "uren": [
+          "",
+          "",
+          "",
+          "MTC (**)"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Lichamelijke opvoeding"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Frans"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Nederlands"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          "",
+          "",
+          "Specifiek gedeelte"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Toegepaste Economie",
+        "uren": [
+          "",
+          "",
+          "",
+          "Onthaal, organisatie en sales"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "TEC_Economie_logistiek",
+        "uren": [
+          "5",
+          "6",
+          "",
+          "Toegepaste Economie/Toeg. Inform."
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "TEC_Economie_organisatie/Toeg. Inform.",
+        "uren": [
+          "9",
+          "8",
+          "",
+          "Frans"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "Engels"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Engels",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Duits"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Nederlands"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "34",
+          "34",
+          "",
+          "Lestijden per week"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "(*) Wiskunde en natuurwetenschappen",
+        "uren": [
+          "",
+          "",
+          "",
+          "Stage in weken"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "(**) Talen, burgerschap, financiële geletterdheid",
+        "uren": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "domein": "economie_en_organisatie",
+    "richting_code": "7 SCHAKEL",
+    "richting_officieel": "7 SCHAKEL",
+    "finaliteit": "specialisatie",
+    "graad": "specialisatie",
+    "klassen": [
+      "7SCHAKEL"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "6"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Engels",
+        "uren": [
+          "3"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans",
+        "uren": [
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Wiskunde",
+        "uren": [
+          "7"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Natuurwetenschappen",
+        "uren": [
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Economie",
+        "uren": [
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "STEM",
+        "uren": [
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Gedragswetenschappen",
+        "uren": [
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Bewegingswetenschappen",
+        "uren": [
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Vrije ruimte",
+        "uren": [
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Vrije ruimte",
+        "uren": [
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "32"
+        ]
+      }
+    ]
+  },
+  {
+    "domein": "stem",
+    "richting_code": "D ICW",
+    "richting_officieel": "D ICW",
+    "finaliteit": "doorstroom",
+    "graad": "derde graad",
+    "klassen": [
+      "5ICW",
+      "6ICW"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst en zedenleer",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Aardrijkskunde",
+        "uren": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Natuurwetenschappen",
+        "uren": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Engels",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans",
+        "uren": [
+          "3",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Geschiedenis",
+        "uren": [
+          "2",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands (*)",
+        "uren": [
+          "3",
+          "3"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Wiskunde",
+        "uren": [
+          "3",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Burgerschap",
+        "uren": [
+          "0",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Economie",
+        "uren": [
+          "0",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "0",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Wiskunde",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Informatica- en communicatiewetenschappen",
+        "uren": [
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Elektronica",
+        "uren": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Elektriciteit",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Informaticawetenschappen",
+        "uren": [
+          "8",
+          "8"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "32",
+          "32"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "(*) inclusief Artistieke expressie",
+        "uren": [
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "domein": "stem",
+    "richting_code": "DF APDA",
+    "richting_officieel": "DF APDA",
+    "finaliteit": "dubbele finaliteit",
+    "graad": "derde graad",
+    "klassen": [
+      "5APDA",
+      "6APDA"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst en zedenleer",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Aardrijkskunde",
+        "uren": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Natuurwetenschappen",
+        "uren": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Engels",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Geschiedenis",
+        "uren": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "3",
+          "3"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Wiskunde",
+        "uren": [
+          "3",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Burgerschap",
+        "uren": [
+          "",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Artistieke expressie",
+        "uren": [
+          "",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Economie",
+        "uren": [
+          "1",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Wiskunde",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Informaticawetenschappen",
+        "uren": [
+          "4",
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Digitaal Ondersteuner",
+        "uren": [
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Applicatie- en datatechnieken",
+        "uren": [
+          "7",
+          "7"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "31",
+          "31"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Stage in weken",
+        "uren": [
+          "2",
+          "2"
+        ]
+      }
+    ]
+  },
+  {
+    "domein": "stem",
+    "richting_code": "DF EMT",
+    "richting_officieel": "DF EMT",
+    "finaliteit": "dubbele finaliteit",
+    "graad": "derde graad",
+    "klassen": [
+      "3EMT",
+      "4EMT",
+      "5EMT",
+      "6EMT"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          "",
+          "",
+          "Basisvorming"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst en zedenleer",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Godsdienst en zedenleer"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Aardrijkskunde",
+        "uren": [
+          "",
+          "1",
+          "",
+          "Aardrijkskunde"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Engels",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Engels"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Frans"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Geschiedenis",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "Geschiedenis"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "3",
+          "3",
+          "",
+          "Lichamelijke opvoeding"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Wiskunde",
+        "uren": [
+          "3",
+          "4",
+          "",
+          "Natuurwetenschappen"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Nederlands"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Burgerschap",
+        "uren": [
+          "1",
+          "",
+          "",
+          "Wiskunde"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Toegepaste informatica",
+        "uren": [
+          "1",
+          "",
+          "",
+          "Burgerschap"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Artistieke expressie",
+        "uren": [
+          "",
+          "1",
+          "",
+          "Artistieke expressie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Natuurwetenschappen",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "Economie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          "",
+          "",
+          "Specifiek gedeelte"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Wiskunde",
+        "uren": [
+          "1",
+          "",
+          "",
+          "- Wiskunde"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Mechanica",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "- Mechanica"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Elektriciteit",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "- Elektriciteit"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- STEM Engineering",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "- STEM Engineering"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "STEM",
+        "uren": [
+          "",
+          "",
+          "",
+          "STEM"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Elektromechanische technieken",
+        "uren": [
+          "8",
+          "8",
+          "",
+          "- Elektromechanische technieken"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "32",
+          "32",
+          "",
+          "Lestijden per week"
+        ]
+      }
+    ]
+  },
+  {
+    "domein": "stem",
+    "richting_code": "DF GRAF TECHNIEKEN",
+    "richting_officieel": "DF GRAF TECHNIEKEN",
+    "finaliteit": "dubbele finaliteit",
+    "graad": "derde graad",
+    "klassen": [
+      "3GRATECH",
+      "4GRATECH",
+      "5GRAFI",
+      "6GRAFI"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          "",
+          "",
+          "Basisvorming"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst en zedenleer",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Godsdienst en zedenleer"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Aardrijkskunde",
+        "uren": [
+          "",
+          "1",
+          "",
+          "Aardrijkskunde"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Engels",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Engels"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Frans"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Geschiedenis",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "Geschiedenis"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "3",
+          "3",
+          "",
+          "Lichamelijke opvoeding"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Wiskunde",
+        "uren": [
+          "3",
+          "4",
+          "",
+          "Natuurwetenschappen"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Nederlands"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Burgerschap",
+        "uren": [
+          "1",
+          "",
+          "",
+          "Wiskunde"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Toegepaste informatica",
+        "uren": [
+          "1",
+          "",
+          "",
+          "Burgerschap"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Natuurwetenschappen",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "Artistieke expressie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Artistieke expressie",
+        "uren": [
+          "",
+          "1",
+          "",
+          "Economie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          "",
+          "",
+          "Specifiek gedeelte"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Wiskunde",
+        "uren": [
+          "1",
+          "",
+          "",
+          "- Wiskunde"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Stem-engineering",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "- Kunstbeschouwing"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Kunstbeschouwing",
+        "uren": [
+          "1",
+          "",
+          "",
+          "STEM"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "STEM",
+        "uren": [
+          "",
+          "",
+          "",
+          "- Grafische technieken"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Grafische technieken",
+        "uren": [
+          "11",
+          "12",
+          "",
+          "- Vrije Ruimte"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "32",
+          "32",
+          "",
+          "Lestijden per week"
+        ]
+      }
+    ]
+  },
+  {
+    "domein": "stem",
+    "richting_code": "A MECH-kw-pro",
+    "richting_officieel": "A MECH-kw-pro",
+    "finaliteit": "arbeidsmarkt",
+    "graad": "derde graad",
+    "klassen": [
+      "3MECH",
+      "4MECH",
+      "5KW",
+      "6KW"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          "",
+          "",
+          "Basisvorming"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst en zedenleer",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Godsdienst en zedenleer"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "PAV",
+        "uren": [
+          "7",
+          "7",
+          "",
+          "PAV"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "STEM (*)",
+        "uren": [
+          "",
+          "",
+          "",
+          "STEM (*)"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "MTC (**)",
+        "uren": [
+          "",
+          "",
+          "",
+          "MTC (**)"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Nederlands"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans (MVT)",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Frans"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Lichamelijke opvoeding"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          "",
+          "",
+          "Specifiek gedeelte"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "STEM Mechanica",
+        "uren": [
+          "19",
+          "19",
+          "",
+          "Koetswerk"
+        ]
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Lassen (6u)"
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Machines (6u)"
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Plaatwerk (6u)"
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Montage/Demontage (1u)"
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "34",
+          "34",
+          "",
+          "Preventief onderhoud machines en installaties"
+        ]
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Wiskunde, toegepaste informatica, aardrijkskunde en natuurwetenschappen"
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Nederlands, burgerschap, geschiedenis en artistieke expressie"
+      }
+    ]
+  },
+  {
+    "domein": "stem",
+    "richting_code": "A ELEK-elins-auto",
+    "richting_officieel": "A ELEK-elins-auto",
+    "finaliteit": "arbeidsmarkt",
+    "graad": "derde graad",
+    "klassen": [
+      "3ELEK",
+      "4ELEK",
+      "5ELINS",
+      "6ELINS"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          "",
+          "",
+          "Basisvorming"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst en zedenleer",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Godsdienst en zedenleer"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "PAV",
+        "uren": [
+          "7",
+          "7",
+          "",
+          "Project Algemene Vakken"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "STEM (*)",
+        "uren": [
+          "",
+          "",
+          "",
+          "STEM (*)"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "MTC (**)",
+        "uren": [
+          "",
+          "",
+          "",
+          "MTC (**)"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Nederlands"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans (MVT)",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Frans"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Lichamelijke opvoeding"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          "",
+          "",
+          "Specifiek gedeelte"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "STEM Elektriciteit",
+        "uren": [
+          "19",
+          "19",
+          "",
+          "Elektrische installaties"
+        ]
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Basis (8u)"
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Auto (5u)"
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Elektriciteit (6u)"
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "34",
+          "34",
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Wiskunde, toegepaste informatica, aardrijkskunde en natuurwetenschappen"
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Nederlands, burgerschap, geschiedenis en artistieke expressie"
+      }
+    ]
+  },
+  {
+    "domein": "stem",
+    "richting_code": "A HOUT",
+    "richting_officieel": "A HOUT",
+    "finaliteit": "arbeidsmarkt",
+    "graad": "derde graad",
+    "klassen": [
+      "3HOUT",
+      "4HOUT",
+      "5BIN",
+      "6BIN"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          "",
+          "",
+          "Basisvorming"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst en zedenleer",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Godsdienst en zedenleer"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "PAV",
+        "uren": [
+          "7",
+          "7",
+          "",
+          "PAV"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "STEM (*)",
+        "uren": [
+          "",
+          "",
+          "",
+          "STEM (*)"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "MTC (**)",
+        "uren": [
+          "",
+          "",
+          "",
+          "MTC (**)"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Nederlands"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans (MVT)",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Frans"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Lichamelijke opvoeding"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          "",
+          "",
+          "Specifiek gedeelte"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Hout",
+        "uren": [
+          "19",
+          "19",
+          "",
+          "Binnenschrijnwerk en interieur"
+        ]
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Wiskunde, toegepaste informatica, aardrijkskunde en natuurwetenschappen"
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Nederlands, burgerschap, geschiedenis en artistieke expressie"
+      }
+    ]
+  },
+  {
+    "domein": "sport",
+    "richting_code": "D SPW",
+    "richting_officieel": "D SPW",
+    "finaliteit": "doorstroom",
+    "graad": "derde graad",
+    "klassen": [
+      "3SPW",
+      "4SPW",
+      "5SPW",
+      "6SPW"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          "",
+          "",
+          "Basisvorming"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst en zedenleer",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Godsdienst en zedenleer"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Aardrijkskunde",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "Aardrijkskunde"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Engels",
+        "uren": [
+          "3",
+          "2",
+          "",
+          "Engels"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans",
+        "uren": [
+          "3",
+          "3",
+          "",
+          "Frans"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Geschiedenis",
+        "uren": [
+          "1",
+          "2",
+          "",
+          "Geschiedenis"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands (*)",
+        "uren": [
+          "4",
+          "4",
+          "",
+          "Nederlands (*)"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Toegepaste informatica",
+        "uren": [
+          "1",
+          "0",
+          "",
+          "Burgerschap"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Burgerschap",
+        "uren": [
+          "0",
+          "1",
+          "",
+          "Economie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          "",
+          "",
+          "Specifiek gedeelte"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Wiskunde",
+        "uren": [
+          "4",
+          "4",
+          "",
+          "Wiskunde"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Biologie",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Chemie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Chemie",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Biologie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Fysica",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Fysica"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Bewegingswetenschappen",
+        "uren": [
+          "",
+          "",
+          "",
+          "Bewegingswetenschappen"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Optie",
+        "uren": [
+          "4",
+          "4",
+          "",
+          "Optie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Algemene LO (*)",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Algemene LO (*)"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Theorie",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "Theorie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "32",
+          "32",
+          "",
+          "Lestijden per week"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "(*) inclusief artistieke expressie",
+        "uren": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "domein": "sport",
+    "richting_code": "DF SPORT",
+    "richting_officieel": "DF SPORT",
+    "finaliteit": "dubbele finaliteit",
+    "graad": "derde graad",
+    "klassen": [
+      "3SPORT",
+      "4SPORT",
+      "5SPORT",
+      "6SPORT"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          "",
+          "",
+          "Basisvorming"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst en zedenleer",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Godsdienst en zedenleer"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Aardrijkskunde",
+        "uren": [
+          "0",
+          "1",
+          "",
+          "Aardrijkskunde"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Engels",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Engels"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Frans"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Geschiedenis",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "Geschiedenis"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "3",
+          "3",
+          "",
+          "Nederlands"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Wiskunde",
+        "uren": [
+          "3",
+          "3",
+          "",
+          "Wiskunde"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Burgerschap",
+        "uren": [
+          "1",
+          "0",
+          "",
+          "Natuurwetenschappen"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Toegepaste Informatica",
+        "uren": [
+          "1",
+          "0",
+          "",
+          "Burgerschap"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Natuurwetenschappen",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "Artistieke expressie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Artistieke expressie",
+        "uren": [
+          "0",
+          "1",
+          "",
+          "Economie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          "",
+          "",
+          "Specifiek gedeelte"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "SPORT:",
+        "uren": [
+          "",
+          "",
+          "",
+          "SPORTBEGELEIDING:"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Bewegingswetenschappen Toepassingen",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Bewegingswetenschappen Toepassingen"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Bewegingswetenschappen theorie",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Bewegingswetenschappen theorie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Individuele sporten",
+        "uren": [
+          "3",
+          "3",
+          "",
+          "Individuele sporten"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Interactieve sporten",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Interactieve sporten"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Recreatiesport en microteaching",
+        "uren": [
+          "0",
+          "1",
+          "",
+          "Optie - inclusief stage"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Optie",
+        "uren": [
+          "4",
+          "4",
+          "",
+          "Toegepaste Biologie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Toegepaste Biologie",
+        "uren": [
+          "1",
+          "0",
+          "",
+          "Toegepaste Psychologie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Toegepaste Psychologie",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Lestijden per week"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "32",
+          "32",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "domein": "sport",
+    "richting_code": "TSO TOP",
+    "richting_officieel": "TSO TOP",
+    "finaliteit": "onbekend",
+    "graad": "tweede graad",
+    "klassen": [
+      "Basisvorming"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "LVB : RKG - NCZ - ISLAM - ORT - PGD"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Aardrijkskunde"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Engels"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Frans"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Geschiedenis"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Nederlands"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Wiskunde"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Sport"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Biologie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Chemie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Fysica"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "LOM (*)"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Voeding en dieetleer"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "theorie van de lichamelijke opvoeding"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "fysiologie van de beweging"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV/TV",
+        "uren": [
+          "Natuurwetenschappen"
+        ]
+      }
+    ]
+  },
+  {
+    "domein": "sport",
+    "richting_code": "ASO TOP",
+    "richting_officieel": "ASO TOP",
+    "finaliteit": "onbekend",
+    "graad": "tweede graad",
+    "klassen": [
+      "Doorstroom",
+      "2de graad",
+      "3de graad"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "LVB : RKG - NCZ - ISLAM - ORT - PGD",
+          "2",
+          "2.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Aardrijkskunde",
+          "1",
+          "1.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Biologie",
+          "1.5",
+          "1.5"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Chemie",
+          "1.5",
+          "1.5"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Engels",
+          "2",
+          "2.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Frans",
+          "2",
+          "2.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Fysica",
+          "1.5",
+          "1.5"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Geschiedenis",
+          "1",
+          "1.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Nederlands",
+          "3",
+          "3.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Wiskunde",
+          "5",
+          "5.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "Sport",
+          "12",
+          "12.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "AV",
+        "uren": [
+          "LOM (*)",
+          "0.5",
+          "0.5"
+        ]
+      }
+    ]
+  },
+  {
+    "domein": "maatschappij_en_welzijn",
+    "richting_code": "D MWW",
+    "richting_officieel": "D MWW",
+    "finaliteit": "doorstroom",
+    "graad": "tweede graad",
+    "klassen": [
+      "3MWW",
+      "4MWW"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst / Zedenleer",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Aardrijkskunde",
+        "uren": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Engels",
+        "uren": [
+          "3",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans",
+        "uren": [
+          "3",
+          "3"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Geschiedenis",
+        "uren": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "4",
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Wiskunde",
+        "uren": [
+          "4",
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Burgerschap",
+        "uren": [
+          "",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Toegepaste informatica",
+        "uren": [
+          "1",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Natuurwetenschappen",
+        "uren": [
+          "2",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Artistieke expressie",
+        "uren": [
+          "1",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Maatschappij en welzijn",
+        "uren": [
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Filosofie",
+        "uren": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Gedragswetenschappen",
+        "uren": [
+          "4",
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Cultuurwetenschappen",
+        "uren": [
+          "3",
+          "3"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "32",
+          "32"
+        ]
+      }
+    ]
+  },
+  {
+    "domein": "maatschappij_en_welzijn",
+    "richting_code": "DF MAATSCHAPPIJ EN WELZIJN",
+    "richting_officieel": "DF MAATSCHAPPIJ EN WELZIJN",
+    "finaliteit": "dubbele finaliteit",
+    "graad": "derde graad",
+    "klassen": [
+      "3MW",
+      "4MW",
+      "5OB",
+      "6OB"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          "",
+          "",
+          "Basisvorming"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst / Zedenleer",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "LVB : RKG - NCZ - ISLAM - ORT - PGD"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Aardrijkskunde",
+        "uren": [
+          "",
+          "1",
+          "",
+          "Aardrijkskunde"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Engels",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Engels"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Frans"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Geschiedenis",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "Geschiedenis"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "3",
+          "3",
+          "",
+          "Lichamelijke opvoeding"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Wiskunde",
+        "uren": [
+          "3",
+          "3",
+          "",
+          "Nederlands"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Wiskunde"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Burgerschap",
+        "uren": [
+          "1",
+          "",
+          "",
+          "Natuurwetenschappen"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Toegepaste informatica",
+        "uren": [
+          "1",
+          "",
+          "",
+          "Burgerschap"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Natuurwetenschappen",
+        "uren": [
+          "1",
+          "1",
+          "",
+          "Economie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Artistieke expressie",
+        "uren": [
+          "",
+          "1",
+          "",
+          "Artistieke expressie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          "",
+          "",
+          "Specifiek gedeelte"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Toegepaste biologie",
+        "uren": [
+          "1",
+          "",
+          "",
+          "Toegepaste psychologie"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Toegepaste psychologie",
+        "uren": [
+          "2",
+          "3",
+          "",
+          "Pedagogiek"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Maatschappij en Welzijn (11u)",
+        "uren": [
+          "",
+          "",
+          "",
+          "Opvoeding en begeleiding (12u)"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Indirecte zorg",
+        "uren": [
+          "3",
+          "2",
+          "",
+          "- Indirecte zorg"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Voeding",
+        "uren": [
+          "2",
+          "3",
+          "",
+          "- Voeding"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Opvoedkunde",
+        "uren": [
+          "2",
+          "3",
+          "",
+          "- Opvoedkunde"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "- Verzorging",
+        "uren": [
+          "4",
+          "3",
+          "",
+          "- Verzorging"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "32",
+          "32",
+          "",
+          "Lestijden per week"
+        ]
+      }
+    ]
+  },
+  {
+    "domein": "maatschappij_en_welzijn",
+    "richting_code": "A LICHAAMSVERZORGING",
+    "richting_officieel": "A LICHAAMSVERZORGING",
+    "finaliteit": "arbeidsmarkt",
+    "graad": "derde graad",
+    "klassen": [
+      "3HSZ",
+      "4HSZ",
+      "5HZ",
+      "6HZ",
+      "7SPHAAR"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          "",
+          "",
+          "Basisvorming",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst / Zedenleer",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "LVB : RKG - NCZ - ISLAM - ORT - PGD",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Project Algemene Vakken",
+        "uren": [
+          "7",
+          "7",
+          "",
+          "Project Algemene Vakken",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "STEM (*)",
+        "uren": [
+          "",
+          "",
+          "",
+          "STEM (*)",
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "MTC (**)",
+        "uren": [
+          "",
+          "",
+          "",
+          "MTC (**)",
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Nederlands",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans (MVT)",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Frans",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Lichamelijke opvoeding",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          "",
+          "",
+          "Specifiek gedeelte",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Haar- en schoonheidsverzorging (19u)",
+        "uren": [
+          "",
+          "",
+          "",
+          "Haarverzorging (20u)",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Haarverzorging",
+        "uren": [
+          "14",
+          "14",
+          "",
+          "Haarverzorging incl. Frans/Engels",
+          "17"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Schoonheidsverzorging",
+        "uren": [
+          "5",
+          "5",
+          "",
+          "Schoonheidsverzorging",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "34",
+          "34",
+          "",
+          "Lestijden per week",
+          "33"
+        ]
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Wiskunde, toegepaste informatica, aardrijkskunde en natuurwetenschappen"
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Nederlands, burgerschap, geschiedenis en artistieke expressie"
+      }
+    ]
+  },
+  {
+    "domein": "maatschappij_en_welzijn",
+    "richting_code": "A PERSONENZORG",
+    "richting_officieel": "A PERSONENZORG",
+    "finaliteit": "arbeidsmarkt",
+    "graad": "derde graad",
+    "klassen": [
+      "3ZW",
+      "4ZW",
+      "5ASWW",
+      "5BZO",
+      "6BZO"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Basisvorming",
+        "uren": [
+          "",
+          "",
+          "",
+          "Basisvorming",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst / Zedenleer",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "LVB : RKG - NCZ - ISLAM - ORT - PGD",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Project Algemene Vakken",
+        "uren": [
+          "7",
+          "7",
+          "",
+          "Project Algemene Vakken",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "STEM (*)",
+        "uren": [
+          "",
+          "",
+          "",
+          "STEM (*)",
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "MTC (**)",
+        "uren": [
+          "",
+          "",
+          "",
+          "MTC (**)",
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Nederlands",
+          "1"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans (MVT)",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Frans",
+          "3"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2",
+          "2",
+          "",
+          "Lichamelijke opvoeding",
+          "2"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          "",
+          "",
+          "Basiszorg en ondersteuning (20u)",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Zorg en welzijn (19u)",
+        "uren": [
+          "",
+          "",
+          "",
+          "Indirecte zorg",
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Indirecte zorg",
+        "uren": [
+          "5",
+          "5",
+          "",
+          "Voeding",
+          "6"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Voeding",
+        "uren": [
+          "5",
+          "5",
+          "",
+          "Opvoedkunde",
+          "4"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Opvoedkunde",
+        "uren": [
+          "6",
+          "6",
+          "",
+          "Verzorging",
+          "3"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Verzorging",
+        "uren": [
+          "3",
+          "3",
+          "",
+          "Lestijden per week",
+          "33"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "34",
+          "34",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Wiskunde, toegepaste informatica, aardrijkskunde en natuurwetenschappen"
+      },
+      {
+        "type": "toelichting",
+        "tekst": "Nederlands, burgerschap, geschiedenis en artistieke expressie"
+      }
+    ]
+  },
+  {
+    "domein": "eerste_graad",
+    "richting_code": "1A-stroom",
+    "richting_officieel": "1A-stroom",
+    "finaliteit": "onbekend",
+    "graad": "tweede graad",
+    "klassen": [
+      "Basisvorming"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "ALGEMENE VORMING",
+        "uren": [
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst en Zedenleer (*)",
+        "uren": [
+          "2.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "MENS, TAAL EN CULTUUR MTC",
+        "uren": [
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Engels",
+        "uren": [
+          "2.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans",
+        "uren": [
+          "3.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Geschiedenis (*)",
+        "uren": [
+          "1.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Muzikale opvoeding",
+        "uren": [
+          "1.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Nederlands (*)",
+        "uren": [
+          "5.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Plastische opvoeding",
+        "uren": [
+          "1.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "STEM",
+        "uren": [
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Aardrijkskunde",
+        "uren": [
+          "2.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Natuurwetenschappen",
+        "uren": [
+          "1.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Techniek",
+        "uren": [
+          "2.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Wiskunde",
+        "uren": [
+          "5.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Digitale Competentie",
+        "uren": [
+          "1.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Wat extra…",
+        "uren": [
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "SPORT omni",
+        "uren": [
+          "4.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "SPORT voetbal",
+        "uren": [
+          "4.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "SPORT elite voetbal",
+        "uren": [
+          "0.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "FLEX (**)",
+        "uren": [
+          "0.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Topsport",
+        "uren": [
+          "0.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "32.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "(*) inclusief burgerschap",
+        "uren": [
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "(**) STEM, M&W en E&O modulair aangeboden",
+        "uren": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "domein": "eerste_graad",
+    "richting_code": "B-stroom",
+    "richting_officieel": "B-stroom",
+    "finaliteit": "onbekend",
+    "graad": "tweede graad",
+    "klassen": [
+      "10.0",
+      "PAV MTC/STEM (*)",
+      "10.0",
+      "10.0",
+      "10.0",
+      "10.0"
+    ],
+    "opties": [],
+    "vakken": [
+      {
+        "type": "vak",
+        "naam": "Wiskunde-Nederlands",
+        "uren": [
+          "1.0",
+          "",
+          "Wiskunde-Nederlands",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Onthaal en planning",
+        "uren": [
+          "1.0",
+          "",
+          "Godsdienst en Zedenleer",
+          "2.0",
+          "2.0",
+          "2.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Godsdienst en Zedenleer",
+        "uren": [
+          "2.0",
+          "",
+          "Lichamelijke opvoeding",
+          "2.0",
+          "2.0",
+          "2.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lichamelijke opvoeding",
+        "uren": [
+          "2.0",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "MENS, TAAL EN CULTUUR MTC",
+        "uren": [
+          "",
+          "",
+          "Frans",
+          "3.0",
+          "3.0",
+          "3.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Frans",
+        "uren": [
+          "3.0",
+          "",
+          "Kunst en Cultuur",
+          "2.0",
+          "2.0",
+          "2.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Kunst en Cultuur",
+        "uren": [
+          "3.0",
+          "",
+          "Financiële geletterdheid",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "STEM",
+        "uren": [
+          "",
+          "",
+          "STEM",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Techniek",
+        "uren": [
+          "6.0",
+          "",
+          "Digitale Competentie",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Specifiek gedeelte",
+        "uren": [
+          "",
+          "",
+          "Specifiek gedeelte",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Project (**)",
+        "uren": [
+          "4.0",
+          "",
+          "STEM",
+          "10.0",
+          "5.0",
+          "0.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "Lestijden per week",
+        "uren": [
+          "32.0",
+          "",
+          "ECONOMIE & ORGANISATIE",
+          "0.0",
+          "5.0",
+          "0.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "(*) Inclusief burgerschap",
+        "uren": [
+          "",
+          "",
+          "Lestijden per week",
+          "32.0",
+          "32.0",
+          "32.0"
+        ]
+      },
+      {
+        "type": "vak",
+        "naam": "(**) PAV, Techniek, Digitale Competentie",
+        "uren": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+]
