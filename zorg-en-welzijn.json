@@ -1,0 +1,295 @@
+{
+  "zorg-en-welzijn": {
+    "titel": "Zorg en welzijn",
+    "domein": "Maatschappij en welzijn",
+    "finaliteit": "Dubbele finaliteit",
+    "beschrijving": "Praktijkgerichte opleiding binnen welzijn en zorg.",
+    "brochure": "https://schoolsite.example.com/brochure-maatschappij-welzijn.pdf",
+    "graden": {
+      "2de graad": {
+        "klassen": [
+          "3MW",
+          "4MW"
+        ],
+        "lessentabel": [
+          {
+            "label": "Godsdienst / Zedenleer",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "optie": true,
+            "3MW": 2,
+            "4MW": 2
+          },
+          {
+            "label": "Aardrijkskunde",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "4MW": 1
+          },
+          {
+            "label": "Engels",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "3MW": 2,
+            "4MW": 2
+          },
+          {
+            "label": "Frans",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "3MW": 2,
+            "4MW": 2
+          },
+          {
+            "label": "Geschiedenis",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "3MW": 1,
+            "4MW": 1
+          },
+          {
+            "label": "Nederlands",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "3MW": 3,
+            "4MW": 3
+          },
+          {
+            "label": "Wiskunde",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "3MW": 3,
+            "4MW": 3
+          },
+          {
+            "label": "Lichamelijke opvoeding",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "3MW": 2,
+            "4MW": 2
+          },
+          {
+            "label": "Burgerschap",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "3MW": 1
+          },
+          {
+            "label": "Toegepaste informatica",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "3MW": 1
+          },
+          {
+            "label": "Natuurwetenschappen",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "3MW": 1,
+            "4MW": 1
+          },
+          {
+            "label": "Artistieke expressie",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "4MW": 1
+          },
+          {
+            "label": "Toegepaste biologie",
+            "categorie": "specifiek gedeelte",
+            "type": "vak",
+            "3MW": 1
+          },
+          {
+            "label": "Toegepaste psychologie",
+            "categorie": "specifiek gedeelte",
+            "type": "vak",
+            "3MW": 2,
+            "4MW": 3
+          },
+          {
+            "label": "- Indirecte zorg",
+            "categorie": "specifiek gedeelte",
+            "type": "vak",
+            "subvak": true,
+            "3MW": 3,
+            "4MW": 2
+          },
+          {
+            "label": "- Voeding",
+            "categorie": "specifiek gedeelte",
+            "type": "vak",
+            "subvak": true,
+            "3MW": 2,
+            "4MW": 3
+          },
+          {
+            "label": "- Opvoedkunde",
+            "categorie": "specifiek gedeelte",
+            "type": "vak",
+            "subvak": true,
+            "3MW": 2,
+            "4MW": 3
+          },
+          {
+            "label": "- Verzorging",
+            "categorie": "specifiek gedeelte",
+            "type": "vak",
+            "subvak": true,
+            "3MW": 4,
+            "4MW": 3
+          },
+          {
+            "label": "Lestijden per week",
+            "categorie": "specifiek gedeelte",
+            "type": "vak",
+            "3MW": 32,
+            "4MW": 32
+          }
+        ]
+      },
+      "3de graad": {
+        "klassen": [
+          "5OB",
+          "6OB"
+        ],
+        "lessentabel": [
+          {
+            "label": "Godsdienst / Zedenleer",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "optie": true,
+            "5OB": 2,
+            "6OB": 2
+          },
+          {
+            "label": "Aardrijkskunde",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "5OB": 1,
+            "6OB": 1
+          },
+          {
+            "label": "Engels",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "5OB": 2,
+            "6OB": 2
+          },
+          {
+            "label": "Frans",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "5OB": 2,
+            "6OB": 2
+          },
+          {
+            "label": "Geschiedenis",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "5OB": 1,
+            "6OB": 1
+          },
+          {
+            "label": "Nederlands",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "5OB": 2,
+            "6OB": 2
+          },
+          {
+            "label": "Wiskunde",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "5OB": 3,
+            "6OB": 3
+          },
+          {
+            "label": "Lichamelijke opvoeding",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "5OB": 3,
+            "6OB": 2
+          },
+          {
+            "label": "Burgerschap",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "5OB": 1,
+            "6OB": 1
+          },
+          {
+            "label": "Toegepaste informatica",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "6OB": 1
+          },
+          {
+            "label": "Natuurwetenschappen",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "5OB": 1
+          },
+          {
+            "label": "Artistieke expressie",
+            "categorie": "basisvorming",
+            "type": "vak",
+            "6OB": 1
+          },
+          {
+            "label": "Toegepaste biologie",
+            "categorie": "specifiek gedeelte",
+            "type": "vak",
+            "5OB": 2,
+            "6OB": 2
+          },
+          {
+            "label": "Toegepaste psychologie",
+            "categorie": "specifiek gedeelte",
+            "type": "vak",
+            "5OB": 1,
+            "6OB": 2
+          },
+          {
+            "label": "- Indirecte zorg",
+            "categorie": "specifiek gedeelte",
+            "type": "vak",
+            "subvak": true,
+            "5OB": 1,
+            "6OB": 1
+          },
+          {
+            "label": "- Voeding",
+            "categorie": "specifiek gedeelte",
+            "type": "vak",
+            "subvak": true,
+            "5OB": 1,
+            "6OB": 1
+          },
+          {
+            "label": "- Opvoedkunde",
+            "categorie": "specifiek gedeelte",
+            "type": "vak",
+            "subvak": true,
+            "5OB": 7,
+            "6OB": 6
+          },
+          {
+            "label": "- Verzorging",
+            "categorie": "specifiek gedeelte",
+            "type": "vak",
+            "subvak": true,
+            "5OB": 1,
+            "6OB": 1
+          },
+          {
+            "label": "Lestijden per week",
+            "categorie": "specifiek gedeelte",
+            "type": "vak",
+            "5OB": 31,
+            "6OB": 31
+          }
+        ]
+      }
+    }
+  }
+}
