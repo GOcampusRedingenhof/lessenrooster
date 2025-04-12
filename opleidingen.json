@@ -1,6 +1,6 @@
 "maatschappij-en-welzijnswetenschappen": {
   "titel": "Maatschappij- en welzijnswetenschappen",
-  "domein": "mw",
+  "domein": "Maatschappij & Welzijn",
   "finaliteit": "Doorstroomfinaliteit",
   "beschrijving": "Theoretische opleiding met focus op mens en samenleving.",
   "brochure": "#",
@@ -39,7 +39,7 @@
 }
 "maatschappij-en-welzijn": {
   "titel": "Maatschappij en welzijn",
-  "domein": "mw",
+  "domein": "Maatschappij & Welzijn",
   "finaliteit": "Dubbele finaliteit",
   "beschrijving": "Praktijkgerichte opleiding binnen het domein welzijn en zorg.",
   "brochure": "#",
@@ -75,7 +75,7 @@
 }
 "opvoeding-en-begeleiding": {
   "titel": "Opvoeding en begeleiding",
-  "domein": "mw",
+  "domein": "Maatschappij & Welzijn",
   "finaliteit": "Dubbele finaliteit",
   "beschrijving": "Opleiding die focust op opvoeden, begeleiden en ondersteunen van personen in diverse contexten.",
   "brochure": "#",
@@ -114,7 +114,7 @@
 }
 "zorg-en-welzijn": {
   "titel": "Zorg en welzijn",
-  "domein": "mw",
+  "domein": "Maatschappij & Welzijn",
   "finaliteit": "Arbeidsfinaliteit",
   "beschrijving": "Praktijkgerichte opleiding in welzijn, voeding, opvoeding en verzorging.",
   "brochure": "#",
@@ -146,7 +146,7 @@
 }
 "assistentie-in-wonen-zorg-en-welzijn": {
   "titel": "Assistentie in wonen, zorg en welzijn",
-  "domein": "mw",
+  "domein": "Maatschappij & Welzijn",
   "finaliteit": "Arbeidsfinaliteit",
   "beschrijving": "Opleiding die voorbereidt op ondersteuning van personen in een woon-, zorg- of welzijnscontext.",
   "brochure": "#",
@@ -180,7 +180,7 @@
 }
 "basiszorg-en-ondersteuning": {
   "titel": "Basiszorg en ondersteuning",
-  "domein": "mw",
+  "domein": "Maatschappij & Welzijn",
   "finaliteit": "Arbeidsfinaliteit",
   "beschrijving": "Opleiding gericht op het uitvoeren van basiszorg, huishoudelijke taken en ondersteuning van personen.",
   "brochure": "#",
@@ -216,7 +216,7 @@
 
 "haarverzorging": {
   "titel": "Haarverzorging",
-  "domein": "mw",
+  "domein": "Maatschappij & Welzijn",
   "finaliteit": "Arbeidsfinaliteit",
   "beschrijving": "Praktijkgerichte opleiding met focus op haarzorg en schoonheidsverzorging.",
   "brochure": "#",
@@ -249,7 +249,7 @@
 }
 "haar-en-schoonheidsverzorging": {
   "titel": "Haar- en schoonheidsverzorging",
-  "domein": "mw",
+  "domein": "Maatschappij & Welzijn",
   "finaliteit": "Arbeidsfinaliteit",
   "beschrijving": "Praktijkgerichte opleiding rond haarzorg en schoonheidsverzorging.",
   "brochure": "#",
@@ -279,7 +279,7 @@
 }
 "informatica-en-communicatiewetenschappen": {
   "titel": "Informatica- en communicatiewetenschappen",
-  "domein": "stem",
+  "domein": "STEM",
   "finaliteit": "Doorstroomfinaliteit",
   "beschrijving": "Wetenschappelijke richting met focus op informatica, technologie en communicatie.",
   "brochure": "#",
@@ -287,7 +287,7 @@
     "3de graad": {
       "klassen": ["5ICW", "6ICW"],
       "lessentabel": [
-        { "label": "Godsdienst en zedenleer", "categorie": "basisvorming", "type": "vak", "5ICW": 2, "6ICW": 2 },
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "5ICW": 2, "6ICW": 2 },
         { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "5ICW": 1, "6ICW": 1 },
         { "label": "Natuurwetenschappen", "categorie": "basisvorming", "type": "vak", "5ICW": 1, "6ICW": 1 },
         { "label": "Engels", "categorie": "basisvorming", "type": "vak", "5ICW": 2, "6ICW": 2 },
@@ -316,7 +316,7 @@
 }
 "applicatie-en-datatechnieken": {
   "titel": "Applicatie- en datatechnieken",
-  "domein": "stem",
+  "domein": "STEM",
   "finaliteit": "Dubbele finaliteit",
   "beschrijving": "Technologische opleiding met nadruk op informaticatoepassingen, data-analyse en digitale ondersteuning.",
   "brochure": "#",
@@ -324,7 +324,7 @@
     "3de graad": {
       "klassen": ["5APDA", "6APDA"],
       "lessentabel": [
-        { "label": "Godsdienst en zedenleer", "categorie": "basisvorming", "type": "vak", "5APDA": 2, "6APDA": 2 },
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "5APDA": 2, "6APDA": 2 },
         { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "5APDA": 1, "6APDA": 1 },
         { "label": "Natuurwetenschappen", "categorie": "basisvorming", "type": "vak", "5APDA": 1, "6APDA": 1 },
         { "label": "Engels", "categorie": "basisvorming", "type": "vak", "5APDA": 2, "6APDA": 2 },
@@ -353,7 +353,7 @@
 }
 "elektromechanische-technieken": {
   "titel": "Elektromechanische technieken",
-  "domein": "stem",
+  "domein": "STEM",
   "finaliteit": "Dubbele finaliteit",
   "beschrijving": "Opleiding met focus op elektromechanica, mechanica, elektriciteit en STEM-engineering.",
   "brochure": "#",
@@ -361,7 +361,7 @@
     "2de graad": {
       "klassen": ["3EMT", "4EMT"],
       "lessentabel": [
-        { "label": "Godsdienst en zedenleer", "categorie": "basisvorming", "type": "vak", "3EMT": 2, "4EMT": 2 },
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "3EMT": 2, "4EMT": 2 },
         { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "4EMT": 1 },
         { "label": "Engels", "categorie": "basisvorming", "type": "vak", "3EMT": 2, "4EMT": 2 },
         { "label": "Frans", "categorie": "basisvorming", "type": "vak", "3EMT": 2, "4EMT": 2 },
@@ -389,7 +389,7 @@
 }
 "elektromechanische-technieken": {
   "titel": "Elektromechanische technieken",
-  "domein": "stem",
+  "domein": "STEM",
   "finaliteit": "Dubbele finaliteit",
   "beschrijving": "Technologische opleiding met focus op mechanica, elektriciteit, engineering en STEM-toepassingen.",
   "brochure": "#",
@@ -397,7 +397,7 @@
     "3de graad": {
       "klassen": ["5EMT", "6EMT"],
       "lessentabel": [
-        { "label": "Godsdienst en zedenleer", "categorie": "basisvorming", "type": "vak", "5EMT": 2, "6EMT": 2 },
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "5EMT": 2, "6EMT": 2 },
         { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "5EMT": 1, "6EMT": 1 },
         { "label": "Engels", "categorie": "basisvorming", "type": "vak", "5EMT": 2, "6EMT": 2 },
         { "label": "Frans", "categorie": "basisvorming", "type": "vak", "5EMT": 2, "6EMT": 2 },
@@ -428,7 +428,7 @@
 }
 "grafische-technieken": {
   "titel": "Grafische technieken",
-  "domein": "stem",
+  "domein": "STEM",
   "finaliteit": "Dubbele finaliteit",
   "beschrijving": "Creatieve en technische opleiding rond grafische media, vormgeving en productie.",
   "brochure": "#",
@@ -436,7 +436,7 @@
     "2de graad": {
       "klassen": ["3GRATECH", "4GRATECH"],
       "lessentabel": [
-        { "label": "Godsdienst en zedenleer", "categorie": "basisvorming", "type": "vak", "3GRATECH": 2, "4GRATECH": 2 },
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "3GRATECH": 2, "4GRATECH": 2 },
         { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "4GRATECH": 1 },
         { "label": "Engels", "categorie": "basisvorming", "type": "vak", "3GRATECH": 2, "4GRATECH": 2 },
         { "label": "Frans", "categorie": "basisvorming", "type": "vak", "3GRATECH": 2, "4GRATECH": 2 },
@@ -463,7 +463,7 @@
 }
 "grafische-technieken": {
   "titel": "Grafische technieken",
-  "domein": "stem",
+  "domein": "STEM",
   "finaliteit": "Dubbele finaliteit",
   "beschrijving": "Opleiding waarin grafisch ontwerp, digitale media en productieprocessen centraal staan.",
   "brochure": "#",
@@ -471,7 +471,7 @@
     "3de graad": {
       "klassen": ["5GRAFI", "6GRAFI"],
       "lessentabel": [
-        { "label": "Godsdienst en zedenleer", "categorie": "basisvorming", "type": "vak", "5GRAFI": 2, "6GRAFI": 2 },
+        { "label": "GGodsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "5GRAFI": 2, "6GRAFI": 2 },
         { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "5GRAFI": 1, "6GRAFI": 1 },
         { "label": "Engels", "categorie": "basisvorming", "type": "vak", "5GRAFI": 2, "6GRAFI": 2 },
         { "label": "Frans", "categorie": "basisvorming", "type": "vak", "5GRAFI": 2, "6GRAFI": 2 },
@@ -501,7 +501,7 @@
 }
 "mechanica": {
   "titel": "Mechanica",
-  "domein": "stem",
+  "domein": "STEM",
   "finaliteit": "Arbeidsfinaliteit",
   "beschrijving": "Praktijkgerichte opleiding waarin basistechnieken in mechanica en metaalbewerking centraal staan.",
   "brochure": "#",
@@ -509,7 +509,7 @@
     "2de graad": {
       "klassen": ["3MECH", "4MECH"],
       "lessentabel": [
-        { "label": "Godsdienst en zedenleer", "categorie": "basisvorming", "type": "vak", "3MECH": 2, "4MECH": 2 },
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "3MECH": 2, "4MECH": 2 },
         { "label": "PAV", "categorie": "basisvorming", "type": "vak", "3MECH": 7, "4MECH": 7 },
         { "label": "STEM (*)", "categorie": "basisvorming", "type": "vak" },
         { "label": "MTC (**)", "categorie": "basisvorming", "type": "vak" },
@@ -533,7 +533,7 @@
 }
 "koetswerk": {
   "titel": "Koetswerk",
-  "domein": "stem",
+  "domein": "STEM",
   "finaliteit": "Arbeidsfinaliteit",
   "beschrijving": "Praktijkgerichte opleiding rond carrosserieherstellingen, spuittechnieken en koetswerkstructuren.",
   "brochure": "#",
@@ -541,7 +541,7 @@
     "3de graad": {
       "klassen": ["5KW", "6KW"],
       "lessentabel": [
-        { "label": "Godsdienst en zedenleer", "categorie": "basisvorming", "type": "vak", "5KW": 2, "6KW": 2 },
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "5KW": 2, "6KW": 2 },
         { "label": "PAV", "categorie": "basisvorming", "type": "vak", "5KW": 4, "6KW": 4 },
         { "label": "STEM (*)", "categorie": "basisvorming", "type": "vak" },
         { "label": "MTC (**)", "categorie": "basisvorming", "type": "vak" },
@@ -564,7 +564,7 @@
 }
 "preventief-onderhoud": {
   "titel": "Preventief onderhoud machines en installaties",
-  "domein": "stem",
+  "domein": "STEM",
   "finaliteit": "Arbeidsfinaliteit",
   "beschrijving": "Praktijkgerichte opleiding in het onderhouden en preventief controleren van industriële installaties en machines.",
   "brochure": "#",
@@ -572,7 +572,7 @@
     "3de graad": {
       "klassen": ["5PRO", "6PRO"],
       "lessentabel": [
-        { "label": "Godsdienst en zedenleer", "categorie": "basisvorming", "type": "vak", "5PRO": 2, "6PRO": 2 },
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "5PRO": 2, "6PRO": 2 },
         { "label": "PAV", "categorie": "basisvorming", "type": "vak", "5PRO": 4, "6PRO": 4 },
         { "label": "STEM (*)", "categorie": "basisvorming", "type": "vak" },
         { "label": "MTC (**)", "categorie": "basisvorming", "type": "vak" },
@@ -595,7 +595,7 @@
 }
 "elektriciteit": {
   "titel": "Elektriciteit",
-  "domein": "stem",
+  "domein": "STEM",
   "finaliteit": "Arbeidsfinaliteit",
   "beschrijving": "Praktijkgerichte opleiding over elektrische installaties, basiselektriciteit en toepassingen in voertuigen.",
   "brochure": "#",
@@ -626,7 +626,7 @@
 }
 "elektrische-installaties": {
   "titel": "Elektrische installaties",
-  "domein": "stem",
+  "domein": "STEM",
   "finaliteit": "Arbeidsfinaliteit",
   "beschrijving": "Praktijkgerichte opleiding over elektrische installaties in woningen en industriële toepassingen.",
   "brochure": "#",
@@ -634,7 +634,7 @@
     "3de graad": {
       "klassen": ["5ELINS", "6ELINS"],
       "lessentabel": [
-        { "label": "Godsdienst en zedenleer", "categorie": "basisvorming", "type": "vak", "5ELINS": 2, "6ELINS": 2 },
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "5ELINS": 2, "6ELINS": 2 },
         { "label": "Project Algemene Vakken", "categorie": "basisvorming", "type": "vak", "5ELINS": 4, "6ELINS": 4 },
         { "label": "STEM (*)", "categorie": "basisvorming", "type": "vak" },
         { "label": "MTC (**)", "categorie": "basisvorming", "type": "vak" },
@@ -657,7 +657,7 @@
 }
 "onderhoudsmechanica-auto": {
   "titel": "Onderhoudsmechanica auto",
-  "domein": "stem",
+  "domein": "STEM",
   "finaliteit": "Arbeidsfinaliteit",
   "beschrijving": "Praktijkgerichte opleiding gericht op onderhoud en herstellingen aan auto's.",
   "brochure": "#",
@@ -665,7 +665,7 @@
     "3de graad": {
       "klassen": ["5AUTO", "6AUTO"],
       "lessentabel": [
-        { "label": "Godsdienst en zedenleer", "categorie": "basisvorming", "type": "vak", "5AUTO": 2, "6AUTO": 2 },
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "5AUTO": 2, "6AUTO": 2 },
         { "label": "PAV", "categorie": "basisvorming", "type": "vak", "5AUTO": 4, "6AUTO": 4 },
         { "label": "STEM (*)", "categorie": "basisvorming", "type": "vak" },
         { "label": "MTC (**)", "categorie": "basisvorming", "type": "vak" },
@@ -688,7 +688,7 @@
 }
 "hout": {
   "titel": "Hout",
-  "domein": "stem",
+  "domein": "STEM",
   "finaliteit": "Arbeidsfinaliteit",
   "beschrijving": "Praktijkgerichte opleiding in houtbewerking en basistechnieken in de houtsector.",
   "brochure": "#",
@@ -696,7 +696,7 @@
     "2de graad": {
       "klassen": ["3HOUT", "4HOUT"],
       "lessentabel": [
-        { "label": "Godsdienst en zedenleer", "categorie": "basisvorming", "type": "vak", "3HOUT": 2, "4HOUT": 2 },
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "3HOUT": 2, "4HOUT": 2 },
         { "label": "PAV", "categorie": "basisvorming", "type": "vak", "3HOUT": 7, "4HOUT": 7 },
         { "label": "STEM (*)", "categorie": "basisvorming", "type": "vak" },
         { "label": "MTC (**)", "categorie": "basisvorming", "type": "vak" },
@@ -716,7 +716,7 @@
 }
 "binnenschrijnwerk-en-interieur": {
   "titel": "Binnenschrijnwerk en interieur",
-  "domein": "stem",
+  "domein": "STEM",
   "finaliteit": "Arbeidsfinaliteit",
   "beschrijving": "Praktijkgerichte opleiding met focus op schrijnwerk, interieurinrichting en houttoepassingen.",
   "brochure": "#",
@@ -724,7 +724,7 @@
     "3de graad": {
       "klassen": ["5BIN", "6BIN"],
       "lessentabel": [
-        { "label": "Godsdienst en zedenleer", "categorie": "basisvorming", "type": "vak", "5BIN": 2, "6BIN": 2 },
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "5BIN": 2, "6BIN": 2 },
         { "label": "PAV", "categorie": "basisvorming", "type": "vak", "5BIN": 4, "6BIN": 4 },
         { "label": "STEM (*)", "categorie": "basisvorming", "type": "vak" },
         { "label": "MTC (**)", "categorie": "basisvorming", "type": "vak" },
@@ -738,6 +738,257 @@
       "voetnoten": [
         "* Wiskunde, aardrijkskunde en natuurwetenschappen",
         "** Nederlands, burgerschap, geschiedenis, economie en artistieke expressie"
+      ]
+    }
+  }
+}
+"sportwetenschappen": {
+  "titel": "Sportwetenschappen",
+  "domein": "Sport & Topsport",
+  "finaliteit": "Doorstroomfinaliteit",
+  "beschrijving": "Theoretisch-wetenschappelijke studierichting met focus op sport, beweging en wetenschappen.",
+  "brochure": "#",
+  "graden": {
+    "2de graad": {
+      "klassen": ["3SPW", "4SPW"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "3SPW": 2, "4SPW": 2 },
+        { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "3SPW": 1, "4SPW": 1 },
+        { "label": "Engels", "categorie": "basisvorming", "type": "vak", "3SPW": 3, "4SPW": 2 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "3SPW": 3, "4SPW": 3 },
+        { "label": "Geschiedenis", "categorie": "basisvorming", "type": "vak", "3SPW": 1, "4SPW": 2 },
+        { "label": "Nederlands (*)", "categorie": "basisvorming", "type": "vak", "3SPW": 4, "4SPW": 4 },
+        { "label": "Toegepaste informatica", "categorie": "basisvorming", "type": "vak", "3SPW": 1, "4SPW": 0 },
+        { "label": "Burgerschap", "categorie": "basisvorming", "type": "vak", "3SPW": 0, "4SPW": 1 },
+
+        { "label": "Wiskunde", "categorie": "specifiek gedeelte", "type": "vak", "3SPW": 4, "4SPW": 4 },
+        { "label": "Biologie", "categorie": "specifiek gedeelte", "type": "vak", "3SPW": 2, "4SPW": 2 },
+        { "label": "Chemie", "categorie": "specifiek gedeelte", "type": "vak", "3SPW": 2, "4SPW": 2 },
+        { "label": "Fysica", "categorie": "specifiek gedeelte", "type": "vak", "3SPW": 2, "4SPW": 2 },
+        { "label": "Bewegingswetenschappen", "categorie": "specifiek gedeelte", "type": "vak" },
+        { "label": "- Optie", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "3SPW": 4, "4SPW": 4 },
+        { "label": "- Algemene LO (*)", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "3SPW": 2, "4SPW": 2 },
+        { "label": "- Theorie", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "3SPW": 1, "4SPW": 1 },
+
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "3SPW": 32, "4SPW": 32 }
+      ],
+      "stage_weken": {},
+      "voetnoten": [
+        "(*) inclusief artistieke expressie"
+      ]
+    }
+  }
+}
+"sportwetenschappen": {
+  "titel": "Sportwetenschappen",
+  "domein": "Sport & Topsport",
+  "finaliteit": "Doorstroomfinaliteit",
+  "beschrijving": "Theoretisch-wetenschappelijke studierichting met focus op sport, beweging en wetenschappen.",
+  "brochure": "#",
+  "graden": {
+    "3de graad": {
+      "klassen": ["5SPW", "6SPW"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "5SPW": 2, "6SPW": 2 },
+        { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "5SPW": 1, "6SPW": 1 },
+        { "label": "Engels", "categorie": "basisvorming", "type": "vak", "5SPW": 2, "6SPW": 2 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "5SPW": 3, "6SPW": 2 },
+        { "label": "Geschiedenis", "categorie": "basisvorming", "type": "vak", "5SPW": 2, "6SPW": 1 },
+        { "label": "Nederlands (*)", "categorie": "basisvorming", "type": "vak", "5SPW": 3, "6SPW": 4 },
+        { "label": "Burgerschap", "categorie": "basisvorming", "type": "vak", "5SPW": 0, "6SPW": 1 },
+        { "label": "Economie", "categorie": "basisvorming", "type": "vak", "5SPW": 0, "6SPW": 1 },
+
+        { "label": "Wiskunde", "categorie": "specifiek gedeelte", "type": "vak", "5SPW": 5, "6SPW": 4 },
+        { "label": "Chemie", "categorie": "specifiek gedeelte", "type": "vak", "5SPW": 2, "6SPW": 2 },
+        { "label": "Biologie", "categorie": "specifiek gedeelte", "type": "vak", "5SPW": 2, "6SPW": 2 },
+        { "label": "Fysica", "categorie": "specifiek gedeelte", "type": "vak", "5SPW": 2, "6SPW": 2 },
+        { "label": "Bewegingswetenschappen", "categorie": "specifiek gedeelte", "type": "vak" },
+        { "label": "- Optie", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5SPW": 4, "6SPW": 4 },
+        { "label": "- Algemene LO (*)", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5SPW": 2, "6SPW": 2 },
+        { "label": "- Theorie", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5SPW": 2, "6SPW": 2 },
+
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "5SPW": 32, "6SPW": 32 }
+      ],
+      "stage_weken": {},
+      "voetnoten": [
+        "(*) inclusief artistieke expressie"
+      ]
+    }
+  }
+}
+"sport": {
+  "titel": "Sport",
+  "domein": "Sport & Topsport",
+  "finaliteit": "Dubbele finaliteit",
+  "beschrijving": "Richting voor sportieve leerlingen die theorie en praktijk combineren, met oog op verder studeren of doorstromen naar de arbeidsmarkt.",
+  "brochure": "#",
+  "graden": {
+    "2de graad": {
+      "klassen": ["3SPORT", "4SPORT"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "3SPORT": 2, "4SPORT": 2 },
+        { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "3SPORT": 0, "4SPORT": 1 },
+        { "label": "Engels", "categorie": "basisvorming", "type": "vak", "3SPORT": 2, "4SPORT": 2 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "3SPORT": 2, "4SPORT": 2 },
+        { "label": "Geschiedenis", "categorie": "basisvorming", "type": "vak", "3SPORT": 1, "4SPORT": 1 },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "3SPORT": 3, "4SPORT": 3 },
+        { "label": "Wiskunde", "categorie": "basisvorming", "type": "vak", "3SPORT": 3, "4SPORT": 3 },
+        { "label": "Burgerschap", "categorie": "basisvorming", "type": "vak", "3SPORT": 1, "4SPORT": 0 },
+        { "label": "Toegepaste Informatica", "categorie": "basisvorming", "type": "vak", "3SPORT": 1, "4SPORT": 0 },
+        { "label": "Natuurwetenschappen", "categorie": "basisvorming", "type": "vak", "3SPORT": 1, "4SPORT": 1 },
+        { "label": "Artistieke expressie", "categorie": "basisvorming", "type": "vak", "3SPORT": 0, "4SPORT": 1 },
+
+        { "label": "Bewegingswetenschappen Toepassingen", "categorie": "specifiek gedeelte", "type": "vak", "3SPORT": 2, "4SPORT": 2 },
+        { "label": "Bewegingswetenschappen theorie", "categorie": "specifiek gedeelte", "type": "vak", "3SPORT": 2, "4SPORT": 2 },
+        { "label": "Individuele sporten", "categorie": "specifiek gedeelte", "type": "vak", "3SPORT": 3, "4SPORT": 3 },
+        { "label": "Interactieve sporten", "categorie": "specifiek gedeelte", "type": "vak", "3SPORT": 2, "4SPORT": 2 },
+        { "label": "Recreatiesport en microteaching", "categorie": "specifiek gedeelte", "type": "vak", "3SPORT": 0, "4SPORT": 1 },
+        { "label": "Optie", "categorie": "specifiek gedeelte", "type": "vak", "3SPORT": 4, "4SPORT": 4 },
+        { "label": "Toegepaste Biologie", "categorie": "specifiek gedeelte", "type": "vak", "3SPORT": 1, "4SPORT": 0 },
+        { "label": "Toegepaste Psychologie", "categorie": "specifiek gedeelte", "type": "vak", "3SPORT": 2, "4SPORT": 2 },
+
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "3SPORT": 32, "4SPORT": 32 }
+      ],
+      "stage_weken": {},
+      "voetnoten": []
+    }
+  }
+}
+"sportbegeleiding": {
+  "titel": "Sportbegeleiding",
+  "domein": "Sport & Topsport",
+  "finaliteit": "Dubbele finaliteit",
+  "beschrijving": "Richting voor sportieve leerlingen met interesse in begeleiden en coachen, met theoretische én praktische componenten, inclusief stage.",
+  "brochure": "#",
+  "graden": {
+    "3de graad": {
+      "klassen": ["5SPORT", "6SPORT"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "5SPORT": 2, "6SPORT": 2 },
+        { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "5SPORT": 1, "6SPORT": 0 },
+        { "label": "Engels", "categorie": "basisvorming", "type": "vak", "5SPORT": 2, "6SPORT": 2 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "5SPORT": 2, "6SPORT": 2 },
+        { "label": "Geschiedenis", "categorie": "basisvorming", "type": "vak", "5SPORT": 1, "6SPORT": 1 },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "5SPORT": 3, "6SPORT": 3 },
+        { "label": "Wiskunde", "categorie": "basisvorming", "type": "vak", "5SPORT": 2, "6SPORT": 2 },
+        { "label": "Natuurwetenschappen", "categorie": "basisvorming", "type": "vak", "5SPORT": 1, "6SPORT": 1 },
+        { "label": "Burgerschap", "categorie": "basisvorming", "type": "vak", "5SPORT": 0, "6SPORT": 1 },
+        { "label": "Artistieke expressie", "categorie": "basisvorming", "type": "vak", "5SPORT": 0, "6SPORT": 1 },
+        { "label": "Economie", "categorie": "basisvorming", "type": "vak", "5SPORT": 1, "6SPORT": 0 },
+
+        { "label": "Bewegingswetenschappen Toepassingen", "categorie": "specifiek gedeelte", "type": "vak", "5SPORT": 3, "6SPORT": 2 },
+        { "label": "Bewegingswetenschappen theorie", "categorie": "specifiek gedeelte", "type": "vak", "5SPORT": 1, "6SPORT": 2 },
+        { "label": "Individuele sporten", "categorie": "specifiek gedeelte", "type": "vak", "5SPORT": 3, "6SPORT": 3 },
+        { "label": "Interactieve sporten", "categorie": "specifiek gedeelte", "type": "vak", "5SPORT": 2, "6SPORT": 2 },
+        { "label": "Optie - inclusief stage", "categorie": "specifiek gedeelte", "type": "vak", "5SPORT": 6, "6SPORT": 6 },
+        { "label": "Toegepaste Biologie", "categorie": "specifiek gedeelte", "type": "vak", "5SPORT": 1, "6SPORT": 1 },
+        { "label": "Toegepaste Psychologie", "categorie": "specifiek gedeelte", "type": "vak", "5SPORT": 1, "6SPORT": 1 },
+
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "5SPORT": 32, "6SPORT": 32 }
+      ],
+      "stage_weken": {},
+      "voetnoten": []
+    }
+  }
+}
+"topsport-natuurwetenschappen": {
+  "titel": "Topsport Natuurwetenschappen",
+  "domein": "Sport & Topsport",
+  "finaliteit": "Doorstroom",
+  "beschrijving": "Richting voor topsporters met een interesse in wetenschappen. Gericht op doorstroom naar hoger onderwijs. De algemene vorming wordt deels in projectdagen aangeboden.",
+  "brochure": "#",
+  "graden": {
+    "2de graad": {
+      "klassen": ["3TOPNW", "4TOPNW"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "3TOPNW": 2, "4TOPNW": 2 },
+        { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "3TOPNW": 1, "4TOPNW": 1 },
+        { "label": "Natuurwetenschappen", "categorie": "basisvorming", "type": "vak", "3TOPNW": 0, "4TOPNW": 0 },
+        { "label": "Engels (*)", "categorie": "basisvorming", "type": "vak", "3TOPNW": 2, "4TOPNW": 2 },
+        { "label": "Frans (*)", "categorie": "basisvorming", "type": "vak", "3TOPNW": 2, "4TOPNW": 2 },
+        { "label": "Geschiedenis (incl. burgerschap)", "categorie": "basisvorming", "type": "vak", "3TOPNW": 1, "4TOPNW": 2 },
+        { "label": "Nederlands (*)", "categorie": "basisvorming", "type": "vak", "3TOPNW": 3, "4TOPNW": 3 },
+        { "label": "Project (STEM, toegepaste informatica, artistieke expressie)", "categorie": "basisvorming", "type": "vak", "3TOPNW": 1, "4TOPNW": 0 },
+
+        { "label": "Topsport", "categorie": "specifiek gedeelte", "type": "vak", "3TOPNW": 12, "4TOPNW": 12 },
+        { "label": "Wetenschappen", "categorie": "specifiek gedeelte", "type": "vak", "3TOPNW": 5, "4TOPNW": 5 },
+        { "label": "Economie en bedrijfswetenschappen", "categorie": "specifiek gedeelte", "type": "vak", "3TOPNW": 0, "4TOPNW": 0 },
+        { "label": "Wiskunde", "categorie": "specifiek gedeelte", "type": "vak", "3TOPNW": 4, "4TOPNW": 4 },
+
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "3TOPNW": 33, "4TOPNW": 33 }
+      ],
+      "stage_weken": {},
+      "voetnoten": [
+        "(*) Gereduceerd urenpakket",
+        "In projectdagen"
+      ]
+    }
+  }
+}
+"topsport-wetenschappen": {
+  "titel": "Topsport-Wetenschappen",
+  "domein": "sport",
+  "finaliteit": "Doorstroom",
+  "beschrijving": "Richting in de 3de graad voor topsporters met een sterke interesse in wetenschappen. De algemene vorming is deels opgenomen in projectdagen, met een gereduceerd urenpakket.",
+  "brochure": "#",
+  "graden": {
+    "3de graad": {
+      "klassen": ["5TOPWET", "6TOPWET"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "5TOPWET": 2, "6TOPWET": 2 },
+        { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "5TOPWET": 1, "6TOPWET": 1 },
+        { "label": "Engels (*)", "categorie": "basisvorming", "type": "vak", "5TOPWET": 2, "6TOPWET": 2 },
+        { "label": "Frans (*)", "categorie": "basisvorming", "type": "vak", "5TOPWET": 2, "6TOPWET": 2 },
+        { "label": "Geschiedenis (incl. burgerschap) (*)", "categorie": "basisvorming", "type": "vak", "5TOPWET": 1, "6TOPWET": 2 },
+        { "label": "Nederlands (*)", "categorie": "basisvorming", "type": "vak", "5TOPWET": 3, "6TOPWET": 3 },
+        { "label": "Natuurwetenschappen", "categorie": "basisvorming", "type": "vak", "5TOPWET": 0, "6TOPWET": 0 },
+        { "label": "Project (STEM, economisch financiële competenties, artistieke expressie, OC)", "categorie": "basisvorming", "type": "vak", "5TOPWET": 0, "6TOPWET": 0 },
+
+        { "label": "Topsport", "categorie": "specifiek gedeelte", "type": "vak", "5TOPWET": 12, "6TOPWET": 12 },
+        { "label": "Wetenschappen", "categorie": "specifiek gedeelte", "type": "vak", "5TOPWET": 5, "6TOPWET": 5 },
+        { "label": "Economie en Bedrijfswetenschappen", "categorie": "specifiek gedeelte", "type": "vak", "5TOPWET": 0, "6TOPWET": 0 },
+        { "label": "Wiskunde", "categorie": "specifiek gedeelte", "type": "vak", "5TOPWET": 5, "6TOPWET": 4 },
+
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "5TOPWET": 33, "6TOPWET": 33 }
+      ],
+      "stage_weken": {},
+      "voetnoten": [
+        "(*) Gereduceerd urenpakket",
+        "In projectdagen"
+      ]
+    }
+  }
+}
+"topsport-economie": {
+  "titel": "Topsport economie",
+  "domein": "sport",
+  "finaliteit": "Doorstroom",
+  "beschrijving": "Richting in de 3de graad voor topsporters met interesse in economie. De algemene vorming is deels opgenomen in projectdagen, met een gereduceerd urenpakket.",
+  "brochure": "#",
+  "graden": {
+    "3de graad": {
+      "klassen": ["5TOPEC", "6TOPEC"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "5TOPEC": 2, "6TOPEC": 2 },
+        { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "5TOPEC": 1, "6TOPEC": 1 },
+        { "label": "Engels (*)", "categorie": "basisvorming", "type": "vak", "5TOPEC": 2, "6TOPEC": 2 },
+        { "label": "Frans (*)", "categorie": "basisvorming", "type": "vak", "5TOPEC": 2, "6TOPEC": 2 },
+        { "label": "Geschiedenis (incl. burgerschap) (*)", "categorie": "basisvorming", "type": "vak", "5TOPEC": 1, "6TOPEC": 2 },
+        { "label": "Nederlands (*)", "categorie": "basisvorming", "type": "vak", "5TOPEC": 3, "6TOPEC": 3 },
+        { "label": "Natuurwetenschappen", "categorie": "basisvorming", "type": "vak", "5TOPEC": 2, "6TOPEC": 1 },
+        { "label": "Project (STEM, economisch financiële competenties, artistieke expressie, OC)", "categorie": "basisvorming", "type": "vak", "5TOPEC": 0, "6TOPEC": 0 },
+
+        { "label": "Topsport", "categorie": "specifiek gedeelte", "type": "vak", "5TOPEC": 12, "6TOPEC": 12 },
+        { "label": "Wetenschappen", "categorie": "specifiek gedeelte", "type": "vak", "5TOPEC": 0, "6TOPEC": 0 },
+        { "label": "Economie en Bedrijfswetenschappen", "categorie": "specifiek gedeelte", "type": "vak", "5TOPEC": 4, "6TOPEC": 4 },
+        { "label": "Wiskunde", "categorie": "specifiek gedeelte", "type": "vak", "5TOPEC": 4, "6TOPEC": 4 },
+
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "5TOPEC": 33, "6TOPEC": 33 }
+      ],
+      "stage_weken": {},
+      "voetnoten": [
+        "(*) Gereduceerd urenpakket",
+        "In projectdagen"
       ]
     }
   }
