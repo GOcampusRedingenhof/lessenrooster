@@ -1,667 +1,279 @@
-"maatschappij-en-welzijn__dubbele-finaliteit": {
+"maatschappij-en-welzijnswetenschappen": {
+  "titel": "Maatschappij- en welzijnswetenschappen",
+  "domein": "mw",
+  "finaliteit": "Doorstroomfinaliteit",
+  "beschrijving": "Theoretische opleiding met focus op mens en samenleving.",
+  "brochure": "#",
+  "graden": {
+    "2de graad": {
+      "klassen": ["3MWW", "4MWW"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "3MWW": 2, "4MWW": 2 },
+        { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "3MWW": 1, "4MWW": 1 },
+        { "label": "Engels", "categorie": "basisvorming", "type": "vak", "3MWW": 3, "4MWW": 2 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "3MWW": 3, "4MWW": 3 },
+        { "label": "Geschiedenis", "categorie": "basisvorming", "type": "vak", "3MWW": 1, "4MWW": 2 },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "3MWW": 4, "4MWW": 4 },
+        { "label": "Wiskunde", "categorie": "basisvorming", "type": "vak", "3MWW": 4, "4MWW": 4 },
+        { "label": "Lichamelijke opvoeding", "categorie": "basisvorming", "type": "vak", "3MWW": 2, "4MWW": 2 },
+        { "label": "Burgerschap", "categorie": "basisvorming", "type": "vak", "4MWW": 1 },
+        { "label": "Toegepaste informatica", "categorie": "basisvorming", "type": "vak", "3MWW": 1 },
+        { "label": "Natuurwetenschappen", "categorie": "basisvorming", "type": "vak", "3MWW": 2, "4MWW": 2 },
+        { "label": "Artistieke expressie", "categorie": "basisvorming", "type": "vak", "4MWW": 1 },
+        { "label": "Maatschappij en welzijn", "categorie": "specifiek gedeelte", "type": "vak" },
+        { "label": "- Filosofie", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "3MWW": 1, "4MWW": 2 },
+        { "label": "- Gedragswetenschappen", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "3MWW": 4, "4MWW": 4 },
+        { "label": "- Cultuurwetenschappen", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "3MWW": 3, "4MWW": 3 },
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "3MWW": 32, "4MWW": 32 }
+      ],
+      "stage_weken": {},
+      "voetnoten": []
+    },
+    "3de graad": {
+      "klassen": [],
+      "lessentabel": [],
+      "stage_weken": {},
+      "voetnoten": []
+    }
+  }
+}
+"maatschappij-en-welzijn": {
   "titel": "Maatschappij en welzijn",
-  "domein": "Maatschappij en welzijn",
+  "domein": "mw",
   "finaliteit": "Dubbele finaliteit",
-  "beschrijving": "",
+  "beschrijving": "Praktijkgerichte opleiding binnen het domein welzijn en zorg.",
+  "brochure": "#",
   "graden": {
     "2de graad": {
       "klassen": ["3MW", "4MW"],
       "lessentabel": [
-        {
-          "label": "Godsdienst / Zedenleer",
-          "categorie": "basisvorming",
-          "type": "vak",
-          "optie": true,
-          "3MW": 2,
-          "4MW": 2
-        },
-        {
-          "label": "Aardrijkskunde",
-          "categorie": "basisvorming",
-          "type": "vak",
-          "4MW": 1
-        },
-        {
-          "label": "Engels",
-          "categorie": "basisvorming",
-          "type": "vak",
-          "3MW": 2,
-          "4MW": 2
-        },
-        {
-          "label": "Frans",
-          "categorie": "basisvorming",
-          "type": "vak",
-          "3MW": 2,
-          "4MW": 2
-        },
-        {
-          "label": "Geschiedenis",
-          "categorie": "basisvorming",
-          "type": "vak",
-          "3MW": 1,
-          "4MW": 1
-        },
-        {
-          "label": "Nederlands",
-          "categorie": "basisvorming",
-          "type": "vak",
-          "3MW": 3,
-          "4MW": 3
-        },
-        {
-          "label": "Wiskunde",
-          "categorie": "basisvorming",
-          "type": "vak",
-          "3MW": 3,
-          "4MW": 3
-        },
-        {
-          "label": "Lichamelijke opvoeding",
-          "categorie": "basisvorming",
-          "type": "vak",
-          "3MW": 2,
-          "4MW": 2
-        },
-        {
-          "label": "Burgerschap",
-          "categorie": "basisvorming",
-          "type": "vak",
-          "3MW": 1
-        },
-        {
-          "label": "Toegepaste informatica",
-          "categorie": "basisvorming",
-          "type": "vak",
-          "3MW": 1
-        },
-        {
-          "label": "Natuurwetenschappen",
-          "categorie": "basisvorming",
-          "type": "vak",
-          "3MW": 1,
-          "4MW": 1
-        },
-        {
-          "label": "Artistieke expressie",
-          "categorie": "basisvorming",
-          "type": "vak",
-          "4MW": 1
-        },
-        {
-          "label": "Toegepaste biologie",
-          "categorie": "specifiek gedeelte",
-          "type": "vak",
-          "3MW": 1
-        },
-        {
-          "label": "Toegepaste psychologie",
-          "categorie": "specifiek gedeelte",
-          "type": "vak",
-          "3MW": 2,
-          "4MW": 3
-        },
-        {
-          "label": "- Indirecte zorg",
-          "categorie": "specifiek gedeelte",
-          "type": "vak",
-          "subvak": true,
-          "3MW": 3,
-          "4MW": 2
-        },
-        {
-          "label": "- Voeding",
-          "categorie": "specifiek gedeelte",
-          "type": "vak",
-          "subvak": true,
-          "3MW": 2,
-          "4MW": 3
-        },
-        {
-          "label": "- Opvoedkunde",
-          "categorie": "specifiek gedeelte",
-          "type": "vak",
-          "subvak": true,
-          "3MW": 2,
-          "4MW": 3
-        },
-        {
-          "label": "- Verzorging",
-          "categorie": "specifiek gedeelte",
-          "type": "vak",
-          "subvak": true,
-          "3MW": 4,
-          "4MW": 3
-        },
-        {
-          "label": "Lestijden per week",
-          "categorie": "totaal",
-          "type": "vak",
-          "3MW": 32,
-          "4MW": 32
-        }
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "3MW": 2, "4MW": 2 },
+        { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "4MW": 1 },
+        { "label": "Engels", "categorie": "basisvorming", "type": "vak", "3MW": 2, "4MW": 2 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "3MW": 2, "4MW": 2 },
+        { "label": "Geschiedenis", "categorie": "basisvorming", "type": "vak", "3MW": 1, "4MW": 1 },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "3MW": 3, "4MW": 3 },
+        { "label": "Wiskunde", "categorie": "basisvorming", "type": "vak", "3MW": 3, "4MW": 3 },
+        { "label": "Lichamelijke opvoeding", "categorie": "basisvorming", "type": "vak", "3MW": 2, "4MW": 2 },
+        { "label": "Burgerschap", "categorie": "basisvorming", "type": "vak", "3MW": 1 },
+        { "label": "Toegepaste informatica", "categorie": "basisvorming", "type": "vak", "3MW": 1 },
+        { "label": "Natuurwetenschappen", "categorie": "basisvorming", "type": "vak", "3MW": 1, "4MW": 1 },
+        { "label": "Artistieke expressie", "categorie": "basisvorming", "type": "vak", "4MW": 1 },
+        { "label": "Toegepaste biologie", "categorie": "specifiek gedeelte", "type": "vak", "3MW": 1 },
+        { "label": "Toegepaste psychologie", "categorie": "specifiek gedeelte", "type": "vak", "3MW": 2, "4MW": 3 },
+        { "label": "Maatschappij en Welzijn (11u)", "categorie": "specifiek gedeelte", "type": "vak" },
+        { "label": "- Indirecte zorg", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "3MW": 3, "4MW": 2 },
+        { "label": "- Voeding", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "3MW": 2, "4MW": 3 },
+        { "label": "- Opvoedkunde", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "3MW": 2, "4MW": 3 },
+        { "label": "- Verzorging", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "3MW": 4, "4MW": 3 },
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "3MW": 32, "4MW": 32 }
+      ],
+      "stage_weken": {},
+      "voetnoten": []
+    }
+  }
+}
+"opvoeding-en-begeleiding": {
+  "titel": "Opvoeding en begeleiding",
+  "domein": "mw",
+  "finaliteit": "Dubbele finaliteit",
+  "beschrijving": "Opleiding die focust op opvoeden, begeleiden en ondersteunen van personen in diverse contexten.",
+  "brochure": "#",
+  "graden": {
+    "3de graad": {
+      "klassen": ["5OB", "6OB"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "5OB": 2, "6OB": 2 },
+        { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "5OB": 1, "6OB": 1 },
+        { "label": "Engels", "categorie": "basisvorming", "type": "vak", "5OB": 2, "6OB": 2 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "5OB": 2, "6OB": 2 },
+        { "label": "Geschiedenis", "categorie": "basisvorming", "type": "vak", "5OB": 1, "6OB": 1 },
+        { "label": "Lichamelijke opvoeding", "categorie": "basisvorming", "type": "vak", "5OB": 2, "6OB": 2 },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "5OB": 3, "6OB": 3 },
+        { "label": "Wiskunde", "categorie": "basisvorming", "type": "vak", "5OB": 3, "6OB": 2 },
+        { "label": "Natuurwetenschappen", "categorie": "basisvorming", "type": "vak", "5OB": 1, "6OB": 1 },
+        { "label": "Burgerschap", "categorie": "basisvorming", "type": "vak", "6OB": 1 },
+        { "label": "Economie", "categorie": "basisvorming", "type": "vak", "6OB": 1 },
+        { "label": "Artistieke expressie", "categorie": "basisvorming", "type": "vak", "6OB": 1 },
+        { "label": "Toegepaste psychologie", "categorie": "specifiek gedeelte", "type": "vak", "5OB": 2, "6OB": 2 },
+        { "label": "Pedagogiek", "categorie": "specifiek gedeelte", "type": "vak", "5OB": 1, "6OB": 2 },
+        { "label": "Opvoeding en begeleiding (12u)", "categorie": "specifiek gedeelte", "type": "vak" },
+        { "label": "- Indirecte zorg", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5OB": 1, "6OB": 1 },
+        { "label": "- Voeding", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5OB": 1, "6OB": 1 },
+        { "label": "- Opvoedkunde", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5OB": 7, "6OB": 6 },
+        { "label": "- Verzorging", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5OB": 1, "6OB": 1 },
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "5OB": 31, "6OB": 31 }
+      ],
+      "stage_weken": {
+        "5OB": 3,
+        "6OB": 5
+      },
+      "voetnoten": []
+    }
+  }
+}
+"zorg-en-welzijn": {
+  "titel": "Zorg en welzijn",
+  "domein": "mw",
+  "finaliteit": "Arbeidsfinaliteit",
+  "beschrijving": "Praktijkgerichte opleiding in welzijn, voeding, opvoeding en verzorging.",
+  "brochure": "#",
+  "graden": {
+    "2de graad": {
+      "klassen": ["3ZW", "4ZW"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "3ZW": 2, "4ZW": 2 },
+        { "label": "Project Algemene Vakken", "categorie": "basisvorming", "type": "vak", "3ZW": 7, "4ZW": 7 },
+        { "label": "STEM (*)", "categorie": "basisvorming", "type": "vak" },
+        { "label": "MTC (**)", "categorie": "basisvorming", "type": "vak" },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "3ZW": 2, "4ZW": 2 },
+        { "label": "Frans (MVT)", "categorie": "basisvorming", "type": "vak", "3ZW": 2, "4ZW": 2 },
+        { "label": "Lichamelijke opvoeding", "categorie": "basisvorming", "type": "vak", "3ZW": 2, "4ZW": 2 },
+        { "label": "Zorg en welzijn (19u)", "categorie": "specifiek gedeelte", "type": "vak" },
+        { "label": "- Indirecte zorg", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "3ZW": 5, "4ZW": 5 },
+        { "label": "- Voeding", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "3ZW": 5, "4ZW": 5 },
+        { "label": "- Opvoedkunde", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "3ZW": 6, "4ZW": 6 },
+        { "label": "- Verzorging", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "3ZW": 3, "4ZW": 3 },
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "3ZW": 34, "4ZW": 34 }
+      ],
+      "stage_weken": {},
+      "voetnoten": [
+        "* Wiskunde, toegepaste informatica, aardrijkskunde en natuurwetenschappen",
+        "** Nederlands, burgerschap, geschiedenis en artistieke expressie"
       ]
     }
   }
 }
-"3de graad": {
-  "klassen": ["5OB", "6OB"],
-  "lessentabel": [
-    {
-      "label": "Godsdienst / Zedenleer",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "optie": true,
-      "5OB": 2,
-      "6OB": 2
-    },
-    {
-      "label": "Aardrijkskunde",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5OB": 1,
-      "6OB": 1
-    },
-    {
-      "label": "Engels",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5OB": 2,
-      "6OB": 2
-    },
-    {
-      "label": "Frans",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5OB": 2,
-      "6OB": 2
-    },
-    {
-      "label": "Geschiedenis",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5OB": 1,
-      "6OB": 1
-    },
-    {
-      "label": "Lichamelijke opvoeding",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5OB": 2,
-      "6OB": 2
-    },
-    {
-      "label": "Nederlands",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5OB": 3,
-      "6OB": 3
-    },
-    {
-      "label": "Wiskunde",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5OB": 3,
-      "6OB": 2
-    },
-    {
-      "label": "Natuurwetenschappen",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5OB": 1,
-      "6OB": 1
-    },
-    {
-      "label": "Burgerschap",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "6OB": 1
-    },
-    {
-      "label": "Economie",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5OB": 1
-    },
-    {
-      "label": "Artistieke expressie",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "6OB": 1
-    },
-    {
-      "label": "Toegepaste psychologie",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "5OB": 2,
-      "6OB": 2
-    },
-    {
-      "label": "Pedagogiek",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "5OB": 1,
-      "6OB": 2
-    },
-    {
-      "label": "- Indirecte zorg",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "subvak": true,
-      "5OB": 1,
-      "6OB": 1
-    },
-    {
-      "label": "- Voeding",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "subvak": true,
-      "5OB": 1,
-      "6OB": 1
-    },
-    {
-      "label": "- Opvoedkunde",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "subvak": true,
-      "5OB": 7,
-      "6OB": 6
-    },
-    {
-      "label": "- Verzorging",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "subvak": true,
-      "5OB": 1,
-      "6OB": 1
-    },
-    {
-      "label": "Lestijden per week",
-      "categorie": "totaal",
-      "type": "vak",
-      "5OB": 31,
-      "6OB": 31
+"assistentie-in-wonen-zorg-en-welzijn": {
+  "titel": "Assistentie in wonen, zorg en welzijn",
+  "domein": "mw",
+  "finaliteit": "Arbeidsfinaliteit",
+  "beschrijving": "Opleiding die voorbereidt op ondersteuning van personen in een woon-, zorg- of welzijnscontext.",
+  "brochure": "#",
+  "graden": {
+    "3de graad": {
+      "klassen": ["5ASWW"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "5ASWW": 2 },
+        { "label": "Project Algemene Vakken", "categorie": "basisvorming", "type": "vak", "5ASWW": 2 },
+        { "label": "STEM (*)", "categorie": "basisvorming", "type": "vak", "5ASWW": 4 },
+        { "label": "MTC (**)", "categorie": "basisvorming", "type": "vak", "5ASWW": 4 },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "5ASWW": 1 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "5ASWW": 3 },
+        { "label": "Lichamelijke opvoeding", "categorie": "basisvorming", "type": "vak", "5ASWW": 2 },
+        { "label": "Basiszorg en ondersteuning (20u)", "categorie": "specifiek gedeelte", "type": "vak" },
+        { "label": "- Indirecte zorg", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5ASWW": 4 },
+        { "label": "- Voeding", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5ASWW": 6 },
+        { "label": "- Opvoedkunde", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5ASWW": 4 },
+        { "label": "- Verzorging", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5ASWW": 3 },
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "5ASWW": 33 }
+      ],
+      "stage_weken": {
+        "5ASWW": 6
+      },
+      "voetnoten": [
+        "* Wiskunde, aardrijkskunde en natuurwetenschappen",
+        "** Nederlands, burgerschap, geschiedenis, economie en artistieke expressie"
+      ]
     }
-  ]
-}
-"2de graad": {
-  "klassen": ["3ZW", "4ZW"],
-  "lessentabel": [
-    {
-      "label": "Godsdienst / Zedenleer",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "optie": true,
-      "3ZW": 2,
-      "4ZW": 2
-    },
-    {
-      "label": "Project Algemene Vakken",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "3ZW": 7,
-      "4ZW": 7
-    },
-    {
-      "label": "STEM",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "extra": "* Wiskunde, toegepaste informatica, aardrijkskunde, natuurwetenschappen"
-    },
-    {
-      "label": "MTC",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "extra": "** Nederlands, burgerschap, geschiedenis en artistieke vorming"
-    },
-    {
-      "label": "Nederlands",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "3ZW": 2,
-      "4ZW": 2
-    },
-    {
-      "label": "Frans",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "3ZW": 2,
-      "4ZW": 2
-    },
-    {
-      "label": "Lichamelijke opvoeding",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "3ZW": 2,
-      "4ZW": 2
-    },
-    {
-      "label": "Indirecte zorg",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "3ZW": 5,
-      "4ZW": 5
-    },
-    {
-      "label": "Voeding",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "3ZW": 5,
-      "4ZW": 5
-    },
-    {
-      "label": "Opvoedkunde",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "3ZW": 6,
-      "4ZW": 6
-    },
-    {
-      "label": "Verzorging",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "3ZW": 3,
-      "4ZW": 3
-    },
-    {
-      "label": "Lestijden per week",
-      "categorie": "totaal",
-      "type": "vak",
-      "3ZW": 34,
-      "4ZW": 34
-    }
-  ],
-  "stage": {
-    "3ZW": "6 weken",
-    "4ZW": "6 weken"
   }
 }
-"3de graad": {
-  "klassen": ["5ASWW", "5BZO", "6BZO"],
-  "lessentabel": [
-    {
-      "label": "Godsdienst / Zedenleer",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "optie": true,
-      "5ASWW": 2,
-      "5BZO": 2,
-      "6BZO": 2
-    },
-    {
-      "label": "STEM",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5ASWW": 4,
-      "5BZO": 4,
-      "6BZO": 4,
-      "extra": "* Wiskunde, aardrijkskunde en natuurwetenschappen"
-    },
-    {
-      "label": "MTC",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5ASWW": 4,
-      "5BZO": 4,
-      "6BZO": 5,
-      "extra": "** Nederlands, burgerschap, geschiedenis, economie en artistieke vorming"
-    },
-    {
-      "label": "Nederlands",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5ASWW": 1,
-      "5BZO": 1,
-      "6BZO": 1
-    },
-    {
-      "label": "Frans",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5ASWW": 3,
-      "5BZO": 3,
-      "6BZO": 3
-    },
-    {
-      "label": "Lichamelijke opvoeding",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5ASWW": 2,
-      "5BZO": 2,
-      "6BZO": 2
-    },
-    {
-      "label": "Indirecte zorg",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "5ASWW": 4,
-      "5BZO": 4,
-      "6BZO": 3
-    },
-    {
-      "label": "Voeding",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "5ASWW": 6,
-      "5BZO": 4,
-      "6BZO": 4
-    },
-    {
-      "label": "Opvoedkunde",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "5ASWW": 4,
-      "5BZO": 5,
-      "6BZO": 6
-    },
-    {
-      "label": "Verzorging",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "5ASWW": 3,
-      "5BZO": 4,
-      "6BZO": 3
-    },
-    {
-      "label": "Lestijden per week",
-      "categorie": "totaal",
-      "type": "vak",
-      "5ASWW": 33,
-      "5BZO": 33,
-      "6BZO": 33
+"basiszorg-en-ondersteuning": {
+  "titel": "Basiszorg en ondersteuning",
+  "domein": "mw",
+  "finaliteit": "Arbeidsfinaliteit",
+  "beschrijving": "Opleiding gericht op het uitvoeren van basiszorg, huishoudelijke taken en ondersteuning van personen.",
+  "brochure": "#",
+  "graden": {
+    "3de graad": {
+      "klassen": ["5BZO", "6BZO"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "5BZO": 2, "6BZO": 2 },
+        { "label": "Project Algemene Vakken", "categorie": "basisvorming", "type": "vak", "5BZO": 2, "6BZO": 2 },
+        { "label": "STEM (*)", "categorie": "basisvorming", "type": "vak", "5BZO": 4, "6BZO": 4 },
+        { "label": "MTC (**)", "categorie": "basisvorming", "type": "vak", "5BZO": 4, "6BZO": 5 },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "5BZO": 1, "6BZO": 1 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "5BZO": 3, "6BZO": 3 },
+        { "label": "Lichamelijke opvoeding", "categorie": "basisvorming", "type": "vak", "5BZO": 2, "6BZO": 2 },
+        { "label": "Basiszorg en ondersteuning (20u)", "categorie": "specifiek gedeelte", "type": "vak" },
+        { "label": "- Indirecte zorg", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5BZO": 4, "6BZO": 3 },
+        { "label": "- Voeding", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5BZO": 4, "6BZO": 4 },
+        { "label": "- Opvoedkunde", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5BZO": 5, "6BZO": 6 },
+        { "label": "- Verzorging", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5BZO": 4, "6BZO": 3 },
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "5BZO": 33, "6BZO": 33 }
+      ],
+      "stage_weken": {
+        "5BZO": 6,
+        "6BZO": 10
+      },
+      "voetnoten": [
+        "* Wiskunde, aardrijkskunde en natuurwetenschappen",
+        "** Nederlands, burgerschap, geschiedenis, economie en artistieke expressie"
+      ]
     }
-  ],
-  "stage": {
-    "5ASWW": "6 weken",
-    "5BZO": "6 weken",
-    "6BZO": "10 weken"
   }
 }
-"2de graad": {
-  "klassen": ["3HSZ", "4HSZ"],
-  "lessentabel": [
-    {
-      "label": "Godsdienst / Zedenleer",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "optie": true,
-      "3HSZ": 2,
-      "4HSZ": 2
-    },
-    {
-      "label": "Project Algemene Vakken",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "3HSZ": 7,
-      "4HSZ": 7
-    },
-    {
-      "label": "STEM",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "extra": "* Wiskunde, toegepaste informatica, aardrijkskunde, natuurwetenschappen"
-    },
-    {
-      "label": "MTC",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "extra": "** Nederlands, burgerschap, geschiedenis en artistieke vorming"
-    },
-    {
-      "label": "Nederlands",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "3HSZ": 2,
-      "4HSZ": 2
-    },
-    {
-      "label": "Frans",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "3HSZ": 2,
-      "4HSZ": 2
-    },
-    {
-      "label": "Lichamelijke opvoeding",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "3HSZ": 2,
-      "4HSZ": 2
-    },
-    {
-      "label": "Haarverzorging",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "3HSZ": 14,
-      "4HSZ": 14
-    },
-    {
-      "label": "Schoonheidsverzorging",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "3HSZ": 5,
-      "4HSZ": 5
-    },
-    {
-      "label": "Lestijden per week",
-      "categorie": "totaal",
-      "type": "vak",
-      "3HSZ": 34,
-      "4HSZ": 34
+
+"haarverzorging": {
+  "titel": "Haarverzorging",
+  "domein": "mw",
+  "finaliteit": "Arbeidsfinaliteit",
+  "beschrijving": "Praktijkgerichte opleiding met focus op haarzorg en schoonheidsverzorging.",
+  "brochure": "#",
+  "graden": {
+    "3de graad": {
+      "klassen": ["5HZ", "6HZ"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "5HZ": 2, "6HZ": 2 },
+        { "label": "Project Algemene Vakken", "categorie": "basisvorming", "type": "vak", "5HZ": 2, "6HZ": 2 },
+        { "label": "STEM (*)", "categorie": "basisvorming", "type": "vak", "5HZ": 4, "6HZ": 4 },
+        { "label": "MTC (**)", "categorie": "basisvorming", "type": "vak", "5HZ": 4, "6HZ": 4 },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "5HZ": 1, "6HZ": 1 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "5HZ": 2, "6HZ": 2 },
+        { "label": "Lichamelijke opvoeding", "categorie": "basisvorming", "type": "vak", "5HZ": 2, "6HZ": 2 },
+        { "label": "Haarverzorging (20u)", "categorie": "specifiek gedeelte", "type": "vak" },
+        { "label": "- Haarverzorging incl. Frans/Engels", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5HZ": 17, "6HZ": 17 },
+        { "label": "- Schoonheidsverzorging", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "5HZ": 1, "6HZ": 1 },
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "5HZ": 33, "6HZ": 33 }
+      ],
+      "stage_weken": {
+        "5HZ": 4,
+        "6HZ": 4
+      },
+      "voetnoten": [
+        "* Wiskunde, aardrijkskunde en natuurwetenschappen",
+        "** Nederlands, burgerschap, geschiedenis, economie en artistieke expressie"
+      ]
     }
-  ]
-}
-"3de graad": {
-  "klassen": ["5HZ", "6HZ"],
-  "lessentabel": [
-    {
-      "label": "Godsdienst / Zedenleer",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "optie": true,
-      "5HZ": 2,
-      "6HZ": 2
-    },
-    {
-      "label": "STEM",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5HZ": 4,
-      "6HZ": 4,
-      "extra": "* Wiskunde, aardrijkskunde en natuurwetenschappen"
-    },
-    {
-      "label": "MTC",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5HZ": 4,
-      "6HZ": 4,
-      "extra": "** Nederlands, burgerschap, geschiedenis, economie en artistieke vorming"
-    },
-    {
-      "label": "Nederlands",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5HZ": 1,
-      "6HZ": 1
-    },
-    {
-      "label": "Frans",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5HZ": 2,
-      "6HZ": 2
-    },
-    {
-      "label": "Lichamelijke opvoeding",
-      "categorie": "basisvorming",
-      "type": "vak",
-      "5HZ": 2,
-      "6HZ": 2
-    },
-    {
-      "label": "Haarverzorging incl. Frans/Engels",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "5HZ": 17,
-      "6HZ": 17
-    },
-    {
-      "label": "Schoonheidsverzorging",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "5HZ": 1,
-      "6HZ": 1
-    },
-    {
-      "label": "Lestijden per week",
-      "categorie": "totaal",
-      "type": "vak",
-      "5HZ": 33,
-      "6HZ": 33
-    }
-  ],
-  "stage": {
-    "5HZ": "4 weken",
-    "6HZ": "4 weken"
   }
 }
-"7de jaar": {
-  "klassen": ["7SPHAAR"],
-  "lessentabel": [
-    {
-      "label": "Grime",
-      "categorie": "specifiek gedeelte",
-      "type": "vak",
-      "7SPHAAR": "16 tot 20"
-    },
-    {
-      "label": "Frans",
-      "categorie": "talen",
-      "type": "vak",
-      "7SPHAAR": 2
-    },
-    {
-      "label": "Engels",
-      "categorie": "talen",
-      "type": "vak",
-      "7SPHAAR": 2
-    },
-    {
-      "label": "Vrije ruimte",
-      "categorie": "vrij",
-      "type": "vak",
-      "7SPHAAR": 4
-    },
-    {
-      "label": "Lestijden per week",
-      "categorie": "totaal",
-      "type": "vak",
-      "7SPHAAR": "≈34"
+"haar-en-schoonheidsverzorging": {
+  "titel": "Haar- en schoonheidsverzorging",
+  "domein": "mw",
+  "finaliteit": "Arbeidsfinaliteit",
+  "beschrijving": "Praktijkgerichte opleiding rond haarzorg en schoonheidsverzorging.",
+  "brochure": "#",
+  "graden": {
+    "2de graad": {
+      "klassen": ["3HSZ", "4HSZ"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "3HSZ": 2, "4HSZ": 2 },
+        { "label": "Project Algemene Vakken", "categorie": "basisvorming", "type": "vak", "3HSZ": 7, "4HSZ": 7 },
+        { "label": "STEM (*)", "categorie": "basisvorming", "type": "vak" },
+        { "label": "MTC (**)", "categorie": "basisvorming", "type": "vak" },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "3HSZ": 2, "4HSZ": 2 },
+        { "label": "Frans (MVT)", "categorie": "basisvorming", "type": "vak", "3HSZ": 2, "4HSZ": 2 },
+        { "label": "Lichamelijke opvoeding", "categorie": "basisvorming", "type": "vak", "3HSZ": 2, "4HSZ": 2 },
+        { "label": "Haar- en schoonheidsverzorging (19u)", "categorie": "specifiek gedeelte", "type": "vak" },
+        { "label": "- Haarverzorging", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "3HSZ": 14, "4HSZ": 14 },
+        { "label": "- Schoonheidsverzorging", "categorie": "specifiek gedeelte", "type": "vak", "subvak": true, "3HSZ": 5, "4HSZ": 5 },
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "3HSZ": 34, "4HSZ": 34 }
+      ],
+      "stage_weken": {},
+      "voetnoten": [
+        "* Wiskunde, toegepaste informatica, aardrijkskunde en natuurwetenschappen",
+        "** Nederlands, burgerschap, geschiedenis en artistieke expressie"
+      ]
     }
-  ],
-  "stage": {
-    "7SPHAAR": "12 tot 8 weken"
-  },
-  "extra": "Specialisatiejaar Kapper-stylist"
+  }
 }
