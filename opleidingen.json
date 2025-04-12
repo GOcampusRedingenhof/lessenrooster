@@ -1,7 +1,7 @@
 "maatschappij-en-welzijnswetenschappen": {
   "titel": "Maatschappij- en welzijnswetenschappen",
   "domein": "Maatschappij & Welzijn",
-  "finaliteit": "Doorstroomfinaliteit",
+  "finaliteit": "doorstroom",
   "beschrijving": "Theoretische opleiding met focus op mens en samenleving.",
   "brochure": "#",
   "graden": {
@@ -40,7 +40,7 @@
 "maatschappij-en-welzijn": {
   "titel": "Maatschappij en welzijn",
   "domein": "Maatschappij & Welzijn",
-  "finaliteit": "Dubbele finaliteit",
+  "finaliteit": "dubbele finaliteit",
   "beschrijving": "Praktijkgerichte opleiding binnen het domein welzijn en zorg.",
   "brochure": "#",
   "graden": {
@@ -76,7 +76,7 @@
 "opvoeding-en-begeleiding": {
   "titel": "Opvoeding en begeleiding",
   "domein": "Maatschappij & Welzijn",
-  "finaliteit": "Dubbele finaliteit",
+  "finaliteit": "dubbele finaliteit",
   "beschrijving": "Opleiding die focust op opvoeden, begeleiden en ondersteunen van personen in diverse contexten.",
   "brochure": "#",
   "graden": {
@@ -115,7 +115,7 @@
 "zorg-en-welzijn": {
   "titel": "Zorg en welzijn",
   "domein": "Maatschappij & Welzijn",
-  "finaliteit": "Arbeidsfinaliteit",
+  "finaliteit": "arbeidsmarkt",
   "beschrijving": "Praktijkgerichte opleiding in welzijn, voeding, opvoeding en verzorging.",
   "brochure": "#",
   "graden": {
@@ -147,7 +147,7 @@
 "assistentie-in-wonen-zorg-en-welzijn": {
   "titel": "Assistentie in wonen, zorg en welzijn",
   "domein": "Maatschappij & Welzijn",
-  "finaliteit": "Arbeidsfinaliteit",
+  "finaliteit": "arbeidsmarkt",
   "beschrijving": "Opleiding die voorbereidt op ondersteuning van personen in een woon-, zorg- of welzijnscontext.",
   "brochure": "#",
   "graden": {
@@ -181,7 +181,7 @@
 "basiszorg-en-ondersteuning": {
   "titel": "Basiszorg en ondersteuning",
   "domein": "Maatschappij & Welzijn",
-  "finaliteit": "Arbeidsfinaliteit",
+  "finaliteit": "arbeidsmarkt",
   "beschrijving": "Opleiding gericht op het uitvoeren van basiszorg, huishoudelijke taken en ondersteuning van personen.",
   "brochure": "#",
   "graden": {
@@ -217,7 +217,7 @@
 "haarverzorging": {
   "titel": "Haarverzorging",
   "domein": "Maatschappij & Welzijn",
-  "finaliteit": "Arbeidsfinaliteit",
+  "finaliteit": "arbeidsmarkt",
   "beschrijving": "Praktijkgerichte opleiding met focus op haarzorg en schoonheidsverzorging.",
   "brochure": "#",
   "graden": {
@@ -250,7 +250,7 @@
 "haar-en-schoonheidsverzorging": {
   "titel": "Haar- en schoonheidsverzorging",
   "domein": "Maatschappij & Welzijn",
-  "finaliteit": "Arbeidsfinaliteit",
+  "finaliteit": "arbeidsmarkt",
   "beschrijving": "Praktijkgerichte opleiding rond haarzorg en schoonheidsverzorging.",
   "brochure": "#",
   "graden": {
@@ -280,7 +280,7 @@
 "informatica-en-communicatiewetenschappen": {
   "titel": "Informatica- en communicatiewetenschappen",
   "domein": "STEM",
-  "finaliteit": "Doorstroomfinaliteit",
+  "finaliteit": "doorstroom",
   "beschrijving": "Wetenschappelijke richting met focus op informatica, technologie en communicatie.",
   "brochure": "#",
   "graden": {
@@ -317,7 +317,7 @@
 "applicatie-en-datatechnieken": {
   "titel": "Applicatie- en datatechnieken",
   "domein": "STEM",
-  "finaliteit": "Dubbele finaliteit",
+  "finaliteit": "dubbele finaliteit",
   "beschrijving": "Technologische opleiding met nadruk op informaticatoepassingen, data-analyse en digitale ondersteuning.",
   "brochure": "#",
   "graden": {
@@ -354,7 +354,7 @@
 "elektromechanische-technieken": {
   "titel": "Elektromechanische technieken",
   "domein": "STEM",
-  "finaliteit": "Dubbele finaliteit",
+  "finaliteit": "dubbele finaliteit",
   "beschrijving": "Opleiding met focus op elektromechanica, mechanica, elektriciteit en STEM-engineering.",
   "brochure": "#",
   "graden": {
@@ -390,7 +390,7 @@
 "elektromechanische-technieken": {
   "titel": "Elektromechanische technieken",
   "domein": "STEM",
-  "finaliteit": "Dubbele finaliteit",
+  "finaliteit": "dubbele finaliteit",
   "beschrijving": "Technologische opleiding met focus op mechanica, elektriciteit, engineering en STEM-toepassingen.",
   "brochure": "#",
   "graden": {
@@ -429,7 +429,7 @@
 "grafische-technieken": {
   "titel": "Grafische technieken",
   "domein": "STEM",
-  "finaliteit": "Dubbele finaliteit",
+  "finaliteit": "dubbele finaliteit",
   "beschrijving": "Creatieve en technische opleiding rond grafische media, vormgeving en productie.",
   "brochure": "#",
   "graden": {
@@ -464,7 +464,7 @@
 "grafische-technieken": {
   "titel": "Grafische technieken",
   "domein": "STEM",
-  "finaliteit": "Dubbele finaliteit",
+  "finaliteit": "dubbele finaliteit",
   "beschrijving": "Opleiding waarin grafisch ontwerp, digitale media en productieprocessen centraal staan.",
   "brochure": "#",
   "graden": {
@@ -502,7 +502,7 @@
 "mechanica": {
   "titel": "Mechanica",
   "domein": "STEM",
-  "finaliteit": "Arbeidsfinaliteit",
+  "finaliteit": "arbeidsmarkt",
   "beschrijving": "Praktijkgerichte opleiding waarin basistechnieken in mechanica en metaalbewerking centraal staan.",
   "brochure": "#",
   "graden": {
@@ -534,7 +534,7 @@
 "koetswerk": {
   "titel": "Koetswerk",
   "domein": "STEM",
-  "finaliteit": "Arbeidsfinaliteit",
+  "finaliteit": "arbeidsmarkt",
   "beschrijving": "Praktijkgerichte opleiding rond carrosserieherstellingen, spuittechnieken en koetswerkstructuren.",
   "brochure": "#",
   "graden": {
@@ -565,7 +565,7 @@
 "preventief-onderhoud": {
   "titel": "Preventief onderhoud machines en installaties",
   "domein": "STEM",
-  "finaliteit": "Arbeidsfinaliteit",
+  "finaliteit": "arbeidsmarkt",
   "beschrijving": "Praktijkgerichte opleiding in het onderhouden en preventief controleren van industriële installaties en machines.",
   "brochure": "#",
   "graden": {
@@ -596,7 +596,7 @@
 "elektriciteit": {
   "titel": "Elektriciteit",
   "domein": "STEM",
-  "finaliteit": "Arbeidsfinaliteit",
+  "finaliteit": "arbeidsmarkt",
   "beschrijving": "Praktijkgerichte opleiding over elektrische installaties, basiselektriciteit en toepassingen in voertuigen.",
   "brochure": "#",
   "graden": {
@@ -627,7 +627,7 @@
 "elektrische-installaties": {
   "titel": "Elektrische installaties",
   "domein": "STEM",
-  "finaliteit": "Arbeidsfinaliteit",
+  "finaliteit": "arbeidsmarkt",
   "beschrijving": "Praktijkgerichte opleiding over elektrische installaties in woningen en industriële toepassingen.",
   "brochure": "#",
   "graden": {
@@ -658,7 +658,7 @@
 "onderhoudsmechanica-auto": {
   "titel": "Onderhoudsmechanica auto",
   "domein": "STEM",
-  "finaliteit": "Arbeidsfinaliteit",
+  "finaliteit": "arbeidsmarkt",
   "beschrijving": "Praktijkgerichte opleiding gericht op onderhoud en herstellingen aan auto's.",
   "brochure": "#",
   "graden": {
@@ -689,7 +689,7 @@
 "hout": {
   "titel": "Hout",
   "domein": "STEM",
-  "finaliteit": "Arbeidsfinaliteit",
+  "finaliteit": "arbeidsmarkt",
   "beschrijving": "Praktijkgerichte opleiding in houtbewerking en basistechnieken in de houtsector.",
   "brochure": "#",
   "graden": {
@@ -717,7 +717,7 @@
 "binnenschrijnwerk-en-interieur": {
   "titel": "Binnenschrijnwerk en interieur",
   "domein": "STEM",
-  "finaliteit": "Arbeidsfinaliteit",
+  "finaliteit": "arbeidsmarkt",
   "beschrijving": "Praktijkgerichte opleiding met focus op schrijnwerk, interieurinrichting en houttoepassingen.",
   "brochure": "#",
   "graden": {
@@ -745,7 +745,7 @@
 "sportwetenschappen": {
   "titel": "Sportwetenschappen",
   "domein": "Sport & Topsport",
-  "finaliteit": "Doorstroomfinaliteit",
+  "finaliteit": "doorstroom",
   "beschrijving": "Theoretisch-wetenschappelijke studierichting met focus op sport, beweging en wetenschappen.",
   "brochure": "#",
   "graden": {
@@ -782,7 +782,7 @@
 "sportwetenschappen": {
   "titel": "Sportwetenschappen",
   "domein": "Sport & Topsport",
-  "finaliteit": "Doorstroomfinaliteit",
+  "finaliteit": "doorstroom",
   "beschrijving": "Theoretisch-wetenschappelijke studierichting met focus op sport, beweging en wetenschappen.",
   "brochure": "#",
   "graden": {
@@ -819,7 +819,7 @@
 "sport": {
   "titel": "Sport",
   "domein": "Sport & Topsport",
-  "finaliteit": "Dubbele finaliteit",
+  "finaliteit": "dubbele finaliteit",
   "beschrijving": "Richting voor sportieve leerlingen die theorie en praktijk combineren, met oog op verder studeren of doorstromen naar de arbeidsmarkt.",
   "brochure": "#",
   "graden": {
@@ -857,7 +857,7 @@
 "sportbegeleiding": {
   "titel": "Sportbegeleiding",
   "domein": "Sport & Topsport",
-  "finaliteit": "Dubbele finaliteit",
+  "finaliteit": "dubbele finaliteit",
   "beschrijving": "Richting voor sportieve leerlingen met interesse in begeleiden en coachen, met theoretische én praktische componenten, inclusief stage.",
   "brochure": "#",
   "graden": {
@@ -1261,7 +1261,7 @@
   "titel": "Schakeljaar",
   "domein": "schakeljaar",
   "finaliteit": "Arbeidsmarktgericht",
-  "beschrijving": "Voorbereidend jaar op hoger onderwijs na arbeidsfinaliteit. Dit jaar richt zich op basisvorming en specifieke vakken ter voorbereiding op het vervolgonderwijs.",
+  "beschrijving": "Voorbereidend jaar op hoger onderwijs na arbeidsmarkt. Dit jaar richt zich op basisvorming en specifieke vakken ter voorbereiding op het vervolgonderwijs.",
   "brochure": "#",
   "graden": {
     "3de graad": {
