@@ -993,3 +993,267 @@
     }
   }
 }
+"bedrijfswetenschappen": {
+  "titel": "Bedrijfswetenschappen",
+  "domein": "economie en organisatie",
+  "finaliteit": "Doorstroom",
+  "beschrijving": "Richting in de 2de graad gericht op economie en bedrijfswetenschappen. De vakken omvatten zowel algemene vorming als specifieke bedrijfswetenschappelijke vakken.",
+  "brochure": "#",
+  "graden": {
+    "2de graad": {
+      "klassen": ["3BW", "4BW"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "3BW": 2, "4BW": 2 },
+        { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "3BW": 1, "4BW": 1 },
+        { "label": "Engels", "categorie": "basisvorming", "type": "vak", "3BW": 3, "4BW": 3 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "3BW": 3, "4BW": 3 },
+        { "label": "Geschiedenis", "categorie": "basisvorming", "type": "vak", "3BW": 1, "4BW": 2 },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "3BW": 4, "4BW": 4 },
+        { "label": "Lichamelijke opvoeding", "categorie": "basisvorming", "type": "vak", "3BW": 2, "4BW": 2 },
+        { "label": "Burgerschap", "categorie": "basisvorming", "type": "vak", "3BW": 1, "4BW": 1 },
+        { "label": "Toegepaste informatica", "categorie": "basisvorming", "type": "vak", "3BW": 1, "4BW": 1 },
+        { "label": "Natuurwetenschappen", "categorie": "basisvorming", "type": "vak", "3BW": 2, "4BW": 2 },
+        { "label": "Artistieke expressie", "categorie": "basisvorming", "type": "vak", "3BW": 1, "4BW": 1 },
+
+        { "label": "Wiskunde", "categorie": "specifiek gedeelte", "type": "vak", "3BW": 4, "4BW": 4 },
+        { "label": "Economie", "categorie": "specifiek gedeelte", "type": "vak", "3BW": 3, "4BW": 3 },
+        { "label": "Bedrijfswetenschappen", "categorie": "specifiek gedeelte", "type": "vak", "3BW": 3, "4BW": 3 },
+        { "label": "Informatica", "categorie": "specifiek gedeelte", "type": "vak", "3BW": 2, "4BW": 2 },
+
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "3BW": 32, "4BW": 32 }
+      ],
+      "stage_weken": {},
+      "voetnoten": [
+        "(*) Wiskunde, aardrijkskunde en natuurwetenschappen",
+        "(**) Nederlands, burgerschap, geschiedenis en artistieke expressie"
+      ]
+    }
+  }
+}
+"bedrijf-en-organisatie": {
+  "titel": "Bedrijf en Organisatie",
+  "domein": "economie en organisatie",
+  "finaliteit": "Doorstroom",
+  "beschrijving": "Richting in de 2de graad gericht op bedrijf en organisatie, met een focus op toegepaste economie, boekhouden, toerisme, en de specifieke bedrijfscompetenties.",
+  "brochure": "#",
+  "graden": {
+    "2de graad": {
+      "klassen": ["3BO", "4BO"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "3BO": 2, "4BO": 2 },
+        { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "3BO": 1, "4BO": 1 },
+        { "label": "Engels", "categorie": "basisvorming", "type": "vak", "3BO": 2, "4BO": 2 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "3BO": 2, "4BO": 2 },
+        { "label": "Geschiedenis", "categorie": "basisvorming", "type": "vak", "3BO": 1, "4BO": 1 },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "3BO": 3, "4BO": 3 },
+        { "label": "Wiskunde", "categorie": "basisvorming", "type": "vak", "3BO": 3, "4BO": 3 },
+        { "label": "Lichamelijke opvoeding", "categorie": "basisvorming", "type": "vak", "3BO": 2, "4BO": 2 },
+        { "label": "Burgerschap", "categorie": "basisvorming", "type": "vak", "3BO": 1, "4BO": 1 },
+        { "label": "Toegepaste informatica", "categorie": "basisvorming", "type": "vak", "3BO": 1, "4BO": 1 },
+        { "label": "Natuurwetenschappen", "categorie": "basisvorming", "type": "vak", "3BO": 1, "4BO": 1 },
+        { "label": "Artistieke expressie", "categorie": "basisvorming", "type": "vak", "3BO": 1, "4BO": 1 },
+
+        { "label": "Algemene Economie", "categorie": "specifiek gedeelte", "type": "vak", "3BO": 2, "4BO": 2 },
+        { "label": "Toegepaste economie/Toegepaste Info", "categorie": "specifiek gedeelte", "type": "vak", "3BO": 5, "4BO": 5 },
+        { "label": "Toerisme", "categorie": "specifiek gedeelte", "type": "vak", "3BO": 2, "4BO": 2 },
+        { "label": "Boekhouden", "categorie": "specifiek gedeelte", "type": "vak", "3BO": 3, "4BO": 3 },
+        { "label": "Nederlands", "categorie": "specifiek gedeelte", "type": "vak", "3BO": 1, "4BO": 1 },
+        { "label": "Frans/Engels (wisseluur)", "categorie": "specifiek gedeelte", "type": "vak", "3BO": 1, "4BO": 1 },
+
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "3BO": 32, "4BO": 32 }
+      ],
+      "stage_weken": {},
+      "voetnoten": [
+        "(*) Gereduceerd urenpakket"
+      ]
+    }
+  }
+}
+"bedrijf-en-organisatie": {
+  "titel": "Bedrijf en Organisatie",
+  "domein": "economie en organisatie",
+  "finaliteit": "Doorstroom",
+  "beschrijving": "Richting in de 3de graad gericht op bedrijf en organisatie, met een focus op toegepaste economie, bedrijfswetenschappen, en financiële algebra.",
+  "brochure": "#",
+  "graden": {
+    "3de graad": {
+      "klassen": ["5BO", "6BO"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "5BO": 2, "6BO": 2 },
+        { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "5BO": 1, "6BO": 1 },
+        { "label": "Engels", "categorie": "basisvorming", "type": "vak", "5BO": 2, "6BO": 2 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "5BO": 2, "6BO": 2 },
+        { "label": "Geschiedenis", "categorie": "basisvorming", "type": "vak", "5BO": 1, "6BO": 1 },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "5BO": 3, "6BO": 3 },
+        { "label": "Wiskunde", "categorie": "basisvorming", "type": "vak", "5BO": 2, "6BO": 2 },
+        { "label": "Burgerschap", "categorie": "basisvorming", "type": "vak", "5BO": 1, "6BO": 1 },
+        { "label": "Economische en Bedrijfswetenschappen", "categorie": "basisvorming", "type": "vak", "5BO": 2, "6BO": 2 },
+        { "label": "Artistieke expressie", "categorie": "basisvorming", "type": "vak", "5BO": 1, "6BO": 1 },
+
+        { "label": "Bedrijfsorganisatie (15u)", "categorie": "specifiek gedeelte", "type": "vak", "5BO": 0, "6BO": 0 },
+        { "label": "Engels (wisseluur)", "categorie": "specifiek gedeelte", "type": "vak", "5BO": 0.5, "6BO": 0.5 },
+        { "label": "Frans (wisseluur)", "categorie": "specifiek gedeelte", "type": "vak", "5BO": 0.5, "6BO": 0.5 },
+        { "label": "Financiële algebra (wiskunde)", "categorie": "specifiek gedeelte", "type": "vak", "5BO": 1, "6BO": 1 },
+        { "label": "Economie (algemeen)", "categorie": "specifiek gedeelte", "type": "vak", "5BO": 2, "6BO": 2 },
+        { "label": "Bedrijfswetenschappen incl. mini-onderneming", "categorie": "specifiek gedeelte", "type": "vak", "5BO": 4, "6BO": 3 },
+        { "label": "Toegepaste economie/toegepaste informatica incl. mini-onderneming", "categorie": "specifiek gedeelte", "type": "vak", "5BO": 8, "6BO": 6 },
+
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "5BO": 32, "6BO": 31 }
+      ],
+      "stage_weken": {
+        "5BO": 2,
+        "6BO": 2
+      },
+      "voetnoten": [
+        ""
+      ]
+    }
+  }
+}
+"commerciële-organisatie": {
+  "titel": "Commerciële Organisatie",
+  "domein": "economie en organisatie",
+  "finaliteit": "Doorstroom",
+  "beschrijving": "Richting in de 3de graad gericht op commerciële organisatie met een focus op bedrijfswetenschappen, financiële algebra en mini-ondernemingen.",
+  "brochure": "#",
+  "graden": {
+    "3de graad": {
+      "klassen": ["5CO"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "5CO": 2 },
+        { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "5CO": 1 },
+        { "label": "Engels", "categorie": "basisvorming", "type": "vak", "5CO": 2 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "5CO": 2 },
+        { "label": "Geschiedenis", "categorie": "basisvorming", "type": "vak", "5CO": 1 },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "5CO": 3 },
+        { "label": "Wiskunde", "categorie": "basisvorming", "type": "vak", "5CO": 2 },
+        { "label": "Burgerschap", "categorie": "basisvorming", "type": "vak", "5CO": 1 },
+        { "label": "Economische Wetenschappen", "categorie": "basisvorming", "type": "vak", "5CO": 1 },
+
+        { "label": "Bedrijfsorganisatie (15u)", "categorie": "specifiek gedeelte", "type": "vak", "5CO": 0 },
+        { "label": "Engels (wisseluur)", "categorie": "specifiek gedeelte", "type": "vak", "5CO": 0.5 },
+        { "label": "Frans (wisseluur)", "categorie": "specifiek gedeelte", "type": "vak", "5CO": 0.5 },
+        { "label": "Financiële algebra (wiskunde)", "categorie": "specifiek gedeelte", "type": "vak", "5CO": 1 },
+        { "label": "Economie (algemeen)", "categorie": "specifiek gedeelte", "type": "vak", "5CO": 2 },
+        { "label": "Bedrijfswetenschappen incl. mini-onderneming", "categorie": "specifiek gedeelte", "type": "vak", "5CO": 4 },
+        { "label": "Toegepaste economie/toegepaste informatica incl. mini-onderneming", "categorie": "specifiek gedeelte", "type": "vak", "5CO": 8 },
+
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "5CO": 32 }
+      ],
+      "stage_weken": {
+        "5CO": 2
+      },
+      "voetnoten": [
+        ""
+      ]
+    }
+  }
+}
+"toerisme": {
+  "titel": "Toerisme",
+  "domein": "economie en organisatie",
+  "finaliteit": "Doorstroom",
+  "beschrijving": "Richting in de 3de graad gericht op toerisme, met vakken zoals toeristische geografie en toerisme, met een focus op talen en de toeristische sector.",
+  "brochure": "#",
+  "graden": {
+    "3de graad": {
+      "klassen": ["5TOE", "6TOE"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "5TOE": 2, "6TOE": 2 },
+        { "label": "Aardrijkskunde", "categorie": "basisvorming", "type": "vak", "5TOE": 1, "6TOE": 1 },
+        { "label": "Engels", "categorie": "basisvorming", "type": "vak", "5TOE": 2, "6TOE": 2 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "5TOE": 2, "6TOE": 2 },
+        { "label": "Geschiedenis", "categorie": "basisvorming", "type": "vak", "5TOE": 1, "6TOE": 1 },
+        { "label": "Lichamelijke opvoeding", "categorie": "basisvorming", "type": "vak", "5TOE": 2, "6TOE": 2 },
+        { "label": "Natuurwetenschappen", "categorie": "basisvorming", "type": "vak", "5TOE": 1, "6TOE": 1 },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "5TOE": 3, "6TOE": 3 },
+        { "label": "Wiskunde", "categorie": "basisvorming", "type": "vak", "5TOE": 2, "6TOE": 2 },
+        { "label": "Burgerschap", "categorie": "basisvorming", "type": "vak", "5TOE": 1, "6TOE": 1 },
+        { "label": "Artistieke expressie", "categorie": "basisvorming", "type": "vak", "5TOE": 1, "6TOE": 1 },
+        { "label": "Economie", "categorie": "basisvorming", "type": "vak", "5TOE": 1, "6TOE": 1 },
+
+        { "label": "Toerisme (15u)", "categorie": "specifiek gedeelte", "type": "vak", "5TOE": 0, "6TOE": 0 },
+        { "label": "Engels", "categorie": "specifiek gedeelte", "type": "vak", "5TOE": 2, "6TOE": 1 },
+        { "label": "Frans", "categorie": "specifiek gedeelte", "type": "vak", "5TOE": 2, "6TOE": 1 },
+        { "label": "Toeristische geografie", "categorie": "specifiek gedeelte", "type": "vak", "5TOE": 3, "6TOE": 2 },
+        { "label": "Toerisme", "categorie": "specifiek gedeelte", "type": "vak", "5TOE": 8, "6TOE": 6 },
+
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "5TOE": 32, "6TOE": 28 }
+      ],
+      "stage_weken": {
+        "5TOE": 5
+      },
+      "voetnoten": []
+    }
+  }
+}
+"organisatie-en-logistiek": {
+  "titel": "Organisatie en Logistiek",
+  "domein": "economie en organisatie",
+  "finaliteit": "Arbeidsmarktgericht",
+  "beschrijving": "Richting in de 2de graad voor leerlingen met interesse in organisatie en logistiek, met vakken zoals toegepaste economie en logistiek, evenals organisatie en informatica.",
+  "brochure": "#",
+  "graden": {
+    "2de graad": {
+      "klassen": ["3OL", "4OL"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "3OL": 2, "4OL": 2 },
+        { "label": "PAV", "categorie": "basisvorming", "type": "vak", "3OL": 7, "4OL": 7 },
+        { "label": "STEM (*)", "categorie": "basisvorming", "type": "vak", "3OL": 0, "4OL": 0 },
+        { "label": "MTC (**)", "categorie": "basisvorming", "type": "vak", "3OL": 0, "4OL": 0 },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "3OL": 2, "4OL": 2 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "3OL": 2, "4OL": 2 },
+        { "label": "Lichamelijke opvoeding", "categorie": "basisvorming", "type": "vak", "3OL": 2, "4OL": 2 },
+
+        { "label": "Toegepaste Economie", "categorie": "specifiek gedeelte", "type": "vak", "3OL": 0, "4OL": 0 },
+        { "label": "TEC_Economie_logistiek", "categorie": "specifiek gedeelte", "type": "vak", "3OL": 5, "4OL": 6 },
+        { "label": "TEC_Economie_organisatie/Toeg. Inform.", "categorie": "specifiek gedeelte", "type": "vak", "3OL": 9, "4OL": 8 },
+        { "label": "Frans", "categorie": "specifiek gedeelte", "type": "vak", "3OL": 2, "4OL": 2 },
+        { "label": "Engels", "categorie": "specifiek gedeelte", "type": "vak", "3OL": 2, "4OL": 2 },
+        { "label": "Nederlands", "categorie": "specifiek gedeelte", "type": "vak", "3OL": 2, "4OL": 2 },
+
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "3OL": 34, "4OL": 34 }
+      ],
+      "stage_weken": {},
+      "voetnoten": [
+        "(*) Wiskunde en natuurwetenschappen",
+        "(**) Talen, burgerschap, financiële geletterdheid"
+      ]
+    }
+  }
+}
+"onthaal-organisatie-sales": {
+  "titel": "Onthaal, organisatie & sales",
+  "domein": "economie en organisatie",
+  "finaliteit": "Arbeidsmarktgericht",
+  "beschrijving": "Richting in de 2de graad voor leerlingen met interesse in onthaal, organisatie en sales, met vakken zoals toegepaste economie en sales.",
+  "brochure": "#",
+  "graden": {
+    "2de graad": {
+      "klassen": ["3OOS", "6OOS"],
+      "lessentabel": [
+        { "label": "Godsdienst / Zedenleer", "categorie": "basisvorming", "type": "vak", "optie": true, "3OOS": 2, "6OOS": 2 },
+        { "label": "Project Algemene Vakken", "categorie": "basisvorming", "type": "vak", "3OOS": 4, "6OOS": 4 },
+        { "label": "STEM (*)", "categorie": "basisvorming", "type": "vak", "3OOS": 0, "6OOS": 0 },
+        { "label": "MTC (**)", "categorie": "basisvorming", "type": "vak", "3OOS": 0, "6OOS": 0 },
+        { "label": "Lichamelijke opvoeding", "categorie": "basisvorming", "type": "vak", "3OOS": 2, "6OOS": 2 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "3OOS": 2, "6OOS": 2 },
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "3OOS": 2, "6OOS": 2 },
+
+        { "label": "Onthaal, organisatie en sales", "categorie": "specifiek gedeelte", "type": "vak", "3OOS": 10, "6OOS": 10 },
+        { "label": "Toegepaste Economie/Toeg. Inform.", "categorie": "specifiek gedeelte", "type": "vak", "3OOS": 0, "6OOS": 0 },
+        { "label": "Frans", "categorie": "specifiek gedeelte", "type": "vak", "3OOS": 2, "6OOS": 2 },
+        { "label": "Engels", "categorie": "specifiek gedeelte", "type": "vak", "3OOS": 2, "6OOS": 2 },
+        { "label": "Duits", "categorie": "specifiek gedeelte", "type": "vak", "3OOS": 2, "6OOS": 2 },
+        { "label": "Nederlands", "categorie": "specifiek gedeelte", "type": "vak", "3OOS": 2, "6OOS": 2 },
+
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "3OOS": 33, "6OOS": 33 }
+      ],
+      "stage_weken": {},
+      "voetnoten": [
+        "(*) Wiskunde en natuurwetenschappen",
+        "(**) Talen, burgerschap, financiële geletterdheid"
+      ]
+    }
+  }
+}
