@@ -1257,3 +1257,33 @@
     }
   }
 }
+"schakeljaar": {
+  "titel": "Schakeljaar",
+  "domein": "schakeljaar",
+  "finaliteit": "Arbeidsmarktgericht",
+  "beschrijving": "Voorbereidend jaar op hoger onderwijs na arbeidsfinaliteit. Dit jaar richt zich op basisvorming en specifieke vakken ter voorbereiding op het vervolgonderwijs.",
+  "brochure": "#",
+  "graden": {
+    "3de graad": {
+      "klassen": ["7SCHAKEL"],
+      "lessentabel": [
+        { "label": "Nederlands", "categorie": "basisvorming", "type": "vak", "optie": true, "7SCHAKEL": 6 },
+        { "label": "Engels", "categorie": "basisvorming", "type": "vak", "optie": true, "7SCHAKEL": 3 },
+        { "label": "Frans", "categorie": "basisvorming", "type": "vak", "optie": true, "7SCHAKEL": 4 },
+        { "label": "Wiskunde", "categorie": "basisvorming", "type": "vak", "optie": true, "7SCHAKEL": 7 },
+        { "label": "Natuurwetenschappen", "categorie": "basisvorming", "type": "vak", "optie": true, "7SCHAKEL": 4 },
+
+        { "label": "Economische vakken", "categorie": "specifiek gedeelte", "type": "vak", "7SCHAKEL": 4 },
+        { "label": "STEM", "categorie": "specifiek gedeelte", "type": "vak", "7SCHAKEL": 4 },
+        { "label": "Gedragswetenschappen", "categorie": "specifiek gedeelte", "type": "vak", "7SCHAKEL": 4 },
+        { "label": "Bewegingswetenschappen", "categorie": "specifiek gedeelte", "type": "vak", "7SCHAKEL": 4 },
+
+        { "label": "Vrije ruimte", "categorie": "vrije ruimte", "type": "vak", "7SCHAKEL": 4 },
+
+        { "label": "Lestijden per week", "categorie": "totaal", "type": "vak", "7SCHAKEL": 32 }
+      ],
+      "stage_weken": {},
+      "voetnoten": []
+    }
+  }
+}
