@@ -291,5 +291,29 @@
         ]
       }
     }
+  },
+  "mww": {
+    "titel": "Maatschappelijke welzijnswetenschappen",
+    "domein": "mw",
+    "finaliteit": "Doorstroomfinaliteit",
+    "beschrijving": "Volgt later...",
+    "brochure": "#",
+    "graden": {}
+  },
+  "personen-zorg": {
+    "titel": "Personenzorg",
+    "domein": "mw",
+    "finaliteit": "Arbeidsfinaliteit",
+    "beschrijving": "Volgt later...",
+    "brochure": "#",
+    "graden": {}
+  },
+  "lichaamsverzorging": {
+    "titel": "Lichaamsverzorging",
+    "domein": "mw",
+    "finaliteit": "Arbeidsfinaliteit",
+    "beschrijving": "Volgt later...",
+    "brochure": "#",
+    "graden": {}
   }
 }
