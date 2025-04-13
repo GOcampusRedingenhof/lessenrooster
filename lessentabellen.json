@@ -3008,7 +3008,204 @@
       "** MTC = Nederlands, burgerschap, geschiedenis en artistieke expressie"
     ]
   },
-  "3MW": {
+"3MECH": {
+  "studierichting": "mechanica",
+  "titel": "Mechanica",
+  "domein": "stem",
+  "finaliteit": "arbeidsmarkt",
+  "beschrijving": "Praktijkgerichte opleiding in lassen, montage, plaatbewerking en machinegebruik binnen STEM-vaardigheden.",
+  "brochure": "",
+  "graad": "2de graad",
+  "duaal": "",
+  "datum_start": "",
+  "lessentabel": [
+    {
+      "label": "Godsdienst en zedenleer",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 2
+    },
+    {
+      "label": "PAV",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 7
+    },
+    {
+      "label": "STEM (*)",
+      "categorie": "basisvorming",
+      "type": "vak"
+    },
+    {
+      "label": "MTC (**)",
+      "categorie": "basisvorming",
+      "type": "vak"
+    },
+    {
+      "label": "Nederlands",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 2
+    },
+    {
+      "label": "Frans (MVT)",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 2
+    },
+    {
+      "label": "Lichamelijke opvoeding",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 2
+    },
+    {
+      "label": "STEM Mechanica",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "uren": 19
+    },
+    {
+      "label": "* Lassen",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "subvak": true,
+      "uren": 6
+    },
+    {
+      "label": "* Machines",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "subvak": true,
+      "uren": 6
+    },
+    {
+      "label": "* Plaatwerk",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "subvak": true,
+      "uren": 6
+    },
+    {
+      "label": "* Montage/Demontage",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "subvak": true,
+      "uren": 1
+    },
+    {
+      "label": "Lestijden per week",
+      "categorie": "totaal",
+      "type": "vak",
+      "uren": 34
+    }
+  ],
+  "stage_weken": "",
+  "voetnoten": [
+    "* Wiskunde, toegepaste informatica, aardrijkskunde en natuurwetenschappen",
+    "** Nederlands, burgerschap, geschiedenis en artistieke expressie"
+  ]
+},
+"4MECH": {
+  "studierichting": "mechanica",
+  "titel": "Mechanica",
+  "domein": "stem",
+  "finaliteit": "arbeidsmarkt",
+  "beschrijving": "Praktijkgerichte opleiding in lassen, montage, plaatbewerking en machinegebruik binnen STEM-vaardigheden.",
+  "brochure": "",
+  "graad": "2de graad",
+  "duaal": "",
+  "datum_start": "",
+  "lessentabel": [
+    {
+      "label": "Godsdienst en zedenleer",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 2
+    },
+    {
+      "label": "PAV",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 7
+    },
+    {
+      "label": "STEM (*)",
+      "categorie": "basisvorming",
+      "type": "vak"
+    },
+    {
+      "label": "MTC (**)",
+      "categorie": "basisvorming",
+      "type": "vak"
+    },
+    {
+      "label": "Nederlands",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 2
+    },
+    {
+      "label": "Frans (MVT)",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 2
+    },
+    {
+      "label": "Lichamelijke opvoeding",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 2
+    },
+    {
+      "label": "STEM Mechanica",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "uren": 19
+    },
+    {
+      "label": "* Lassen",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "subvak": true,
+      "uren": 6
+    },
+    {
+      "label": "* Machines",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "subvak": true,
+      "uren": 6
+    },
+    {
+      "label": "* Plaatwerk",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "subvak": true,
+      "uren": 6
+    },
+    {
+      "label": "* Montage/Demontage",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "subvak": true,
+      "uren": 1
+    },
+    {
+      "label": "Lestijden per week",
+      "categorie": "totaal",
+      "type": "vak",
+      "uren": 34
+    }
+  ],
+  "stage_weken": "",
+  "voetnoten": [
+    "* Wiskunde, toegepaste informatica, aardrijkskunde en natuurwetenschappen",
+    "** Nederlands, burgerschap, geschiedenis en artistieke expressie"
+  ]
+}
+  
+"3MW": {
     "studierichting": "maatschappij-en-welzijn",
     "titel": "Maatschappij en welzijn",
     "domein": "maatschappij & welzijn",
