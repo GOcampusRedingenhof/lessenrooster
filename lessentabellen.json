@@ -1868,6 +1868,257 @@
     "stage_weken": 2,
     "voetnoten": []
   },
+  "3GRATECH": {
+  "studierichting": "grafische-technieken",
+  "titel": "Grafische technieken",
+  "domein": "stem",
+  "finaliteit": "dubbele finaliteit",
+  "beschrijving": "",
+  "brochure": "",
+  "graad": "2de graad",
+  "duaal": "",
+  "datum_start": "",
+  "lessentabel": [
+    {
+      "label": "Godsdienst en zedenleer",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 2
+    },
+    {
+      "label": "Aardrijkskunde",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 1
+    },
+    {
+      "label": "Engels",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 2
+    },
+    {
+      "label": "Frans",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 2
+    },
+    {
+      "label": "Geschiedenis",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 1
+    },
+    {
+      "label": "Nederlands",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 3
+    },
+    {
+      "label": "Wiskunde",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 3
+    },
+    {
+      "label": "Lichamelijke opvoeding",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 2
+    },
+    {
+      "label": "Burgerschap",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 1
+    },
+    {
+      "label": "Toegepaste informatica",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 1
+    },
+    {
+      "label": "Natuurwetenschappen",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 1
+    },
+    {
+      "label": "Artistieke expressie",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 1
+    },
+    {
+      "label": "STEM",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "uren": 11
+    },
+    {
+      "label": "- Wiskunde",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "subvak": true,
+      "uren": 1
+    },
+    {
+      "label": "- Stem-engineering",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "subvak": true,
+      "uren": 1
+    },
+    {
+      "label": "- Kunstbeschouwing",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "subvak": true,
+      "uren": 1
+    },
+    {
+      "label": "- Grafische technieken",
+      "categorie": "specifiek gedeelte",
+      "type": "vak"
+    },
+    {
+      "label": "Lestijden per week",
+      "categorie": "totaal",
+      "type": "vak",
+      "uren": 32
+    }
+  ],
+  "stage_weken": "",
+  "voetnoten": []
+},
+"4GRATECH": {
+  "studierichting": "grafische-technieken",
+  "titel": "Grafische technieken",
+  "domein": "stem",
+  "finaliteit": "dubbele finaliteit",
+  "beschrijving": "",
+  "brochure": "",
+  "graad": "2de graad",
+  "duaal": "",
+  "datum_start": "",
+  "lessentabel": [
+    {
+      "label": "Godsdienst en zedenleer",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 2
+    },
+    {
+      "label": "Aardrijkskunde",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 1
+    },
+    {
+      "label": "Engels",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 2
+    },
+    {
+      "label": "Frans",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 2
+    },
+    {
+      "label": "Geschiedenis",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 1
+    },
+    {
+      "label": "Nederlands",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 3
+    },
+    {
+      "label": "Wiskunde",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 4
+    },
+    {
+      "label": "Lichamelijke opvoeding",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 2
+    },
+    {
+      "label": "Burgerschap",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 1
+    },
+    {
+      "label": "Toegepaste informatica",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 1
+    },
+    {
+      "label": "Natuurwetenschappen",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 1
+    },
+    {
+      "label": "Artistieke expressie",
+      "categorie": "basisvorming",
+      "type": "vak",
+      "uren": 1
+    },
+    {
+      "label": "STEM",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "uren": 12
+    },
+    {
+      "label": "- Wiskunde",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "subvak": true,
+      "uren": 1
+    },
+    {
+      "label": "- Stem-engineering",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "subvak": true,
+      "uren": 1
+    },
+    {
+      "label": "- Kunstbeschouwing",
+      "categorie": "specifiek gedeelte",
+      "type": "vak",
+      "subvak": true,
+      "uren": 1
+    },
+    {
+      "label": "- Grafische technieken",
+      "categorie": "specifiek gedeelte",
+      "type": "vak"
+    },
+    {
+      "label": "Lestijden per week",
+      "categorie": "totaal",
+      "type": "vak",
+      "uren": 32
+    }
+  ],
+  "stage_weken": "",
+  "voetnoten": []
+}
+
   "5GRAFI": {
     "studierichting": "grafische-technieken",
     "titel": "Grafische technieken",
