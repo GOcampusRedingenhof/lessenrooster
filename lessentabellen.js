@@ -266,6 +266,7 @@ const LessentabellenApp = {
 // Data naar cache schrijven
   saveToCache: function(data) {
     try {
+      localStorage.removeItem('lessentabellen_cache'); // Verwijder oude cache
       const cache = {
         data: data,
         timestamp: Date.now()
