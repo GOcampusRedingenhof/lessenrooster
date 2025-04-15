@@ -5,6 +5,10 @@
  */
 
 const LessentabellenApp = {
+  /* 
+   * BLOK 1: Configuratie
+   * Versie, data-URL en domein-specifieke kleuren
+   */
   version: '2.0.0',
   
   config: {
@@ -12,50 +16,54 @@ const LessentabellenApp = {
     cacheExpiry: 1000 * 60 * 60, // 1 uur cache
     domainColors: {
       "stem": {
-        base: "#0C8464",
+        base: "#0A7254", // Darker green for better contrast
         mid: "#48A787",
-        light1: "#89CCB2",
-        hover: "#d7f5ea"
+        light1: "#F5FDFB", // Almost white with green tint
+        hover: "#E4F5F0"
       },
       "topsport": {
-        base: "#A2E4FF",
-        mid: "#C6F0FF",
-        light1: "#E4F9FF",
-        hover: "#6ABCD6"
+        base: "#1D81A2",
+        mid: "#47A3C2",
+        light1: "#F5FBFE",
+        hover: "#E4F3F7"
       },
       "eerste-graad": {
-        base: "#ED4E13",
+        base: "#D14213",
         mid: "#F3764A",
-        light1: "#F8A588",
-        hover: "#F8B96D"
+        light1: "#FEF8F5",
+        hover: "#FAEDE7"
       },
       "maatschappij-welzijn": {
-        base: "#E399BB",
-        mid: "#EFBACD",
-        light1: "#F7D9E4",
-        hover: "#F2C5D1"
+        base: "#C4387A", // Darker pink for better contrast
+        mid: "#E399BB",
+        light1: "#FDF6F9", // Almost white with pink tint
+        hover: "#F9EAF2"
       },
       "economie-organisatie": {
-        base: "#2B2243",
-        mid: "#254a87",
-        light1: "#5084C2",
-        hover: "#7081a8"
+        base: "#1E3476", // Darker blue for better contrast
+        mid: "#3D66B8",
+        light1: "#F6F8FD", // Almost white with blue tint
+        hover: "#EAF0F9"
       },
       "schakeljaar": {
-        base: "#2B2243",
-        mid: "#254a87",
-        light1: "#5084C2",
-        hover: "#7081a8"
+        base: "#1E3476",
+        mid: "#3D66B8",
+        light1: "#F6F8FD",
+        hover: "#EAF0F9"
       },
       "okan": {
-        base: "#E5A021",
-        mid: "#F0B94E",
-        light1: "#F9D38A",
-        hover: "#F9CA7F"
+        base: "#C68212",
+        mid: "#E5A021",
+        light1: "#FEF9F2",
+        hover: "#FCF1E2"
       }
     }
   },
   
+  /* 
+   * BLOK 2: Data beheer
+   * Data properties en state management
+   */
   data: {
     csvData: null,
     lastFetch: null,
@@ -66,6 +74,10 @@ const LessentabellenApp = {
     errorMessage: ''
   },
   
+  /* 
+   * BLOK 3: DOM elementen
+   * Cache voor DOM elementen 
+   */
   elements: {
     container: null,
     slidein: null,
@@ -74,6 +86,10 @@ const LessentabellenApp = {
     topbar: null
   },
   
+  /* 
+   * BLOK 4: Initialisatie
+   * Opstart en intialisatie van de applicatie
+   */
   init() {
     console.log(`Lessentabellen v${this.version} initializing...`);
     this.createRequiredElements();
@@ -178,6 +194,10 @@ const LessentabellenApp = {
     });
   },
   
+  /* 
+   * BLOK 5: Event Listeners
+   * Event handling en reactiviteit
+   */
   setupEventListeners() {
     // Window resize en scroll events
     window.addEventListener("resize", () => this.setDynamicTop());
@@ -220,6 +240,10 @@ const LessentabellenApp = {
     }
   },
   
+  /* 
+   * BLOK 6: Data Laden
+   * Functies voor het laden en verwerken van data
+   */
   async loadData() {
     try {
       this.showLoading();
@@ -235,7 +259,6 @@ const LessentabellenApp = {
       if (!response.ok) {
         throw new Error(`CSV kon niet worden geladen (${response.status})`);
       }
-      
       const csv = await response.text();
       const parsedData = this.parseCSV(csv);
       this.data.csvData = parsedData;
@@ -281,6 +304,10 @@ const LessentabellenApp = {
     }
   },
   
+  /* 
+   * BLOK 7: Caching
+   * Cache management voor performance
+   */
   getCachedData() {
     try {
       const cached = localStorage.getItem('lessentabellen_cache');
@@ -324,6 +351,10 @@ const LessentabellenApp = {
     });
   },
   
+  /* 
+   * BLOK 8: Hulpfuncties
+   * Utility functies voor domein normalisatie, slugify, enz.
+   */
   normalizeDomainName(rawDomain) {
     let d = rawDomain.toLowerCase().trim();
     d = d.replace(/[\s&]+/g, "-");
@@ -387,6 +418,10 @@ const LessentabellenApp = {
     document.documentElement.style.setProperty('--dynamic-top', `${totalHeight}px`);
   },
   
+  /* 
+   * BLOK 9: UI Generatie
+   * Functies voor het bouwen van de gebruikersinterface
+   */
   buildGrid() {
     if (!this.elements.container || !this.data.csvData) return;
     
@@ -511,6 +546,10 @@ const LessentabellenApp = {
     return structuur;
   },
   
+  /* 
+   * BLOK 10: Slidein Functies
+   * Functies voor het slide-in paneel voor lessentabel
+   */
   openSlidein(graad, slug, normDomainKey) {
     if (!this.elements.slidein || !this.elements.overlay) return;
     
@@ -614,6 +653,10 @@ const LessentabellenApp = {
     this.data.currentRichting = null;
   },
   
+  /* 
+   * BLOK 11: Lessentabel
+   * Functies voor het bouwen van de lessentabel
+   */
   buildLessonTable(filteredData) {
     if (!this.elements.tableContainer) return;
     
@@ -694,6 +737,10 @@ const LessentabellenApp = {
     }
   },
   
+  /* 
+   * BLOK 12: URL Navigatie
+   * Functies voor het verwerken van URL navigatie
+   */
   checkUrlHash() {
     const hash = window.location.hash;
     if (!hash || hash === '#') return;
