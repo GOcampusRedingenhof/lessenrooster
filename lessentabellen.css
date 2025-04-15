@@ -25,14 +25,15 @@
 #domains-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 2.5rem;
-  padding: 3rem 2rem;
+  gap: 2rem;
+  padding: 2.5rem;
   box-sizing: border-box;
   min-height: 400px;
   position: relative;
   max-width: 1400px;
   margin: 0 auto;
   background: #f8f8f8;
+  align-items: stretch;
 }
 
 .loader-spinner {
@@ -58,6 +59,9 @@
  * Stijlen voor de individuele domeinblokken
  */
 .domain-block {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   background: #fff;
   border-radius: 12px;
   padding: 2rem;
@@ -434,15 +438,18 @@
 @media print {
   @page {
     size: A4 portrait;
-    margin: 1cm;
+    margin: 1.5cm;
   }
+  
   body * {
     visibility: hidden;
   }
+  
   .lessentabellen-wrapper,
   .lessentabellen-wrapper * {
     visibility: visible;
   }
+  
   .lessentabellen-wrapper {
     position: absolute !important;
     top: 0 !important;
@@ -451,7 +458,7 @@
     max-width: none !important;
     margin: 0 !important;
     height: auto !important;
-    padding: 1.5cm;
+    padding: 0;
     line-height: 1.4;
     font-size: 12pt;
     color: #000 !important;
@@ -459,58 +466,99 @@
     box-shadow: none !important;
     border-radius: 0 !important;
   }
+  
+  /* Verbeterde logo positionering */
   .logo-print {
     display: block !important;
-    margin: 0 auto 2rem;
-    max-width: 180px;
+    max-width: 150px !important;
     height: auto;
+    margin: 0 0 2rem 0 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
+  
+  /* Opleiding titel centreren en ruimte maken voor logo */
+  #opleiding-titel {
+    text-align: center;
+    margin: 5rem 0 1rem 0 !important;
+    font-size: 18pt;
+    padding-top: 1rem;
+  }
+  
+  /* Onderaan plaatsen van datum en quote */
   .datum {
     display: block !important;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 2rem !important;
-    font-size: 11pt;
+    text-align: right;
+    font-weight: normal;
+    font-size: 9pt;
+    position: absolute;
+    bottom: 1rem;
+    right: 0;
+    margin: 0 !important;
   }
+  
   .quote {
     display: block !important;
     text-align: center;
     font-style: italic;
-    margin-top: 2.5rem !important;
-    font-size: 12pt;
+    font-size: 11pt;
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    font-weight: bold;
+    margin: 0 !important;
   }
+  
   .close-btn,
   .action-buttons {
     display: none !important;
   }
+  
   #lessentabel-container table {
-    border: 1px solid #ddd;
-    box-shadow: none;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem !important;
   }
+  
   #lessentabel-container th {
     background: #f0f0f0 !important;
     color: #000 !important;
     text-shadow: none !important;
+    border: 1px solid #ddd;
+    font-weight: bold;
+    padding: 0.5rem !important;
   }
-  #lessentabel-container th,
+  
   #lessentabel-container td {
     border: 1px solid #ddd;
+    padding: 0.5rem !important;
   }
-  #opleiding-titel {
-    font-size: 18pt;
-    margin-bottom: 1rem !important;
-  }
+  
   #opleiding-beschrijving {
     font-size: 11pt;
+    margin-bottom: 2rem !important;
   }
+  
   .footnotes {
     font-size: 9pt;
     background: none !important;
     border-top: 1px solid #ddd;
     padding-top: 0.5rem !important;
+    margin-top: 2rem !important;
+  }
+  
+  /* Grijswaarde print optimalisatie */
+  @media print and (monochrome) {
+    #lessentabel-container th {
+      background: #ddd !important;
+    }
+    
+    #lessentabel-container tr:nth-child(even) {
+      background: #f5f5f5 !important;
+    }
   }
 }
-
 /* 
  * BLOK 12: Skeleton loaders en meldingen
  * Stijlen voor laadstatus en foutmeldingen
@@ -550,17 +598,19 @@
 @media (max-width: 768px) {
   #domains-container {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
     padding: 1.5rem;
   }
   
   #slidein {
     width: 100%;
     border-radius: 18px 18px 0 0;
+    position: fixed;
     bottom: 0;
-    top: auto !important;
-    height: 90% !important;
+    top: auto !important; 
+    height: 85% !important;
+    max-height: 85vh;
     transform: translateY(100%);
+    z-index: 999999; /* Extra hoge z-index voor mobiel */
   }
   
   #slidein.open {
@@ -577,6 +627,17 @@
   
   #opleiding-titel {
     font-size: 1.75rem;
+  }
+
+  /* Zorg dat de close button altijd zichtbaar is */
+  .close-btn {
+    position: sticky;
+    top: 0.5rem;
+    right: 0.5rem;
+    float: right;
+    z-index: 10;
+    background: var(--domain-base);
+    color: white;
   }
 }
 
