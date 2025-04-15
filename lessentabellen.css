@@ -1,18 +1,13 @@
-/* Dynamische Lessentabellen v2.0 - CSS
- * CSS voor het tonen van lessentabellen bij GO Campus Redingenhof.
- * Laatste update: April 2025
+/* 
+ * BLOK 1: Basisstijlen
+ * Reset en globale variabelen voor de app
  */
-
-/* Reset en basisstijlen */
 .lessentabellen-root {
   --transition-speed: 0.3s;
-  --border-radius: 8px;
-  --shadow-default: 0 2px 12px rgba(0,0,0,0.15);
+  --border-radius: 12px;
+  --shadow-default: 0 8px 24px rgba(0,0,0,0.08);
   color-scheme: light dark;
-  font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
-  background: #000;
-  color: #fff;
-  overflow: hidden;
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
   width: 100%;
   line-height: 1.5;
 }
@@ -23,24 +18,23 @@
   padding: 0 !important;
 }
 
-/* Container stijlen */
-.lessentabellen-root {
-  background: #000;
-  color: #fff;
-}
-
-/* Grid container voor domeinen met skeleton-loader ondersteuning */
+/* 
+ * BLOK 2: Grid Container
+ * Stijlen voor het hoofdgrid met de domeinblokken
+ */
 #domains-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2.5rem;
+  padding: 3rem 2rem;
   box-sizing: border-box;
   min-height: 400px;
   position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: #f8f8f8;
 }
 
-/* Loader animatie */
 .loader-spinner {
   position: absolute;
   top: 50%;
@@ -48,9 +42,9 @@
   transform: translate(-50%, -50%);
   width: 60px;
   height: 60px;
-  border: 6px solid rgba(255,255,255,0.1);
+  border: 6px solid rgba(0,0,0,0.1);
   border-radius: 50%;
-  border-top-color: #fff;
+  border-top-color: var(--domain-base, #333);
   animation: spin 1s linear infinite;
   z-index: 0;
 }
@@ -59,23 +53,28 @@
   to { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
+/* 
+ * BLOK 3: Domein Blokken
+ * Stijlen voor de individuele domeinblokken
+ */
 .domain-block {
-  background: #333;
-  border-radius: var(--border-radius);
-  padding: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
   box-shadow: var(--shadow-default);
   transition: transform var(--transition-speed), box-shadow var(--transition-speed);
   position: relative;
   overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.08);
 }
 
 .domain-block:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
 }
 
 .domain-block h2 {
-  margin: 0 0 1.25rem 0 !important;
+  margin: 0 0 1.5rem 0 !important;
   text-transform: uppercase;
   color: var(--domain-base);
   font-size: 1.8rem;
@@ -88,22 +87,25 @@
 .domain-block h2::after {
   content: '';
   position: absolute;
-  bottom: -6px;
+  bottom: -8px;
   left: 0;
-  width: 40px;
-  height: 3px;
+  width: 50px;
+  height: 4px;
   background: var(--domain-base);
   border-radius: 2px;
 }
 
-/* Graad-container met verbeterde visuele hiërarchie */
+/* 
+ * BLOK 4: Graad Containers 
+ * Stijlen voor de graad containers binnen domeinblokken
+ */
 .graad-container {
-  background: var(--domain-light1);
+  background: #fff;
   border-left: 6px solid var(--domain-base);
-  border-radius: var(--border-radius);
-  margin-bottom: 1.25rem !important;
-  padding: 1.25rem !important;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  margin-bottom: 1.5rem !important;
+  padding: 1.5rem !important;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
 }
 
 .graad-container:last-child {
@@ -119,13 +121,17 @@
   letter-spacing: 0.5px;
 }
 
-/* Finaliteit-blok met verbeterde componenten */
+/* 
+ * BLOK 5: Finaliteit Blokken 
+ * Stijlen voor de finaliteit blokken binnen graad containers
+ */
 .finaliteit-blok {
-  background: var(--domain-light2);
+  background: #ffffff;
   margin: 0.75rem 0 !important;
   border-radius: var(--border-radius);
   padding: 0.75rem 1rem !important;
   box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.05);
 }
 
 .finaliteit-blok h4 {
@@ -141,15 +147,18 @@
   margin: 0.5rem 0 0 0 !important;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.65rem;
+  gap: 0.75rem;
 }
 
-/* Verbeterde knoppen met toegankelijkheid */
+/* 
+ * BLOK 6: Knoppen en Links 
+ * Stijlen voor knoppen en links in de app
+ */
 .finaliteit-blok li a {
   background: var(--domain-base);
   color: #fff !important;
-  padding: 0.5rem 0.85rem !important;
-  border-radius: 5px;
+  padding: 0.6rem 1rem !important;
+  border-radius: 6px;
   text-decoration: none !important;
   transition: all var(--transition-speed);
   font-size: 0.95rem;
@@ -180,11 +189,14 @@
 }
 
 .finaliteit-blok li a:focus {
-  outline: 3px solid rgba(255,255,255,0.3);
+  outline: 3px solid rgba(0,0,0,0.1);
   outline-offset: 2px;
 }
 
-/* Slide-in paneel */
+/* 
+ * BLOK 7: Slide-in Paneel
+ * Stijlen voor het slide-in paneel met de lessentabel
+ */
 #slidein {
   position: fixed;
   top: var(--dynamic-top, 120px);
@@ -254,7 +266,10 @@
   transform: scale(1.05);
 }
 
-/* Actie-knoppen */
+/* 
+ * BLOK 8: Actie-knoppen
+ * Stijlen voor de actieknoppen in het slidein paneel
+ */
 .action-buttons {
   display: flex;
   gap: 0.75rem;
@@ -299,7 +314,10 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
-/* Lessentabel stijlen */
+/* 
+ * BLOK 9: Lessentabel
+ * Stijlen voor de lessentabel in het slidein paneel
+ */
 #lessentabel-container {
   position: relative;
   overflow-x: auto;
@@ -361,7 +379,10 @@
   border-top: 2px solid var(--domain-light1);
 }
 
-/* Voetnoten */
+/* 
+ * BLOK 10: Details Styling
+ * Stijlen voor details en metadata in het slidein paneel
+ */
 .footnotes {
   margin-top: 1.5rem !important;
   font-size: 0.85rem;
@@ -374,7 +395,6 @@
   opacity: 0.9;
 }
 
-/* Opleiding details */
 #opleiding-beschrijving {
   text-align: center;
   line-height: 1.6;
@@ -407,7 +427,10 @@
   border-radius: 2px;
 }
 
-/* Print stijlen */
+/* 
+ * BLOK 11: Print stijlen
+ * Stijlen voor afdrukken van de lessentabel
+ */
 @media print {
   @page {
     size: A4 portrait;
@@ -488,9 +511,12 @@
   }
 }
 
-/* Skeleton loaders */
+/* 
+ * BLOK 12: Skeleton loaders en meldingen
+ * Stijlen voor laadstatus en foutmeldingen
+ */
 .skeleton {
-  background: linear-gradient(90deg, #333 25%, #444 50%, #333 75%);
+  background: linear-gradient(90deg, #eee 25%, #f5f5f5 50%, #eee 75%);
   background-size: 200% 100%;
   animation: skeleton-loading 1.5s infinite;
   border-radius: 4px;
@@ -501,25 +527,26 @@
   100% { background-position: 200% 0; }
 }
 
-/* Niet gevonden message */
 .not-found-message {
   text-align: center;
   padding: 3rem 1rem !important;
   font-size: 1.2rem;
-  color: #888;
+  color: #666;
 }
 
-/* Error melding */
 .error-message {
-  background: rgba(255,0,0,0.1);
+  background: rgba(255,0,0,0.05);
   border-left: 4px solid #ff3b30;
-  color: #ff3b30;
+  color: #d32f2f;
   padding: 1rem !important;
   margin: 1rem 0 !important;
   border-radius: 4px;
 }
 
-/* Responsive aanpassingen */
+/* 
+ * BLOK 13: Responsive aanpassingen
+ * Stijlen voor mobiele weergave
+ */
 @media (max-width: 768px) {
   #domains-container {
     grid-template-columns: 1fr;
@@ -553,18 +580,13 @@
   }
 }
 
-/* Verbeterde toegankelijkheid */
+/* 
+ * BLOK 14: Toegankelijkheid
+ * Stijlen voor verbeterde toegankelijkheid
+ */
 :focus-visible {
   outline: 3px solid var(--domain-base);
   outline-offset: 3px;
-}
-
-/* Verbeterde zichtbaarheid van interactieve elementen */
-.finaliteit-blok li a,
-.action-buttons a,
-.action-buttons button,
-.close-btn {
-  cursor: pointer;
 }
 
 /* Logo-print styling */
