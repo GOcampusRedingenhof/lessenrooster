@@ -1,7 +1,7 @@
 /**
  * Dynamische Lessentabellen - Hoofdbestand
  * Initialiseert en verbindt alle modules
- * @version 2.2.0
+ * @version 2.2.1
  * @copyright 2025 GO Campus Redingenhof
  */
 
