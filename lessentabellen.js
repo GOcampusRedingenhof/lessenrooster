@@ -77,9 +77,46 @@
         mainContainer.className = `${prefix}-root`;
         document.body.appendChild(mainContainer);
         
-        // Voeg interne elementen toe
-        mainContainer.innerHTML = `
+       mainContainer.innerHTML = `
           <div id="${prefix}-domains-container"></div>
           <div id="${prefix}-overlay"></div>
           <div class="${prefix}-wrapper" id="${prefix}-slidein" tabindex="-1">
-            <button class="${prefix}-close-btn"/**
+            <button class="${prefix}-close-btn" aria-label="Sluiten">×</button>
+            <h2 id="${prefix}-opleiding-titel">Lessentabel</h2>
+            <p id="${prefix}-opleiding-beschrijving"></p>
+            <div class="${prefix}-action-buttons">
+              <a id="${prefix}-brochure-link" href="#" target="_blank">Brochure</a>
+              <button id="${prefix}-print-button">Afdrukken</button>
+            </div>
+            <div id="${prefix}-lessentabel-container"></div>
+            <div id="${prefix}-footnotes"></div>
+            <img class="${prefix}-logo-print" src="https://images.squarespace-cdn.com/content/v1/670992d66064015802d7e5dc/5425e461-06b0-4530-9969-4068d5a5dfdc/Scherm%C2%ADafbeelding+2024-12-03+om+09.38.12.jpg?format=1500w" alt="Redingenhof logo" />
+            <div class="${prefix}-datum">Afgedrukt op: <span id="${prefix}-datum-print"></span></div>
+            <div class="${prefix}-quote">SAMEN VER!</div>
+          </div>
+        `;
+      }
+    },
+    
+    // Hulpfuncties
+    loadData: function() {
+      this.data.loadData();
+    }
+  };
+
+  // Publieke interface exposeren
+  window.LessentabellenApp = LessentabellenApp;
+  
+  // Automatische initialisatie bij DOMContentLoaded tenzij handmatig gedeactiveerd
+  document.addEventListener('DOMContentLoaded', function() {
+    // Detecteer autoInit=false als die is ingesteld
+    const scriptTag = document.querySelector('script[src*="lessentabellen.js"][data-auto-init="false"]');
+    if (scriptTag) {
+      console.log("Lessentabellen autoInit uitgeschakeld. Handmatige initialisatie vereist.");
+      return;
+    }
+    
+    console.log("Document geladen, lessentabellen initialiseren...");
+    LessentabellenApp.init(false);
+  });
+})();
