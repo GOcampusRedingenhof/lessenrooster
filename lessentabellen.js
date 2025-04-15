@@ -5,61 +5,60 @@
  */
 
 const LessentabellenApp = {
-  /* 
-   * BLOK 1: Configuratie
-   * Versie, data-URL en domein-specifieke kleuren
-   */
-  version: '2.0.0',
-  
-  config: {
-    csvUrl: "https://raw.githubusercontent.com/GOcampusRedingenhof/lessenrooster/refs/heads/main/lessentabellen_tabel.csv",
-    cacheExpiry: 1000 * 60 * 60, // 1 uur cache
-    domainColors: {
-      "stem": {
-        base: "#0A7254", // Darker green for better contrast
-        mid: "#48A787",
-        light1: "#F5FDFB", // Almost white with green tint
-        hover: "#E4F5F0"
-      },
-      "topsport": {
-        base: "#1D81A2",
-        mid: "#47A3C2",
-        light1: "#F5FBFE",
-        hover: "#E4F3F7"
-      },
-      "eerste-graad": {
-        base: "#D14213",
-        mid: "#F3764A",
-        light1: "#FEF8F5",
-        hover: "#FAEDE7"
-      },
-      "maatschappij-welzijn": {
-        base: "#C4387A", // Darker pink for better contrast
-        mid: "#E399BB",
-        light1: "#FDF6F9", // Almost white with pink tint
-        hover: "#F9EAF2"
-      },
-      "economie-organisatie": {
-        base: "#1E3476", // Darker blue for better contrast
-        mid: "#3D66B8",
-        light1: "#F6F8FD", // Almost white with blue tint
-        hover: "#EAF0F9"
-      },
-      "schakeljaar": {
-        base: "#1E3476",
-        mid: "#3D66B8",
-        light1: "#F6F8FD",
-        hover: "#EAF0F9"
-      },
-      "okan": {
-        base: "#C68212",
-        mid: "#E5A021",
-        light1: "#FEF9F2",
-        hover: "#FCF1E2"
-      }
+ /* 
+ * BLOK 1: Configuratie
+ * Versie, data-URL en domein-specifieke kleuren
+ */
+version: '2.0.0',
+
+config: {
+  csvUrl: "https://raw.githubusercontent.com/GOcampusRedingenhof/lessenrooster/refs/heads/main/lessentabellen_tabel.csv",
+  cacheExpiry: 1000 * 60 * 60, // 1 uur cache
+  domainColors: {
+    "stem": {
+      base: "#0A7254", // Darker green for better contrast
+      mid: "#48A787",
+      light1: "#F5FDFB", // Almost white with green tint
+      hover: "#E4F5F0"
+    },
+    "topsport": {
+      base: "#0A6180", // Donkerder blauw voor beter contrast 
+      mid: "#1B88AE",
+      light1: "#F5FBFE",
+      hover: "#E4F3F7"
+    },
+    "eerste-graad": {
+      base: "#D14213",
+      mid: "#F3764A",
+      light1: "#FEF8F5",
+      hover: "#FAEDE7"
+    },
+    "maatschappij-welzijn": {
+      base: "#C4387A", // Darker pink for better contrast
+      mid: "#E399BB",
+      light1: "#FDF6F9", // Almost white with pink tint
+      hover: "#F9EAF2"
+    },
+    "economie-organisatie": {
+      base: "#1A2F6E", // Donkerder blauw voor beter contrast
+      mid: "#2D54AE", 
+      light1: "#F6F8FD",
+      hover: "#EAF0F9"
+    },
+    "schakeljaar": {
+      base: "#18306F", // Donkerder blauw voor beter contrast
+      mid: "#2F56B0",
+      light1: "#F6F8FD",
+      hover: "#EAF0F9"
+    },
+    "okan": {
+      base: "#C68212",
+      mid: "#E5A021",
+      light1: "#FEF9F2",
+      hover: "#FCF1E2"
     }
-  },
-  
+  }
+},
   /* 
    * BLOK 2: Data beheer
    * Data properties en state management
@@ -86,159 +85,132 @@ const LessentabellenApp = {
     topbar: null
   },
   
-  /* 
-   * BLOK 4: Initialisatie
-   * Opstart en intialisatie van de applicatie
-   */
-  init() {
-    console.log(`Lessentabellen v${this.version} initializing...`);
-    this.createRequiredElements();
-    this.cacheElements();
-    this.setupEventListeners();
-    this.loadData();
-    
-    // Verbeterde detectie van tophoogte met meerdere pogingen
+ /* 
+ * BLOK 4: Initialisatie
+ * Opstart en intialisatie van de applicatie
+ */
+init() {
+  console.log(`Lessentabellen v${this.version} initializing...`);
+  this.createRequiredElements();
+  this.cacheElements();
+  this.setupEventListeners();
+  this.loadData();
+  
+  // Detecteer mobiele apparaten voor betere positionering
+  this.isMobile = window.innerWidth <= 768;
+  this.setDynamicTop();
+  
+  // Meerdere pogingen om layout correct in te stellen
+  setTimeout(() => this.setDynamicTop(), 500);
+  setTimeout(() => this.setDynamicTop(), 1500);
+  
+  // Toon versie-indicator
+  this.showVersionIndicator();
+},
+
+createRequiredElements() {
+  if (!document.getElementById('domains-container')) {
+    const container = document.createElement('div');
+    container.id = 'domains-container';
+    container.className = 'lessentabellen-root';
+    document.querySelector('.lessentabellen-root')?.appendChild(container) || document.body.appendChild(container);
+  }
+  
+  if (!document.getElementById('slidein')) {
+    const slidein = document.createElement('div');
+    slidein.className = 'lessentabellen-wrapper lessentabellen-root';
+    slidein.id = 'slidein';
+    slidein.tabIndex = -1;
+    slidein.innerHTML = `
+      <button class="close-btn" aria-label="Sluiten" onclick="LessentabellenApp.closeSlidein()">×</button>
+      <h2 id="opleiding-titel">&nbsp;</h2>
+      <p id="opleiding-beschrijving"></p>
+      <div class="action-buttons">
+        <a id="brochure-link" href="#" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          Brochure
+        </a>
+        <button onclick="window.print()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+            <rect x="6" y="14" width="12" height="8"></rect>
+          </svg>
+          Afdrukken
+        </button>
+      </div>
+      <div id="lessentabel-container"></div>
+      <div id="footnotes"></div>
+      <img class="logo-print" src="https://images.squarespace-cdn.com/content/v1/670992d66064015802d7e5dc/5425e461-06b0-4530-9969-4068d5a5dfdc/Scherm%C2%ADafbeelding+2024-12-03+om+09.38.12.jpg?format=1500w" alt="Redingenhof logo" />
+      <div class="datum">Afgedrukt op: <span id="datum-print"></span></div>
+      <div class="quote">SAMEN VER!</div>
+    `;
+    document.body.appendChild(slidein);
+  }
+  
+  if (!document.getElementById('overlay')) {
+    const overlay = document.createElement('div');
+    overlay.id = 'overlay';
+    overlay.className = 'lessentabellen-root';
+    overlay.addEventListener('click', () => this.closeSlidein());
+    document.body.appendChild(overlay);
+  }
+},
+  
+ /* 
+ * BLOK 5: Event Listeners
+ * Event handling en reactiviteit
+ */
+setupEventListeners() {
+  // Window resize en scroll events
+  window.addEventListener("resize", () => {
+    this.isMobile = window.innerWidth <= 768;
     this.setDynamicTop();
-    setTimeout(() => this.setDynamicTop(), 500);
-    setTimeout(() => this.setDynamicTop(), 1500);
-    
-    // Optioneel: toon versie-indicator
-    this.showVersionIndicator();
-  },
+  });
+  window.addEventListener("scroll", () => this.setDynamicTop());
   
-  createRequiredElements() {
-    if (!document.getElementById('domains-container')) {
-      const container = document.createElement('div');
-      container.id = 'domains-container';
-      container.className = 'lessentabellen-root';
-      document.querySelector('.lessentabellen-root')?.appendChild(container) || document.body.appendChild(container);
-    }
-    
-    if (!document.getElementById('slidein')) {
-      const slidein = document.createElement('div');
-      slidein.className = 'lessentabellen-wrapper lessentabellen-root';
-      slidein.id = 'slidein';
-      slidein.tabIndex = -1;
-      slidein.innerHTML = `
-        <button class="close-btn" aria-label="Sluiten" onclick="LessentabellenApp.closeSlidein()">×</button>
-        <h2 id="opleiding-titel">&nbsp;</h2>
-        <p id="opleiding-beschrijving"></p>
-        <div class="action-buttons">
-          <a id="brochure-link" href="#" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-              <polyline points="14 2 14 8 20 8"></polyline>
-              <line x1="16" y1="13" x2="8" y2="13"></line>
-              <line x1="16" y1="17" x2="8" y2="17"></line>
-              <polyline points="10 9 9 9 8 9"></polyline>
-            </svg>
-            Brochure
-          </a>
-          <button onclick="window.print()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <polyline points="6 9 6 2 18 2 18 9"></polyline>
-              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
-              <rect x="6" y="14" width="12" height="8"></rect>
-            </svg>
-            Afdrukken
-          </button>
-        </div>
-        <div id="lessentabel-container"></div>
-        <div id="footnotes"></div>
-        <img class="logo-print" src="https://images.squarespace-cdn.com/content/v1/670992d66064015802d7e5dc/5425e461-06b0-4530-9969-4068d5a5dfdc/Scherm%C2%ADafbeelding+2024-12-03+om+09.38.12.jpg?format=1500w" alt="Redingenhof logo" />
-        <div class="datum">Afgedrukt op: <span id="datum-print"></span></div>
-        <div class="quote">SAMEN VER!</div>
-      `;
-      document.body.appendChild(slidein);
-    }
-    
-    if (!document.getElementById('overlay')) {
-      const overlay = document.createElement('div');
-      overlay.id = 'overlay';
-      overlay.className = 'lessentabellen-root';
-      overlay.addEventListener('click', () => this.closeSlidein());
-      document.body.appendChild(overlay);
-    }
-  },
+  // Observeer veranderingen in de DOM die invloed kunnen hebben op layout
+  this.setupMutationObserver();
   
-  showVersionIndicator() {
-    const indicator = document.createElement('div');
-    indicator.className = 'version-indicator';
-    indicator.textContent = `Lessentabellen v${this.version}`;
-    document.body.appendChild(indicator);
-    
-    // Verberg na 5 seconden
-    setTimeout(() => {
-      indicator.style.opacity = '0';
-      setTimeout(() => indicator.remove(), 1000);
-    }, 5000);
-  },
+  // Toetsenbord navigation
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && this.elements.slidein?.classList.contains('open')) {
+      this.closeSlidein();
+    }
+  });
   
-  cacheElements() {
-    this.elements.container = document.getElementById("domains-container");
-    this.elements.slidein = document.getElementById("slidein");
-    this.elements.overlay = document.getElementById("overlay");
-    this.elements.tableContainer = document.getElementById("lessentabel-container");
-    this.elements.topbar = document.getElementById("custom-topbar");
-    
-    const rootElements = [
-      this.elements.container, 
-      this.elements.slidein, 
-      this.elements.overlay
-    ];
-    
-    rootElements.forEach(el => {
-      if (el && !el.classList.contains('lessentabellen-root')) {
-        el.classList.add('lessentabellen-root');
-      }
+  // URL hash changes
+  window.addEventListener('hashchange', () => this.checkUrlHash());
+},
+
+setupMutationObserver() {
+  // Observeer veranderingen aan de topbar en header om dynamisch aan te passen
+  const topbarObserver = new MutationObserver(() => this.setDynamicTop());
+  const header = document.querySelector('.Header--top') || document.querySelector("header");
+  
+  if (this.elements.topbar) {
+    topbarObserver.observe(this.elements.topbar, { 
+      attributes: true, 
+      attributeFilter: ['style', 'class'], 
+      childList: true,
+      subtree: true
     });
-  },
+  }
   
-  /* 
-   * BLOK 5: Event Listeners
-   * Event handling en reactiviteit
-   */
-  setupEventListeners() {
-    // Window resize en scroll events
-    window.addEventListener("resize", () => this.setDynamicTop());
-    window.addEventListener("scroll", () => this.setDynamicTop());
-    
-    // Observeer veranderingen in de DOM die invloed kunnen hebben op layout
-    this.setupMutationObserver();
-    
-    // Toetsenbord navigation
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && this.elements.slidein?.classList.contains('open')) {
-        this.closeSlidein();
-      }
+  if (header) {
+    topbarObserver.observe(header, { 
+      attributes: true, 
+      attributeFilter: ['style', 'class'], 
+      childList: true
     });
-    
-    // URL hash changes
-    window.addEventListener('hashchange', () => this.checkUrlHash());
-  },
-  
-  setupMutationObserver() {
-    // Observeer veranderingen aan de topbar en header om dynamisch aan te passen
-    const topbarObserver = new MutationObserver(() => this.setDynamicTop());
-    const header = document.querySelector('.Header--top') || document.querySelector("header");
-    
-    if (this.elements.topbar) {
-      topbarObserver.observe(this.elements.topbar, { 
-        attributes: true, 
-        attributeFilter: ['style', 'class'], 
-        childList: true,
-        subtree: true
-      });
-    }
-    
-    if (header) {
-      topbarObserver.observe(header, { 
-        attributes: true, 
-        attributeFilter: ['style', 'class'], 
-        childList: true
-      });
-    }
-  },
+  }
+},
   
   /* 
    * BLOK 6: Data Laden
@@ -351,72 +323,83 @@ const LessentabellenApp = {
     });
   },
   
-  /* 
-   * BLOK 8: Hulpfuncties
-   * Utility functies voor domein normalisatie, slugify, enz.
-   */
-  normalizeDomainName(rawDomain) {
-    let d = rawDomain.toLowerCase().trim();
-    d = d.replace(/[\s&]+/g, "-");
-    
-    if (d.includes("sport") && d.includes("topsport")) {
-      return "topsport";
-    }
-    
-    if (d === "economie-en-organisatie") {
-      return "economie-organisatie";
-    }
-    
-    return d;
-  },
+/* 
+ * BLOK 8: Hulpfuncties
+ * Utility functies voor domein normalisatie, slugify, enz.
+ */
+normalizeDomainName(rawDomain) {
+  let d = rawDomain.toLowerCase().trim();
+  d = d.replace(/[\s&]+/g, "-");
   
-  slugify(text) {
-    return text.toLowerCase()
-      .replace(/\s+/g, '-')
-      .replace(/[\/]/g, '-')
-      .replace(/[^a-z0-9-]/g, '');
-  },
+  if (d.includes("sport") && d.includes("topsport")) {
+    return "topsport";
+  }
   
-  setDynamicTop() {
-    if (!this.elements.slidein) return;
+  if (d === "economie-en-organisatie") {
+    return "economie-organisatie";
+  }
+  
+  return d;
+},
+
+slugify(text) {
+  return text.toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[\/]/g, '-')
+    .replace(/[^a-z0-9-]/g, '');
+},
+
+setDynamicTop() {
+  if (!this.elements.slidein) return;
+  
+  // Voor mobiel, gebruik bottom positionering
+  if (window.innerWidth <= 768) {
+    this.isMobile = true;
+    this.elements.slidein.style.top = "auto";
+    this.elements.slidein.style.bottom = "0";
+    this.elements.slidein.style.height = "85%";
+    return;
+  }
+  
+  this.isMobile = false;
+  
+  // Desktop versie - zoek headers en topbars
+  const header = document.querySelector('.Header--top') || 
+                 document.querySelector("header") || 
+                 document.body;
+  
+  const topbar = document.getElementById('custom-topbar') || 
+                document.querySelector('.announcement-bar-wrapper');
+  
+  let totalHeight = 0;
+  
+  // Bereken header hoogte als deze zichtbaar is
+  if (header) {
+    const headerRect = header.getBoundingClientRect();
+    const headerStyle = window.getComputedStyle(header);
     
-    // Zoek alle mogelijke headers en topbars
-    const header = document.querySelector('.Header--top') || 
-                   document.querySelector("header") || 
-                   document.body;
-    
-    const topbar = document.getElementById('custom-topbar') || 
-                  document.querySelector('.announcement-bar-wrapper');
-    
-    let totalHeight = 0;
-    
-    // Bereken header hoogte als deze zichtbaar is
-    if (header) {
-      const headerRect = header.getBoundingClientRect();
-      const headerStyle = window.getComputedStyle(header);
-      
-      if (headerStyle.position === 'fixed' || headerStyle.position === 'sticky') {
-        totalHeight += headerRect.height;
-      }
+    if (headerStyle.position === 'fixed' || headerStyle.position === 'sticky') {
+      totalHeight += headerRect.height;
     }
-    
-    // Voeg topbar hoogte toe als deze zichtbaar is
-    if (topbar) {
-      const topbarStyle = window.getComputedStyle(topbar);
-      if (topbarStyle.display !== 'none' && 
-          (topbarStyle.position === 'fixed' || topbarStyle.position === 'sticky')) {
-        totalHeight += topbar.getBoundingClientRect().height;
-      }
+  }
+  
+  // Voeg topbar hoogte toe als deze zichtbaar is
+  if (topbar) {
+    const topbarStyle = window.getComputedStyle(topbar);
+    if (topbarStyle.display !== 'none' && 
+        (topbarStyle.position === 'fixed' || topbarStyle.position === 'sticky')) {
+      totalHeight += topbar.getBoundingClientRect().height;
     }
-    
-    // Voeg veiligheidsmarge toe
-    totalHeight = Math.max(totalHeight, 60);
-    
-    // Pas slidein positie aan
-    this.elements.slidein.style.top = totalHeight + "px";
-    this.elements.slidein.style.height = `calc(100% - ${totalHeight}px)`;
-    document.documentElement.style.setProperty('--dynamic-top', `${totalHeight}px`);
-  },
+  }
+  
+  // Voeg veiligheidsmarge toe
+  totalHeight = Math.max(totalHeight, 60);
+  
+  // Pas slidein positie aan
+  this.elements.slidein.style.top = totalHeight + "px";
+  this.elements.slidein.style.height = `calc(100% - ${totalHeight}px)`;
+  document.documentElement.style.setProperty('--dynamic-top', `${totalHeight}px`);
+},
   
   /* 
    * BLOK 9: UI Generatie
