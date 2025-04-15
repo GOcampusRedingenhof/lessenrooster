@@ -1,0 +1,91 @@
+/**
+ * Dynamische Lessentabellen - Core CSS Module
+ * Basis stijlen en reset
+ * @copyright 2025 GO Campus Redingenhof
+ */
+
+/* Reset en basisstijlen */
+.les-root * {
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.les-root {
+  --les-transition-speed: 0.3s;
+  --les-border-radius: 12px;
+  --les-shadow-default: 0 8px 24px rgba(0,0,0,0.08);
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  width: 100%;
+  line-height: 1.5;
+  color-scheme: light dark;
+  position: relative;
+  z-index: 1;
+}
+
+.les-loader-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border: 6px solid rgba(0,0,0,0.1);
+  border-radius: 50%;
+  border-top-color: var(--les-domain-base, #333);
+  animation: les-spin 1s linear infinite;
+  z-index: 0;
+}
+
+@keyframes les-spin {
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* Skeleton loaders en meldingen */
+.les-skeleton {
+  background: linear-gradient(90deg, #eee 25%, #f5f5f5 50%, #eee 75%);
+  background-size: 200% 100%;
+  animation: les-skeleton-loading 1.5s infinite;
+  border-radius: 4px;
+}
+
+@keyframes les-skeleton-loading {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.les-not-found-message {
+  text-align: center;
+  padding: 3rem 1rem !important;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.les-error-message {
+  background: rgba(255,0,0,0.05);
+  border-left: 4px solid #ff3b30;
+  color: #d32f2f;
+  padding: 1rem !important;
+  margin: 1rem 0 !important;
+  border-radius: 4px;
+}
+
+/* Toegankelijkheid */
+.les-root :focus-visible {
+  outline: 3px solid var(--les-domain-base);
+  outline-offset: 3px;
+}
+
+/* Versie indicator */
+.les-version-indicator {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 10px;
+  z-index: 99990;
+  opacity: 0.6;
+}
