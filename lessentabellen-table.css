@@ -1,0 +1,67 @@
+/**
+ * Dynamische Lessentabellen - Table CSS Module
+ * Stijlen voor lessentabellen
+ * @copyright 2025 GO Campus Redingenhof
+ */
+
+/* Lessentabel stijlen */
+#les-lessentabel-container {
+  position: relative;
+  overflow-x: auto;
+  margin: 0 -1rem;
+  padding: 0 1rem;
+}
+
+#les-lessentabel-container table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.95rem;
+  margin: 1rem 0 !important;
+  border-radius: var(--les-border-radius);
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+#les-lessentabel-container th,
+#les-lessentabel-container td {
+  padding: 0.75rem 1rem !important;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+  line-height: 1.4;
+}
+
+#les-lessentabel-container th:first-child,
+#les-lessentabel-container td:first-child {
+  text-align: left;
+  font-weight: 500;
+}
+
+#les-lessentabel-container thead tr {
+  background: linear-gradient(to bottom, var(--les-domain-base), var(--les-domain-mid));
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+#les-lessentabel-container th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#les-lessentabel-container tbody tr:nth-child(even) {
+  background-color: rgba(0,0,0,0.02);
+}
+
+#les-lessentabel-container tbody tr:hover {
+  background-color: var(--les-hover-row) !important;
+}
+
+#les-lessentabel-container .les-stage-row {
+  font-weight: 600;
+  border-top: 2px solid var(--les-domain-light1);
+}
