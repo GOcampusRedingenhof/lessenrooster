@@ -52,6 +52,13 @@
   
   // Applicatie object - Toegankelijk via window.LessentabellenApp
   const LessentabellenApp = {
+    version: '2.3',
+
+    // Nieuwe getVersion methode
+    getVersion() {
+      return this.version;
+    },
+
     // Modules
     config: LessentabellenConfig,
     data: LessentabellenData,
@@ -61,7 +68,7 @@
     
     // Initialisatie
     init: function(skipElementCreation) {
-      console.log(`Lessentabellen v${this.config.getVersion()} initializing...`);
+      console.log(`Lessentabellen v${this.getVersion()} initializing...`);
       
       // Detecteer mobiel
       this.data.setData('isMobile', window.innerWidth <= 768);
