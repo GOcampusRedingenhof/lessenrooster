@@ -131,4 +131,98 @@ const LessentabellenData = (function() {
     const seen = new Set();
     data.domainDisplayNames = {};
     
-    data.csvData.forEach(r =>
+    data.csvData.forEach(r => {
+      const rawDomain = r.domein?.trim() || "";
+      if (!rawDomain) return;
+      
+      const normDomain = utils.normalizeDomainName(rawDomain);
+      if (!data.domainDisplayNames[normDomain]) {
+        data.domainDisplayNames[normDomain] = rawDomain.toUpperCase();
+      }
+      
+      const graadLabel = r.graad?.trim() || "";
+      let graad = "";
+      
+      if (graadLabel.toLowerCase().includes("2de")) {
+        graad = "TWEEDE GRAAD";
+      } else if (graadLabel.toLowerCase().includes("3de")) {
+        graad = "DERDE GRAAD";
+      }
+      
+      const finaliteit = r.finaliteit?.trim() || "";
+      const richting = r.titel?.trim() || "";
+      
+      if (!normDomain || !graad || !finaliteit || !richting) return;
+      
+      const key = `${normDomain}|${graad}|${finaliteit}|${richting}`;
+      if (seen.has(key)) return;
+      seen.add(key);
+      
+      if (!structuur[normDomain]) {
+        structuur[normDomain] = {};
+      }
+      
+      if (!structuur[normDomain][graad]) {
+        structuur[normDomain][graad] = {};
+      }
+      
+      if (!structuur[normDomain][graad][finaliteit]) {
+        structuur[normDomain][graad][finaliteit] = [];
+      }
+      
+      structuur[normDomain][graad][finaliteit].push(richting);
+    });
+    
+    return structuur;
+  }
+  
+  /**
+   * Filter data op graad en slug
+   */
+  function filterDataByGraadAndSlug(graad, slug) {
+    if (!data.csvData) return [];
+    
+    return data.csvData.filter(r => {
+      const rGraad = r.graad?.toLowerCase() || "";
+      
+      if (graad === "TWEEDE GRAAD" && rGraad.includes("2de")) {
+        return utils.slugify(r.titel) === slug;
+      }
+      
+      if (graad === "DERDE GRAAD" && rGraad.includes("3de")) {
+        return utils.slugify(r.titel) === slug;
+      }
+      
+      return false;
+    });
+  }
+  
+  /**
+   * Get data object
+   */
+  function getData() {
+    return data;
+  }
+  
+  /**
+   * Set data object value
+   */
+  function setData(key, value) {
+    data[key] = value;
+  }
+  
+  // Public API
+  return {
+    init,
+    loadData,
+    organizeData,
+    filterDataByGraadAndSlug,
+    getData,
+    setData
+  };
+})();
+
+// Export voor gebruik in andere modules
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = LessentabellenData;
+}
