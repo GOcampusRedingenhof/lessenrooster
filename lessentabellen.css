@@ -1,28 +1,30 @@
 /**
- * Dynamische Lessentabellen v2.1
- * CSS Stylesheet
+ * Dynamische Lessentabellen v2.2
+ * CSS Stylesheet - Geïsoleerde versie
  * @copyright 2025 GO Campus Redingenhof
  */
 
-/* Reset en basisstijlen */
-.lessentabellen-root {
-  --transition-speed: 0.3s;
-  --border-radius: 12px;
-  --shadow-default: 0 8px 24px rgba(0,0,0,0.08);
-  color-scheme: light dark;
-  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
-  width: 100%;
-  line-height: 1.5;
-}
-
-.lessentabellen-root * {
+/* Reset en basisstijlen - Strikt geïsoleerd met prefix 'les-' */
+.les-root * {
   box-sizing: border-box !important;
   margin: 0 !important;
   padding: 0 !important;
 }
 
+.les-root {
+  --les-transition-speed: 0.3s;
+  --les-border-radius: 12px;
+  --les-shadow-default: 0 8px 24px rgba(0,0,0,0.08);
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  width: 100%;
+  line-height: 1.5;
+  color-scheme: light dark;
+  position: relative;
+  z-index: 1;
+}
+
 /* Grid container */
-#domains-container {
+#les-domains-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 2rem;
@@ -31,12 +33,12 @@
   min-height: 400px;
   position: relative;
   max-width: 1400px;
-  margin: 0 auto;
+  margin: 0 auto !important;
   background: #f8f8f8;
   align-items: stretch;
 }
 
-.loader-spinner {
+.les-loader-spinner {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -45,39 +47,39 @@
   height: 60px;
   border: 6px solid rgba(0,0,0,0.1);
   border-radius: 50%;
-  border-top-color: var(--domain-base, #333);
-  animation: spin 1s linear infinite;
+  border-top-color: var(--les-domain-base, #333);
+  animation: les-spin 1s linear infinite;
   z-index: 0;
 }
 
-@keyframes spin {
+@keyframes les-spin {
   to { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
 /* Domein blokken */
-.domain-block {
+.les-domain-block {
   display: flex;
   flex-direction: column;
   height: 100%;
   background: #fff;
   border-radius: 12px;
   padding: 2rem;
-  box-shadow: var(--shadow-default);
-  transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+  box-shadow: var(--les-shadow-default);
+  transition: transform var(--les-transition-speed), box-shadow var(--les-transition-speed);
   position: relative;
   overflow: hidden;
   border: 1px solid rgba(0,0,0,0.08);
 }
 
-.domain-block:hover {
+.les-domain-block:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 30px rgba(0,0,0,0.12);
 }
 
-.domain-block h2 {
+.les-domain-block h2 {
   margin: 0 0 1.5rem 0 !important;
   text-transform: uppercase;
-  color: var(--domain-base);
+  color: var(--les-domain-base);
   font-size: 1.8rem;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -85,58 +87,58 @@
   display: inline-block;
 }
 
-.domain-block h2::after {
+.les-domain-block h2::after {
   content: '';
   position: absolute;
   bottom: -8px;
   left: 0;
   width: 50px;
   height: 4px;
-  background: var(--domain-base);
+  background: var(--les-domain-base);
   border-radius: 2px;
 }
 
 /* Graad containers */
-.graad-container {
+.les-graad-container {
   background: #fff;
-  border-left: 6px solid var(--domain-base);
+  border-left: 6px solid var(--les-domain-base);
   border-radius: 10px;
   margin-bottom: 1.5rem !important;
   padding: 1.5rem !important;
   box-shadow: 0 3px 10px rgba(0,0,0,0.06);
 }
 
-.graad-container:last-child {
+.les-graad-container:last-child {
   margin-bottom: 0 !important;
 }
 
-.graad-container h3 {
+.les-graad-container h3 {
   margin: 0 0 0.75rem 0 !important;
   text-transform: uppercase;
-  color: var(--domain-base);
+  color: var(--les-domain-base);
   font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 0.5px;
 }
 
 /* Finaliteit blokken */
-.finaliteit-blok {
+.les-finaliteit-blok {
   background: #ffffff;
   margin: 0.75rem 0 !important;
-  border-radius: var(--border-radius);
+  border-radius: var(--les-border-radius);
   padding: 0.75rem 1rem !important;
   box-shadow: 0 1px 4px rgba(0,0,0,0.05);
   border: 1px solid rgba(0,0,0,0.05);
 }
 
-.finaliteit-blok h4 {
+.les-finaliteit-blok h4 {
   margin: 0.5rem 0 !important;
-  color: var(--domain-mid);
+  color: var(--les-domain-mid);
   font-size: 1rem;
   font-weight: 500;
 }
 
-.finaliteit-blok ul {
+.les-finaliteit-blok ul {
   list-style: none !important;
   padding: 0 !important;
   margin: 0.5rem 0 0 0 !important;
@@ -146,13 +148,13 @@
 }
 
 /* Knoppen en links */
-.finaliteit-blok li a {
-  background: var(--domain-base);
+.les-finaliteit-blok li a {
+  background: var(--les-domain-base);
   color: #fff !important;
   padding: 0.6rem 1rem !important;
   border-radius: 6px;
   text-decoration: none !important;
-  transition: all var(--transition-speed);
+  transition: all var(--les-transition-speed);
   font-size: 0.95rem;
   display: inline-block;
   line-height: 1.3;
@@ -162,37 +164,37 @@
   overflow: hidden;
 }
 
-.finaliteit-blok li a::after {
+.les-finaliteit-blok li a::after {
   content: '';
   position: absolute;
   inset: 0;
   background: rgba(255,255,255,0.1);
   opacity: 0;
-  transition: opacity var(--transition-speed);
+  transition: opacity var(--les-transition-speed);
 }
 
-.finaliteit-blok li a:hover {
+.les-finaliteit-blok li a:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
-.finaliteit-blok li a:hover::after {
+.les-finaliteit-blok li a:hover::after {
   opacity: 1;
 }
 
-.finaliteit-blok li a:focus {
+.les-finaliteit-blok li a:focus {
   outline: 3px solid rgba(0,0,0,0.1);
   outline-offset: 2px;
 }
 
 /* Slide-in paneel */
-#slidein {
+#les-slidein {
   position: fixed;
-  top: var(--dynamic-top, 120px);
+  top: var(--les-dynamic-top, 120px);
   right: 0;
   width: 90%;
   max-width: 800px;
-  height: calc(100% - var(--dynamic-top, 120px));
+  height: calc(100% - var(--les-dynamic-top, 120px));
   background: #fff;
   color: #333;
   padding: 2.5rem !important;
@@ -206,14 +208,14 @@
   overscroll-behavior: contain;
 }
 
-#slidein.open {
+#les-slidein.les-open {
   transform: translateX(0) !important;
   visibility: visible !important;
   opacity: 1 !important;
 }
 
 /* Overlay met blur */
-#overlay {
+#les-overlay {
   position: fixed;
   inset: 0;
   background: rgba(0,0,0,0.6);
@@ -224,14 +226,14 @@
   z-index: 99998;
 }
 
-#overlay.show {
+#les-overlay.les-show {
   opacity: 1 !important;
   pointer-events: all !important;
   visibility: visible !important;
 }
 
 /* Close knop */
-.close-btn {
+.les-close-btn {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
@@ -250,13 +252,13 @@
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.close-btn:hover {
+.les-close-btn:hover {
   background: rgba(0,0,0,0.15);
   transform: scale(1.05);
 }
 
 /* Actie-knoppen */
-.action-buttons {
+.les-action-buttons {
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
@@ -264,9 +266,9 @@
   margin: 1.5rem 0 !important;
 }
 
-.action-buttons a,
-.action-buttons button {
-  background: var(--domain-mid);
+.les-action-buttons a,
+.les-action-buttons button {
+  background: var(--les-domain-mid);
   color: #fff;
   padding: 0.75rem 1.25rem !important;
   border-radius: 6px;
@@ -282,59 +284,59 @@
   gap: 0.5rem;
 }
 
-.action-buttons a svg,
-.action-buttons button svg {
+.les-action-buttons a svg,
+.les-action-buttons button svg {
   width: 18px;
   height: 18px;
 }
 
-.action-buttons a:hover,
-.action-buttons button:hover {
+.les-action-buttons a:hover,
+.les-action-buttons button:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-.action-buttons a:active,
-.action-buttons button:active {
+.les-action-buttons a:active,
+.les-action-buttons button:active {
   transform: translateY(1px);
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 /* Lessentabel stijlen */
-#lessentabel-container {
+#les-lessentabel-container {
   position: relative;
   overflow-x: auto;
   margin: 0 -1rem;
   padding: 0 1rem;
 }
 
-#lessentabel-container table {
+#les-lessentabel-container table {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
   font-size: 0.95rem;
   margin: 1rem 0 !important;
-  border-radius: var(--border-radius);
+  border-radius: var(--les-border-radius);
   overflow: hidden;
   box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
 
-#lessentabel-container th,
-#lessentabel-container td {
+#les-lessentabel-container th,
+#les-lessentabel-container td {
   padding: 0.75rem 1rem !important;
   border-bottom: 1px solid #e5e5e5;
   text-align: center;
   line-height: 1.4;
 }
 
-#lessentabel-container th:first-child,
-#lessentabel-container td:first-child {
+#les-lessentabel-container th:first-child,
+#les-lessentabel-container td:first-child {
   text-align: left;
   font-weight: 500;
 }
 
-#lessentabel-container thead tr {
-  background: linear-gradient(to bottom, var(--domain-base), var(--domain-mid));
+#les-lessentabel-container thead tr {
+  background: linear-gradient(to bottom, var(--les-domain-base), var(--les-domain-mid));
   color: #fff;
   text-shadow: 0 1px 1px rgba(0,0,0,0.2);
   font-weight: 600;
@@ -342,40 +344,40 @@
   letter-spacing: 0.5px;
 }
 
-#lessentabel-container th {
+#les-lessentabel-container th {
   position: sticky;
   top: 0;
   z-index: 2;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-#lessentabel-container tbody tr:nth-child(even) {
+#les-lessentabel-container tbody tr:nth-child(even) {
   background-color: rgba(0,0,0,0.02);
 }
 
-#lessentabel-container tbody tr:hover {
-  background-color: var(--hover-row) !important;
+#les-lessentabel-container tbody tr:hover {
+  background-color: var(--les-hover-row) !important;
 }
 
-#lessentabel-container .stage-row {
+#les-lessentabel-container .les-stage-row {
   font-weight: 600;
-  border-top: 2px solid var(--domain-light1);
+  border-top: 2px solid var(--les-domain-light1);
 }
 
 /* Details Styling */
-.footnotes {
+.les-footnotes {
   margin-top: 1.5rem !important;
   font-size: 0.85rem;
   font-style: italic;
-  color: var(--domain-base);
+  color: var(--les-domain-base);
   line-height: 1.6;
   padding: 1rem !important;
-  background: var(--domain-light1);
-  border-radius: var(--border-radius);
+  background: var(--les-domain-light1);
+  border-radius: var(--les-border-radius);
   opacity: 0.9;
 }
 
-#opleiding-beschrijving {
+#les-opleiding-beschrijving {
   text-align: center;
   line-height: 1.6;
   margin-bottom: 1.5rem !important;
@@ -385,17 +387,17 @@
   margin-right: auto !important;
 }
 
-#opleiding-titel {
+#les-opleiding-titel {
   text-align: center;
   margin: 0.5rem 0 1.25rem !important;
   font-size: 2.25rem;
   font-weight: 700;
-  color: var(--domain-base);
+  color: var(--les-domain-base);
   position: relative;
   padding-bottom: 0.75rem;
 }
 
-#opleiding-titel::after {
+#les-opleiding-titel::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -403,7 +405,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 3px;
-  background: var(--domain-base);
+  background: var(--les-domain-base);
   border-radius: 2px;
 }
 
@@ -418,12 +420,12 @@
     visibility: hidden;
   }
   
-  .lessentabellen-wrapper,
-  .lessentabellen-wrapper * {
+  .les-wrapper,
+  .les-wrapper * {
     visibility: visible;
   }
   
-  .lessentabellen-wrapper {
+  .les-wrapper {
     position: absolute !important;
     top: 0 !important;
     left: 0 !important;
@@ -441,7 +443,7 @@
   }
   
   /* Verbeterde logo positionering */
-  .logo-print {
+  .les-logo-print {
     display: block !important;
     max-width: 150px !important;
     height: auto;
@@ -452,7 +454,7 @@
   }
   
   /* Opleiding titel centreren en ruimte maken voor logo */
-  #opleiding-titel {
+  #les-opleiding-titel {
     text-align: center;
     margin: 5rem 0 1rem 0 !important;
     font-size: 18pt;
@@ -460,7 +462,7 @@
   }
   
   /* Onderaan plaatsen van datum en quote */
-  .datum {
+  .les-datum {
     display: block !important;
     text-align: right;
     font-weight: normal;
@@ -471,7 +473,7 @@
     margin: 0 !important;
   }
   
-  .quote {
+  .les-quote {
     display: block !important;
     text-align: center;
     font-style: italic;
@@ -483,18 +485,18 @@
     margin: 0 !important;
   }
   
-  .close-btn,
-  .action-buttons {
+  .les-close-btn,
+  .les-action-buttons {
     display: none !important;
   }
   
-  #lessentabel-container table {
+  #les-lessentabel-container table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 2rem !important;
   }
   
-  #lessentabel-container th {
+  #les-lessentabel-container th {
     background: #f0f0f0 !important;
     color: #000 !important;
     text-shadow: none !important;
@@ -503,17 +505,17 @@
     padding: 0.5rem !important;
   }
   
-  #lessentabel-container td {
+  #les-lessentabel-container td {
     border: 1px solid #ddd;
     padding: 0.5rem !important;
   }
   
-  #opleiding-beschrijving {
+  #les-opleiding-beschrijving {
     font-size: 11pt;
     margin-bottom: 2rem !important;
   }
   
-  .footnotes {
+  .les-footnotes {
     font-size: 9pt;
     background: none !important;
     border-top: 1px solid #ddd;
@@ -523,37 +525,37 @@
   
   /* Grijswaarde print optimalisatie */
   @media print and (monochrome) {
-    #lessentabel-container th {
+    #les-lessentabel-container th {
       background: #ddd !important;
     }
     
-    #lessentabel-container tr:nth-child(even) {
+    #les-lessentabel-container tr:nth-child(even) {
       background: #f5f5f5 !important;
     }
   }
 }
 
 /* Skeleton loaders en meldingen */
-.skeleton {
+.les-skeleton {
   background: linear-gradient(90deg, #eee 25%, #f5f5f5 50%, #eee 75%);
   background-size: 200% 100%;
-  animation: skeleton-loading 1.5s infinite;
+  animation: les-skeleton-loading 1.5s infinite;
   border-radius: 4px;
 }
 
-@keyframes skeleton-loading {
+@keyframes les-skeleton-loading {
   0% { background-position: -200% 0; }
   100% { background-position: 200% 0; }
 }
 
-.not-found-message {
+.les-not-found-message {
   text-align: center;
   padding: 3rem 1rem !important;
   font-size: 1.2rem;
   color: #666;
 }
 
-.error-message {
+.les-error-message {
   background: rgba(255,0,0,0.05);
   border-left: 4px solid #ff3b30;
   color: #d32f2f;
@@ -564,12 +566,12 @@
 
 /* Responsive aanpassingen */
 @media (max-width: 768px) {
-  #domains-container {
+  #les-domains-container {
     grid-template-columns: 1fr;
     padding: 1.5rem;
   }
   
-  #slidein {
+  #les-slidein {
     width: 100%;
     border-radius: 18px 18px 0 0;
     position: fixed;
@@ -581,56 +583,56 @@
     z-index: 999999; /* Extra hoge z-index voor mobiel */
   }
   
-  #slidein.open {
+  #les-slidein.les-open {
     transform: translateY(0) !important;
   }
   
-  .action-buttons {
+  .les-action-buttons {
     flex-direction: column;
   }
   
-  .domain-block h2 {
+  .les-domain-block h2 {
     font-size: 1.5rem;
   }
   
-  #opleiding-titel {
+  #les-opleiding-titel {
     font-size: 1.75rem;
   }
 
   /* Zorg dat de close button altijd zichtbaar is */
-  .close-btn {
+  .les-close-btn {
     position: sticky;
     top: 0.5rem;
     right: 0.5rem;
     float: right;
     z-index: 10;
-    background: var(--domain-base);
+    background: var(--les-domain-base);
     color: white;
   }
 }
 
 /* Toegankelijkheid */
-:focus-visible {
-  outline: 3px solid var(--domain-base);
+.les-root :focus-visible {
+  outline: 3px solid var(--les-domain-base);
   outline-offset: 3px;
 }
 
 /* Print-elementen */
-.logo-print {
+.les-logo-print {
   display: none;
   max-width: 150px;
 }
 
-.datum {
+.les-datum {
   display: none;
 }
 
-.quote {
+.les-quote {
   display: none;
 }
 
 /* Versie indicator */
-.version-indicator {
+.les-version-indicator {
   position: fixed;
   bottom: 10px;
   right: 10px;
