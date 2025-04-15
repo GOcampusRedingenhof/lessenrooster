@@ -9,7 +9,7 @@ const LessentabellenApp = {
  * BLOK 1: Configuratie
  * Versie, data-URL en domein-specifieke kleuren
  */
-version: '2.0.0',
+version: '2.0.1',
 
 config: {
   csvUrl: "https://raw.githubusercontent.com/GOcampusRedingenhof/lessenrooster/refs/heads/main/lessentabellen_tabel.csv",
