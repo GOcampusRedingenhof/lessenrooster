@@ -1,0 +1,151 @@
+/**
+ * Dynamische Lessentabellen - Grid CSS Module
+ * Stijlen voor domeinblokken en grid layout
+ * @copyright 2025 GO Campus Redingenhof
+ */
+
+/* Grid container */
+#les-domains-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2rem;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  min-height: 400px;
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto !important;
+  background: #f8f8f8;
+  align-items: stretch;
+}
+
+/* Domein blokken */
+.les-domain-block {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: var(--les-shadow-default);
+  transition: transform var(--les-transition-speed), box-shadow var(--les-transition-speed);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+.les-domain-block:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.les-domain-block h2 {
+  margin: 0 0 1.5rem 0 !important;
+  text-transform: uppercase;
+  color: var(--les-domain-base);
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  position: relative;
+  display: inline-block;
+}
+
+.les-domain-block h2::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 50px;
+  height: 4px;
+  background: var(--les-domain-base);
+  border-radius: 2px;
+}
+
+/* Graad containers */
+.les-graad-container {
+  background: #fff;
+  border-left: 6px solid var(--les-domain-base);
+  border-radius: 10px;
+  margin-bottom: 1.5rem !important;
+  padding: 1.5rem !important;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+
+.les-graad-container:last-child {
+  margin-bottom: 0 !important;
+}
+
+.les-graad-container h3 {
+  margin: 0 0 0.75rem 0 !important;
+  text-transform: uppercase;
+  color: var(--les-domain-base);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Finaliteit blokken */
+.les-finaliteit-blok {
+  background: #ffffff;
+  margin: 0.75rem 0 !important;
+  border-radius: var(--les-border-radius);
+  padding: 0.75rem 1rem !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.les-finaliteit-blok h4 {
+  margin: 0.5rem 0 !important;
+  color: var(--les-domain-mid);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.les-finaliteit-blok ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0.5rem 0 0 0 !important;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+/* Knoppen en links */
+.les-finaliteit-blok li a {
+  background: var(--les-domain-base);
+  color: #fff !important;
+  padding: 0.6rem 1rem !important;
+  border-radius: 6px;
+  text-decoration: none !important;
+  transition: all var(--les-transition-speed);
+  font-size: 0.95rem;
+  display: inline-block;
+  line-height: 1.3;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12);
+  position: relative;
+  overflow: hidden;
+}
+
+.les-finaliteit-blok li a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.1);
+  opacity: 0;
+  transition: opacity var(--les-transition-speed);
+}
+
+.les-finaliteit-blok li a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.les-finaliteit-blok li a:hover::after {
+  opacity: 1;
+}
+
+.les-finaliteit-blok li a:focus {
+  outline: 3px solid rgba(0,0,0,0.1);
+  outline-offset: 2px;
+}
