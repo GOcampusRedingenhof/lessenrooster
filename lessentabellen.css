@@ -1,7 +1,10 @@
-/* 
- * BLOK 1: Basisstijlen
- * Reset en globale variabelen voor de app
+/**
+ * Dynamische Lessentabellen v2.1
+ * CSS Stylesheet
+ * @copyright 2025 GO Campus Redingenhof
  */
+
+/* Reset en basisstijlen */
 .lessentabellen-root {
   --transition-speed: 0.3s;
   --border-radius: 12px;
@@ -18,10 +21,7 @@
   padding: 0 !important;
 }
 
-/* 
- * BLOK 2: Grid Container
- * Stijlen voor het hoofdgrid met de domeinblokken
- */
+/* Grid container */
 #domains-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -54,10 +54,7 @@
   to { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
-/* 
- * BLOK 3: Domein Blokken
- * Stijlen voor de individuele domeinblokken
- */
+/* Domein blokken */
 .domain-block {
   display: flex;
   flex-direction: column;
@@ -99,10 +96,7 @@
   border-radius: 2px;
 }
 
-/* 
- * BLOK 4: Graad Containers 
- * Stijlen voor de graad containers binnen domeinblokken
- */
+/* Graad containers */
 .graad-container {
   background: #fff;
   border-left: 6px solid var(--domain-base);
@@ -125,10 +119,7 @@
   letter-spacing: 0.5px;
 }
 
-/* 
- * BLOK 5: Finaliteit Blokken 
- * Stijlen voor de finaliteit blokken binnen graad containers
- */
+/* Finaliteit blokken */
 .finaliteit-blok {
   background: #ffffff;
   margin: 0.75rem 0 !important;
@@ -154,10 +145,7 @@
   gap: 0.75rem;
 }
 
-/* 
- * BLOK 6: Knoppen en Links 
- * Stijlen voor knoppen en links in de app
- */
+/* Knoppen en links */
 .finaliteit-blok li a {
   background: var(--domain-base);
   color: #fff !important;
@@ -197,10 +185,7 @@
   outline-offset: 2px;
 }
 
-/* 
- * BLOK 7: Slide-in Paneel
- * Stijlen voor het slide-in paneel met de lessentabel
- */
+/* Slide-in paneel */
 #slidein {
   position: fixed;
   top: var(--dynamic-top, 120px);
@@ -270,10 +255,7 @@
   transform: scale(1.05);
 }
 
-/* 
- * BLOK 8: Actie-knoppen
- * Stijlen voor de actieknoppen in het slidein paneel
- */
+/* Actie-knoppen */
 .action-buttons {
   display: flex;
   gap: 0.75rem;
@@ -318,10 +300,7 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
-/* 
- * BLOK 9: Lessentabel
- * Stijlen voor de lessentabel in het slidein paneel
- */
+/* Lessentabel stijlen */
 #lessentabel-container {
   position: relative;
   overflow-x: auto;
@@ -383,10 +362,7 @@
   border-top: 2px solid var(--domain-light1);
 }
 
-/* 
- * BLOK 10: Details Styling
- * Stijlen voor details en metadata in het slidein paneel
- */
+/* Details Styling */
 .footnotes {
   margin-top: 1.5rem !important;
   font-size: 0.85rem;
@@ -431,10 +407,7 @@
   border-radius: 2px;
 }
 
-/* 
- * BLOK 11: Print stijlen
- * Stijlen voor afdrukken van de lessentabel
- */
+/* Print stijlen */
 @media print {
   @page {
     size: A4 portrait;
@@ -559,10 +532,8 @@
     }
   }
 }
-/* 
- * BLOK 12: Skeleton loaders en meldingen
- * Stijlen voor laadstatus en foutmeldingen
- */
+
+/* Skeleton loaders en meldingen */
 .skeleton {
   background: linear-gradient(90deg, #eee 25%, #f5f5f5 50%, #eee 75%);
   background-size: 200% 100%;
@@ -591,10 +562,7 @@
   border-radius: 4px;
 }
 
-/* 
- * BLOK 13: Responsive aanpassingen
- * Stijlen voor mobiele weergave
- */
+/* Responsive aanpassingen */
 @media (max-width: 768px) {
   #domains-container {
     grid-template-columns: 1fr;
@@ -641,19 +609,16 @@
   }
 }
 
-/* 
- * BLOK 14: Toegankelijkheid
- * Stijlen voor verbeterde toegankelijkheid
- */
+/* Toegankelijkheid */
 :focus-visible {
   outline: 3px solid var(--domain-base);
   outline-offset: 3px;
 }
 
-/* Logo-print styling */
+/* Print-elementen */
 .logo-print {
   display: none;
-  max-width: 180px;
+  max-width: 150px;
 }
 
 .datum {
@@ -664,7 +629,7 @@
   display: none;
 }
 
-/* Versie indicator - optioneel */
+/* Versie indicator */
 .version-indicator {
   position: fixed;
   bottom: 10px;
